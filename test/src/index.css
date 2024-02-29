@@ -1,0 +1,10 @@
+body {
+  margin: 0; /* 设置页面边距为0 */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; /* 设置页面默认字体 */
+  -webkit-font-smoothing: antialiased; /* 提高字体渲染质量，使字体更清晰 */
+  -moz-osx-font-smoothing: grayscale; /* 在 macOS 中提供字体平滑 */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; /* 设置代码块的字体 */
+}
