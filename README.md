@@ -1,2 +1,2 @@
 # AI-Enhanced-WordPress-Development-Toolkit
-COMP3500
+Test version, including the latest experimental version
