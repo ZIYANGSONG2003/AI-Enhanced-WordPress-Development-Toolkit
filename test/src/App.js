@@ -1,54 +1,48 @@
 import React, { useState } from 'react';
-import './App.css'; // 确保样式文件的名字和路径正确
+import './App.css';
 
 function MultiLineTextInput() {
   const [textInput, setTextInput] = useState('');
   const [serverResponse, setServerResponse] = useState('');
   const [plugins, setPlugins] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [chats, setChats] = useState([]); // 追踪所有对话
+  const [activeChatId, setActiveChatId] = useState(null); // 当前活动对话的ID
 
   const handleSubmit = async () => {
-    setIsLoading(true);
-    try {
-      const response = await fetch('http://13.239.121.247:8080/upload_text', {
-        method: 'POST',
-        body: JSON.stringify({ text: textInput }),
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
-      const data = await response.text();
-      setServerResponse(data);
-    } catch (error) {
-      console.error('Error submitting text:', error);
-    } finally {
-      setIsLoading(false);
-    }
+    // ...处理提交逻辑，需要根据 activeChatId 更新对应的对话
   };
 
   const handleInputChange = (event) => {
     setTextInput(event.target.value);
+    // 如果需要实时更新活动对话的textInput，需要在此实现
   };
 
   const fetchPlugins = async () => {
-    setIsLoading(true);
-    try {
-      const response = await fetch('https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[per_page]=10');
-      const data = await response.json();
-      setPlugins(data.plugins);
-    } catch (error) {
-      console.error('Error fetching plugins:', error);
-    } finally {
-      setIsLoading(false);
-    }
+    // ...处理获取插件逻辑
   };
 
   const handleNewChat = () => {
-    // 新建对话的逻辑
+    const newChatId = Date.now();
+    setChats([...chats, { id: newChatId, messages: [] }]);
+    setActiveChatId(newChatId);
+    // 清除主输入区域
+    setTextInput('');
+    setServerResponse('');
   };
 
   const handleUserLogin = () => {
-    // 用户登录的逻辑
+    // ...处理用户登录逻辑
+  };
+
+  const handleChatClick = (chatId) => {
+    setActiveChatId(chatId);
+    // 还可以在此处设置 activeChat 的其他状态，例如 textInput 和 serverResponse
+    const activeChat = chats.find(chat => chat.id === chatId);
+    if (activeChat) {
+      setTextInput(''); // 假设每次点击都清空文本输入
+      // setServerResponse(activeChat.lastResponse); // 假设你保存了最后的响应
+    }
   };
 
   return (
@@ -56,7 +50,15 @@ function MultiLineTextInput() {
       <div className="sidebar">
         <button className="sidebarButton" onClick={handleNewChat}>New Chat</button>
         <button className="sidebarButton" onClick={handleUserLogin}>User Login</button>
-        {/* 侧边栏的其他内容 */}
+        {chats.map(chat => (
+          <div
+            key={chat.id}
+            className={`chatPreview ${chat.id === activeChatId ? 'active' : ''}`}
+            onClick={() => handleChatClick(chat.id)}
+          >
+            Chat {chat.id}
+          </div>
+        ))}
       </div>
       <div className="mainContent">
         <div className="container">
@@ -64,12 +66,13 @@ function MultiLineTextInput() {
           <textarea
             className="textInput"
             value={textInput}
-            onChange={(event) => setTextInput(event.target.value)}
+            onChange={handleInputChange}
             rows={4}
             cols={50}
           />
           <br />
-          <button className="submitBtn" onClick={() => {}}>Submit</button>
+          <button className="submitBtn" onClick={handleSubmit}>Submit</button>
+          {/* 加载和服务器响应状态展示 */}
           {isLoading && <p>Loading...</p>}
           {serverResponse && (
             <div className="serverResponse">
@@ -77,7 +80,8 @@ function MultiLineTextInput() {
               <p>{serverResponse}</p>
             </div>
           )}
-          <button className="fetchBtn" onClick={() => {}}>Fetch WordPress Plugins</button>
+          {/* 获取插件按钮和插件列表 */}
+          <button className="fetchBtn" onClick={fetchPlugins}>Fetch WordPress Plugins</button>
           {plugins.length > 0 && (
             <div className="pluginsList">
               <h2>WordPress Plugins:</h2>
