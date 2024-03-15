@@ -113,21 +113,44 @@ function MultiLineTextInput() {
       </div>
       <div className="mainContent">
         <div className="container">
-          <h1>Multi-Line Text Input</h1>
+
           {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
             <div key={index} className={`message ${message.sender}`}>
               {message.text}
             </div>
           ))}
-          <textarea
-            className="textInput"
+
+
+
+          <div className="inputArea">
+            <div className="textInputWrapper">
+              <div className="inputIcon">&#x1F4AC;</div> {/* Example: Speech balloon Unicode character */}
+              <textarea
+                  className="textInput"
+                  placeholder="Type your message here..."
+                  value={textInput}
+                  onChange={handleInputChange}
+                  rows={1}
+              />
+            </div>
+            <button className="submitBtn" onClick={handleSubmit}>
+              &#x2B06; {/* Unicode character for up arrow */}
+            </button>
+          </div>
+
+
+          { /*<textarea
+           className="textInput"
             value={textInput}
             onChange={handleInputChange}
             rows={4}
             cols={50}
           />
           <br />
-          <button className="submitBtn" onClick={handleSubmit}>Submit</button>
+          <button className="submitBtn" onClick={handleSubmit}>Submit</button>*/}
+
+
+
           {isLoading && <p>Loading...</p>}
           {serverResponse && (
             <div className="serverResponse">
@@ -135,7 +158,11 @@ function MultiLineTextInput() {
               <p>{serverResponse}</p>
             </div>
           )}
+
+
           <button className="fetchBtn" onClick={fetchPlugins}>Fetch WordPress Plugins</button>
+
+
           {plugins.length > 0 && (
             <div className="pluginsList">
               <h2>WordPress Plugins:</h2>
