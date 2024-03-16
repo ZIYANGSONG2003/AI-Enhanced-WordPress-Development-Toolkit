@@ -25,39 +25,35 @@
   max-width: 768px; /* Set a max-width for larger screens */
   padding: 10px 0;
   z-index: 2; /* Ensure it's above other elements */
-
-
-
-
-
 }
 .textInputWrapper {
   display: flex;
   align-items: center;
   background: #FFF;
   border: 1px solid #CCC; /* Light grey border */
+  border-radius: 22px; /* Rounded corners for the wrapper */
+
   border-right: none; /* Remove border between the icon and the text input */
+  overflow: hidden; /* Ensures the inner elements conform to the wrapper's border-radius */
   flex-grow: 1;
 }
 .inputIcon {
   padding: 10px;
-  background: black;
-  color: white;
+
+  color: black;
   font-size: 16px; /* Adjust icon size as needed */
 
 }
 .textInput {
   flex-grow: 1;
   border: none;
-  padding: 10px;
+  padding: 10px 15px;
   margin-right: 10px;
   font-size: 16px; /* Match the font size to the icon size */
+
+  border-radius: 22px; /* Rounded corners for the text input */
 }
 .disclaimer {
-
-
-
-
   text-align: center;
   font-size: 0.75em;
   padding-top: 5px;
@@ -66,14 +62,22 @@
 
 
 .submitBtn {
-  padding: 0 8px;
-  background-color: #FFF;
+  background-color:  #007bff;
   border: none;
-  font-size: 16px; /* Adjust arrow size as needed */
+  color: white;
+  padding: 3px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 10px; /* Slight margin for the button */
   cursor: pointer;
-  display: flex;
-  justify-content: center;
+  border-radius: 50%; /* Circular shape for the button */
+  width: 30px; /* Fixed width for the circle */
+  height: 30px; /* Fixed height for the circle */
   align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s; /* Smooth transition for mouse hover */
 
 }
 .textInput:focus, .submitBtn:focus {
@@ -109,7 +113,7 @@
 
 
 .submitBtn:hover, .fetchBtn:hover {
-  background-color: #0056b3;
+  background-color:  #007bff; /* Darker green on hover */;
 }
 
 .serverResponse, .pluginsList {
