@@ -88,39 +88,55 @@
 }
 
 
-. fetchBtn{
+.logoArea {
+  text-align: center;
+  margin-bottom: 20px; /* Adjust as needed */
+}
 
-  background: transparent; /* No background color */
-  border: none;
+.logo {
+  margin: 0 auto; /* Centers the button in the container */
+  max-width: 100px; /* Adjust as needed */
+  height: auto;
+
+  /* Other styles to match your design */
+}
+
+. fetchBtn{
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 50%; /* Circular button */
   cursor: pointer;
   padding: 10px;
-  margin: 5px 5px;
-  outline: none; /* Remove outline that may appear when the button is focused */
+  width: 40px; /* Width for circular shape */
+  height: 40px; /* Height for circular shape */
+  font-size: 24px; /* Size of the arrow icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px; /* Center button horizontally, add margin below */
+  outline: none;
 
 }
-.fetchBtn img {
-  max-width: 100px; /* Adjust the size as needed */
-  height: auto;
-  display: block;
-  margin: 0  auto;
 
-
+.submitBtn:focus {
+  outline: none;
 }
 
 
+.fetchBtn:hover{
+  background-color:#007bff; /* Darker shade on hover */
+
+}
 
 
 .submitBtn:hover{
   background-color:  #007bff; /* Darker green on hover */;
 }
-.fetchBtn:hover{
-  background-color: transparent; /* Remain transparent on hover */
-
-}
-
 
 
 .serverResponse, .pluginsList {
+
   margin-top: 20px;
   padding: 10px;
   border: 1px solid #ccc;

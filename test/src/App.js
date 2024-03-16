@@ -56,18 +56,7 @@ function MultiLineTextInput() {
     setTextInput(event.target.value);
   };
 
-  const fetchPlugins = async () => {
-    setIsLoading(true);
-    try {
-      const response = await fetch('https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[per_page]=10');
-      const data = await response.json();
-      setPlugins(data.plugins);
-    } catch (error) {
-      console.error('Error fetching plugins:', error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
+
 
   const handleNewChat = () => {
     const newChatId = Date.now();
@@ -97,6 +86,22 @@ function MultiLineTextInput() {
     setServerResponse(''); // 假设切换对话时清空服务器响应
   };
 
+
+  const fetchPlugins = async () => {
+    setIsLoading(true);
+    try {
+      const response = await fetch('https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[per_page]=10');
+      const data = await response.json();
+      setPlugins(data.plugins);
+    } catch (error) {
+      console.error('Error fetching plugins:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+
+
   return (
     <div className="appContainer">
       <div className="sidebar">
@@ -114,18 +119,11 @@ function MultiLineTextInput() {
       </div>
       <div className="mainContent">
         <div className="container">
-
-
-
-
           {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
             <div key={index} className={`message ${message.sender}`}>
               {message.text}
             </div>
           ))}
-
-
-
           <div className="inputArea">
             <div className="textInputWrapper">
               <div className="inputIcon">&#x1F4AC;</div> {/* Example: Speech balloon Unicode character */}
@@ -153,10 +151,20 @@ function MultiLineTextInput() {
             </div>
           )}
 
-          <button className="fetchBtn" onClick={fetchPlugins}>
-            <img src={logImage} alt="WordPress Plugins"  />
 
-          </button>
+          <div className="logoArea">
+            <img src={logImage} alt="WordPress Plugins" className="logo" />
+            <div><br/></div>
+
+            <button className="fetchBtn" onClick={fetchPlugins}>
+              &#x2B07; {/* Unicode character for down arrow */}
+
+            </button>
+
+          </div>
+
+
+
 
           {plugins.length > 0 && (
             <div className="pluginsList">
@@ -168,6 +176,8 @@ function MultiLineTextInput() {
               </ul>
             </div>
           )}
+
+
         </div>
       </div>
     </div>
