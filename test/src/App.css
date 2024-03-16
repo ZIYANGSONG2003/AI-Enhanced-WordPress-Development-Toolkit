@@ -7,6 +7,9 @@
   display: flex;
   flex-direction: column;
   height: 100vh; /* Adjust height to the full view */
+
+  justify-content: center;
+  align-items: center;
 }
 .container {
   flex-grow: 1;
@@ -19,7 +22,7 @@
 .inputArea {
   position: absolute;
   bottom: 0;
-  left: 60%;
+  left: 62%;
   transform: translateX(-50%);
   width: 100%; /* Ensure it spans the width of the page */
   max-width: 768px; /* Set a max-width for larger screens */
@@ -31,7 +34,7 @@
   align-items: center;
   background: #FFF;
   border: 1px solid #CCC; /* Light grey border */
-  border-radius: 22px; /* Rounded corners for the wrapper */
+  border-radius: 20px; /* Rounded corners for the wrapper */
 
   border-right: none; /* Remove border between the icon and the text input */
   overflow: hidden; /* Ensures the inner elements conform to the wrapper's border-radius */
@@ -51,7 +54,7 @@
   margin-right: 10px;
   font-size: 16px; /* Match the font size to the icon size */
 
-  border-radius: 22px; /* Rounded corners for the text input */
+  border-radius: 20px; /* Rounded corners for the text input */
 }
 .disclaimer {
   text-align: center;
@@ -70,7 +73,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 5px 10px; /* Slight margin for the button */
+  margin: 6px 12px; /* Slight margin for the button */
   cursor: pointer;
   border-radius: 50%; /* Circular shape for the button */
   width: 30px; /* Fixed width for the circle */
@@ -87,34 +90,35 @@
 
 . fetchBtn{
 
-  padding: 10px 20px;
-  background-color: #007bff;
+  background: transparent; /* No background color */
   border: none;
-  color: white;
-  border: 1px solid #ccc;
-  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  padding: 10px;
+  margin: 5px 5px;
+  outline: none; /* Remove outline that may appear when the button is focused */
 
 }
-.fetchBtn {
-  padding: 0 15px;
-  background-color: #FFF;
-  border: none;
-  font-size: 24px; /* Adjust arrow size as needed */
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.fetchBtn img {
+  max-width: 100px; /* Adjust the size as needed */
+  height: auto;
+  display: block;
+  margin: 0  auto;
+
+
 }
 
 
 
 
-
-.submitBtn:hover, .fetchBtn:hover {
+.submitBtn:hover{
   background-color:  #007bff; /* Darker green on hover */;
 }
+.fetchBtn:hover{
+  background-color: transparent; /* Remain transparent on hover */
+
+}
+
+
 
 .serverResponse, .pluginsList {
   margin-top: 20px;
@@ -155,6 +159,9 @@
   overflow-y: auto; /* Allow scrolling if the list is long */
 }
 
+
+
+
 .sidebarButton {
   display: block;
   width: 100%;
@@ -187,7 +194,3 @@
   color: white;
 }
 
-.mainContent {
-  flex-grow: 1;
-  padding: 20px;
-}

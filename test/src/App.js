@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css'; // 确保样式文件的名字和路径正确
+import logImage from './logo1.png';
 
 function MultiLineTextInput() {
   const [textInput, setTextInput] = useState('');
@@ -152,7 +153,10 @@ function MultiLineTextInput() {
             </div>
           )}
 
-          <button className="fetchBtn" onClick={fetchPlugins}>Fetch WordPress Plugins</button>
+          <button className="fetchBtn" onClick={fetchPlugins}>
+            <img src={logImage} alt="WordPress Plugins"  />
+
+          </button>
 
           {plugins.length > 0 && (
             <div className="pluginsList">
