@@ -1,43 +1,35 @@
-/*{.container {
+
+.appContainer {
+  display: flex;
+}
+.mainContent {
+  flex-grow: 1; /* Take the remaining space */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  height: 100vh; /* Adjust height to the full view */
 }
-{.textInput {
-  margin-top: 10px;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 300px;
-  height: 100px;
-}
-.submitBtn,.fetchBtn {
-  margin-top: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
-  color: white;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
- */
 .container {
   flex-grow: 1;
   padding: 20px;
   display: flex;
   flex-direction: column;
+  overflow-y: auto; /* Makes sure the chat is scrollable */
+
 }
 .inputArea {
-  display: flex;
-  align-items: center;
-  border-radius: 22px; /* Rounded corners for the input area */
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); /* Shadow effect like in your design */
-  overflow: hidden; /* Ensures the child elements do not overflow the rounded corners */
+  position: absolute;
+  bottom: 0;
+  left: 60%;
+  transform: translateX(-50%);
+  width: 100%; /* Ensure it spans the width of the page */
+  max-width: 768px; /* Set a max-width for larger screens */
+  padding: 10px 0;
+  z-index: 2; /* Ensure it's above other elements */
+
+
+
+
+
 }
 .textInputWrapper {
   display: flex;
@@ -52,24 +44,37 @@
   background: black;
   color: white;
   font-size: 16px; /* Adjust icon size as needed */
-  border-right: 1px solid #CCC; /* Light grey border to the right of the icon */
+
 }
 .textInput {
   flex-grow: 1;
   border: none;
   padding: 10px;
+  margin-right: 10px;
   font-size: 16px; /* Match the font size to the icon size */
 }
+.disclaimer {
+
+
+
+
+  text-align: center;
+  font-size: 0.75em;
+  padding-top: 5px;
+  width: 100%; /* Match the width of the inputArea */
+}
+
 
 .submitBtn {
-  padding: 0 15px;
+  padding: 0 8px;
   background-color: #FFF;
   border: none;
-  font-size: 24px; /* Adjust arrow size as needed */
+  font-size: 16px; /* Adjust arrow size as needed */
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .textInput:focus, .submitBtn:focus {
   outline: none;

@@ -114,6 +114,9 @@ function MultiLineTextInput() {
       <div className="mainContent">
         <div className="container">
 
+
+
+
           {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
             <div key={index} className={`message ${message.sender}`}>
               {message.text}
@@ -132,23 +135,13 @@ function MultiLineTextInput() {
                   onChange={handleInputChange}
                   rows={1}
               />
-            </div>
+
             <button className="submitBtn" onClick={handleSubmit}>
               &#x2B06; {/* Unicode character for up arrow */}
             </button>
+            </div>
+            <p className="disclaimer">Tip: This AI can make mistakes. Consider checking important information.</p>
           </div>
-
-
-          { /*<textarea
-           className="textInput"
-            value={textInput}
-            onChange={handleInputChange}
-            rows={4}
-            cols={50}
-          />
-          <br />
-          <button className="submitBtn" onClick={handleSubmit}>Submit</button>*/}
-
 
 
           {isLoading && <p>Loading...</p>}
@@ -159,9 +152,7 @@ function MultiLineTextInput() {
             </div>
           )}
 
-
           <button className="fetchBtn" onClick={fetchPlugins}>Fetch WordPress Plugins</button>
-
 
           {plugins.length > 0 && (
             <div className="pluginsList">
