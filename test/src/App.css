@@ -1,8 +1,14 @@
+body,html{
 
+  overflow: hidden;
+  height: 100vh;
+
+}
 .appContainer {
   display: flex;
 }
 .mainContent {
+  width :85%;
   flex-grow: 1; /* Take the remaining space */
   display: flex;
   flex-direction: column;
@@ -10,15 +16,25 @@
 
   justify-content: center;
   align-items: center;
-}
-.container {
-  flex-grow: 1;
-  padding: 20px;
-  display: flex;
+
+
+ /* overflow: hidden; /* Prevents the outer container from scrolling */
   flex-direction: column;
   overflow-y: auto; /* Makes sure the chat is scrollable */
 
+
+  padding-bottom: 10px; /* Space for scrolling above the input area */
+
+
 }
+/*.container {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+
+}
+
+ */
 .inputArea {
   position: absolute;
   bottom: 0;
@@ -28,6 +44,8 @@
   max-width: 768px; /* Set a max-width for larger screens */
   padding: 10px 0;
   z-index: 2; /* Ensure it's above other elements */
+
+  padding: 10px 0; /* Add padding as needed */
 }
 .textInputWrapper {
   display: flex;
@@ -167,7 +185,7 @@
 }
 
 .sidebar {
-  width: 250px; /* Adjust the width as needed */
+  width: 15%; /* Adjust the width as needed */
   background-color: #f4f4f4; /* Adjust the background color as needed */
   padding: 20px;
   margin-right: 20px;
@@ -249,10 +267,11 @@ new css style about the chat dialog
 
   margin-right: 10px; /* Space between icon and message content */
 
+
 }
 
 .messageContent {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.4;
   max-width: calc(100% - 50px); /* Subtract the width of the icon and margins */
 

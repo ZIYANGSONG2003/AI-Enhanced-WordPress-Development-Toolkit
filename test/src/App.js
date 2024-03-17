@@ -86,8 +86,6 @@ function MultiLineTextInput() {
     }
     setServerResponse(''); // 假设切换对话时清空服务器响应
   };
-
-
   const fetchPlugins = async () => {
     setIsLoading(true);
     try {
@@ -106,17 +104,16 @@ function MultiLineTextInput() {
           {message.sender === 'user' && (
               <div className="userMessageWrapper">
                 <img src={userLogImage} alt="User" className="userIcon" />
-                <div className="messageContent">{message.text}</div>
               </div>
           )}
+          <div className="messageContent">{message.text}</div>
+
           {message.sender === 'server' && (
               <div className="messageContent">{message.text}</div>
           )}
         </div>
     );
   };
-
-
 
   return (
     <div className="appContainer">
@@ -134,14 +131,14 @@ function MultiLineTextInput() {
         ))}
       </div>
       <div className="mainContent">
-        <div className="container">
+
           {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
            /* <div key={index} className={`message ${message.sender}`}>
               {message.text}
             </div>*/
-
               <Message key={index} message={message} />
           ))}
+
           <div className="inputArea">
             <div className="textInputWrapper">
               <div className="inputIcon">&#x1F4AC;</div> {/* Example: Speech balloon Unicode character */}
@@ -152,15 +149,12 @@ function MultiLineTextInput() {
                   onChange={handleInputChange}
                   rows={1}
               />
-
             <button className="submitBtn" onClick={handleSubmit}>
               &#x2B06; {/* Unicode character for up arrow */}
             </button>
             </div>
             <p className="disclaimer">Tip: This AI can make mistakes. Consider checking important information.</p>
           </div>
-
-
           {isLoading && <p>Loading...</p>}
           {serverResponse && (
             <div className="serverResponse">
@@ -168,22 +162,13 @@ function MultiLineTextInput() {
               <p>{serverResponse}</p>
             </div>
           )}
-
-
           <div className="logoArea">
             <img src={logImage} alt="WordPress Plugins" className="logo" />
             <div><br/></div>
-
             <button className="fetchBtn" onClick={fetchPlugins}>
               &#x2B07; {/* Unicode character for down arrow */}
-
             </button>
-
           </div>
-
-
-
-
           {plugins.length > 0 && (
             <div className="pluginsList">
               <h2>WordPress Plugins:</h2>
@@ -197,7 +182,7 @@ function MultiLineTextInput() {
 
 
         </div>
-      </div>
+
     </div>
   );
 }
