@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import './App.css'; // 确保样式文件的名字和路径正确
 import logImage from './logo1.png';
 import userLogImage from './logo.svg';
@@ -19,7 +19,7 @@ function MultiLineTextInput() {
         const updatedChats = [...chats];
         updatedChats[activeChatIndex] = {
           ...updatedChats[activeChatIndex],
-          messages: [...updatedChats[activeChatIndex].messages, { sender: 'user', text: textInput }],
+          messages: [...updatedChats[activeChatIndex].messages, {sender: 'user', text: textInput}],
         };
         setChats(updatedChats);
 
@@ -28,7 +28,7 @@ function MultiLineTextInput() {
         try {
           const response = await fetch('http://13.239.121.247:8080/upload_text', {
             method: 'POST',
-            body: JSON.stringify({ text: textInput }),
+            body: JSON.stringify({text: textInput}),
             headers: {
               'Content-Type': 'application/json',
             },
@@ -38,7 +38,7 @@ function MultiLineTextInput() {
           // 更新活动对话的服务器响应
           updatedChats[activeChatIndex] = {
             ...updatedChats[activeChatIndex],
-            messages: [...updatedChats[activeChatIndex].messages, { sender: 'server', text: data }],
+            messages: [...updatedChats[activeChatIndex].messages, {sender: 'server', text: data}],
           };
           setChats(updatedChats);
         } catch (error) {
@@ -58,12 +58,12 @@ function MultiLineTextInput() {
   };
 
 
-
   const handleNewChat = () => {
     const newChatId = Date.now();
     const newChat = {
       id: newChatId,
       messages: [], // 对话的消息记录
+      showPlugins: false,
     };
     setChats([...chats, newChat]);
     setActiveChatId(newChatId); // 设置新对话为活动对话
@@ -87,23 +87,39 @@ function MultiLineTextInput() {
     setServerResponse(''); // 假设切换对话时清空服务器响应
   };
   const fetchPlugins = async () => {
-    setIsLoading(true);
-    try {
-      const response = await fetch('https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[per_page]=10');
-      const data = await response.json();
-      setPlugins(data.plugins);
-    } catch (error) {
-      console.error('Error fetching plugins:', error);
-    } finally {
-      setIsLoading(false);
+    if (!activeChatId) return; // 如果没有活动对话，则直接返回
+
+    const activeChatIndex = chats.findIndex(chat => chat.id === activeChatId);
+    if (activeChatIndex === -1) return; // 找不到活动对话则返回
+
+    // 切换插件列表的显示状态
+    const updatedChats = [...chats];
+    const activeChat = updatedChats[activeChatIndex];
+
+    // 如果尚未加载插件数据，则先进行加载
+    if (!activeChat.plugins) {
+      setIsLoading(true);
+      try {
+        const response = await fetch('https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[per_page]=10');
+        const data = await response.json();
+        activeChat.plugins = data.plugins;
+      } catch (error) {
+        console.error('Error fetching plugins:', error);
+      } finally {
+        setIsLoading(false);
+      }
     }
+
+    // 切换显示状态
+    activeChat.showPlugins = !activeChat.showPlugins;
+    setChats(updatedChats);
   };
-  const Message = ({ message }) => {
+  const Message = ({message}) => {
     return (
         <div className={`message ${message.sender === 'user' ? 'user' : 'server'}`}>
           {message.sender === 'user' && (
               <div className="userMessageWrapper">
-                <img src={userLogImage} alt="User" className="userIcon" />
+                <img src={userLogImage} alt="User" className="userIcon"/>
               </div>
           )}
           <div className="messageContent">{message.text}</div>
@@ -116,51 +132,52 @@ function MultiLineTextInput() {
   };
 
   return (
-    <div className="appContainer">
-      <div className="sidebar">
-        <button className="sidebarButton" onClick={handleNewChat}>New Chat</button>
-        <button className="sidebarButton" onClick={handleUserLogin}>User Login</button>
-        {chats.map((chat, index) => (
-          <div
-            key={chat.id}
-            className={`chatPreview ${chat.id === activeChatId ? 'active' : ''}`}
-            onClick={() => handleChatClick(chat.id)}
-          >
-            Chat {index + 1}
-          </div>
-        ))}
-      </div>
-      <div className="mainContent">
-        <div className="container">
-          {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
-           /* <div key={index} className={`message ${message.sender}`}>
-              {message.text}
-            </div>*/
-              <Message key={index} message={message} />
-          ))}
-
-          <div className="logoArea">
-            <img src={logImage} alt="WordPress Plugins" className="logo" />
-            <div><br/></div>
-            <button className="fetchBtn" onClick={fetchPlugins}>
-              &#x2B07; {/* Unicode character for down arrow */}
-            </button>
-          </div>
-          {plugins.length > 0 && (
-              <div className="pluginsList">
-                <h2>WordPress Plugins:</h2>
-                <ul>
-                  {plugins.map((plugin, index) => (
-                      <li key={index}>{plugin.name} - {plugin.version}</li>
-                  ))}
-                </ul>
+      <div className="appContainer">
+        <div className="sidebar">
+          <button className="sidebarButton" onClick={handleNewChat}>New Chat</button>
+          <button className="sidebarButton" onClick={handleUserLogin}>User Login</button>
+          {chats.map((chat, index) => (
+              <div
+                  key={chat.id}
+                  className={`chatPreview ${chat.id === activeChatId ? 'active' : ''}`}
+                  onClick={() => handleChatClick(chat.id)}
+              >
+                Chat {index + 1}
               </div>
-          )}
+          ))}
         </div>
+        <div className="mainContent">
+          <div className="container">
+            {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
+                /* <div key={index} className={`message ${message.sender}`}>
+                   {message.text}
+                 </div>*/
+                <Message key={index} message={message}/>
+            ))}
+
+            <div className="logoArea">
+              <img src={logImage} alt="WordPress Plugins" className="logo"/>
+              <div><br/></div>
+              <button className="fetchBtn" onClick={fetchPlugins}>
+                &#x2B07; {/* Unicode character for down arrow */}
+              </button>
+            </div>
+            {activeChatId && chats.find(chat => chat.id === activeChatId)?.showPlugins && (
+                <div className="pluginsList">
+                  <h2>WordPress Plugins:</h2>
+                  <ul>
+                    {chats.find(chat => chat.id === activeChatId)?.plugins?.map((plugin, index) => (
+                        <li key={index}>{plugin.name} - {plugin.version}</li>
+                    ))}
+                  </ul>
+                </div>
+            )}
+          </div>
 
           <div className="inputArea">
             <div className="textInputWrapper">
-              <div className="inputIcon">&#x1F4AC;</div> {/* Example: Speech balloon Unicode character */}
+              <div className="inputIcon">&#x1F4AC;</div>
+              {/* Example: Speech balloon Unicode character */}
               <textarea
                   className="textInput"
                   placeholder="Type your message here..."
@@ -168,22 +185,23 @@ function MultiLineTextInput() {
                   onChange={handleInputChange}
                   rows={1}
               />
-            <button className="submitBtn" onClick={handleSubmit}>
-              &#x2B06; {/* Unicode character for up arrow */}
-            </button>
+              <button className="submitBtn" onClick={handleSubmit}>
+                &#x2B06; {/* Unicode character for up arrow */}
+              </button>
             </div>
-            <p className="disclaimer">Tip: This AI can make mistakes. Consider checking important information.</p>
+            <p className="disclaimer">Tip: This AI can make mistakes. Consider checking important
+              information.</p>
           </div>
           {isLoading && <p>Loading...</p>}
           {serverResponse && (
-            <div className="serverResponse">
-              <h2>Server Response:</h2>
-              <p>{serverResponse}</p>
-            </div>
+              <div className="serverResponse">
+                <h2>Server Response:</h2>
+                <p>{serverResponse}</p>
+              </div>
           )}
 
+        </div>
       </div>
-    </div>
   );
 }
 
