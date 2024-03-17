@@ -131,13 +131,32 @@ function MultiLineTextInput() {
         ))}
       </div>
       <div className="mainContent">
-
+        <div className="container">
           {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
            /* <div key={index} className={`message ${message.sender}`}>
               {message.text}
             </div>*/
               <Message key={index} message={message} />
           ))}
+
+          <div className="logoArea">
+            <img src={logImage} alt="WordPress Plugins" className="logo" />
+            <div><br/></div>
+            <button className="fetchBtn" onClick={fetchPlugins}>
+              &#x2B07; {/* Unicode character for down arrow */}
+            </button>
+          </div>
+          {plugins.length > 0 && (
+              <div className="pluginsList">
+                <h2>WordPress Plugins:</h2>
+                <ul>
+                  {plugins.map((plugin, index) => (
+                      <li key={index}>{plugin.name} - {plugin.version}</li>
+                  ))}
+                </ul>
+              </div>
+          )}
+        </div>
 
           <div className="inputArea">
             <div className="textInputWrapper">
@@ -162,27 +181,8 @@ function MultiLineTextInput() {
               <p>{serverResponse}</p>
             </div>
           )}
-          <div className="logoArea">
-            <img src={logImage} alt="WordPress Plugins" className="logo" />
-            <div><br/></div>
-            <button className="fetchBtn" onClick={fetchPlugins}>
-              &#x2B07; {/* Unicode character for down arrow */}
-            </button>
-          </div>
-          {plugins.length > 0 && (
-            <div className="pluginsList">
-              <h2>WordPress Plugins:</h2>
-              <ul>
-                {plugins.map((plugin, index) => (
-                  <li key={index}>{plugin.name} - {plugin.version}</li>
-                ))}
-              </ul>
-            </div>
-          )}
 
-
-        </div>
-
+      </div>
     </div>
   );
 }

@@ -8,44 +8,40 @@ body,html{
   display: flex;
 }
 .mainContent {
-  width :85%;
+  position: relative;
+  width:85%;
   flex-grow: 1; /* Take the remaining space */
   display: flex;
   flex-direction: column;
   height: 100vh; /* Adjust height to the full view */
 
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;*/
+  /*align-items: center;*/
 
-
- /* overflow: hidden; /* Prevents the outer container from scrolling */
-  flex-direction: column;
-  overflow-y: auto; /* Makes sure the chat is scrollable */
-
-
-  padding-bottom: 10px; /* Space for scrolling above the input area */
-
+  /*overflow: hidden; !* Prevents the outer container from scrolling *!*/
 
 }
-/*.container {
-  flex-grow: 1;
+.container {
+  margin-left: 20px;
+  /*flex-grow: 1;*/
   padding: 20px;
-  display: flex;
-
+  /*display: flex;*/
+  flex-direction: column;
+  overflow-y: auto;
+  max-height: 85%;
 }
-
- */
 .inputArea {
   position: absolute;
   bottom: 0;
-  left: 62%;
+  left: 50%;
   transform: translateX(-50%);
   width: 100%; /* Ensure it spans the width of the page */
   max-width: 768px; /* Set a max-width for larger screens */
   padding: 10px 0;
   z-index: 2; /* Ensure it's above other elements */
-
   padding: 10px 0; /* Add padding as needed */
+
+  max-height: 15%;
 }
 .textInputWrapper {
   display: flex;
