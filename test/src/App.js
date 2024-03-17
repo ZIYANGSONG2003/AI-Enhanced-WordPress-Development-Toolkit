@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css'; // 确保样式文件的名字和路径正确
 import logImage from './logo1.png';
+import userLogImage from './logo.svg';
 
 function MultiLineTextInput() {
   const [textInput, setTextInput] = useState('');
@@ -99,6 +100,21 @@ function MultiLineTextInput() {
       setIsLoading(false);
     }
   };
+  const Message = ({ message }) => {
+    return (
+        <div className={`message ${message.sender === 'user' ? 'user' : 'server'}`}>
+          {message.sender === 'user' && (
+              <div className="userMessageWrapper">
+                <img src={userLogImage} alt="User" className="userIcon" />
+                <div className="messageContent">{message.text}</div>
+              </div>
+          )}
+          {message.sender === 'server' && (
+              <div className="messageContent">{message.text}</div>
+          )}
+        </div>
+    );
+  };
 
 
 
@@ -120,9 +136,11 @@ function MultiLineTextInput() {
       <div className="mainContent">
         <div className="container">
           {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
-            <div key={index} className={`message ${message.sender}`}>
+           /* <div key={index} className={`message ${message.sender}`}>
               {message.text}
-            </div>
+            </div>*/
+
+              <Message key={index} message={message} />
           ))}
           <div className="inputArea">
             <div className="textInputWrapper">
