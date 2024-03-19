@@ -1,15 +1,15 @@
 body,html{
 
-  overflow: hidden;
+  overflow: hidden;         /* overflow: hidden; prevents scrolling on both the x (horizontal) and y (vertical) axes */
   height: 100vh;
 
 }
 .appContainer {
-  display: flex;
+  display: flex;          /* display: flex; changes the display behavior of the element to a flexible box (flexbox). */
 }
-.mainContent {
-  position: relative;
-  width:85%;
+.mainContent {                /* .mainContent block is designed to create a primary content area that occupies */
+  position: relative;         /* a significant portion of the screen, with flexible dimensions and a layout */
+  width:85%;                  /* optimized for readability and organization. */
   flex-grow: 1; /* Take the remaining space */
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@ body,html{
   /*overflow: hidden; !* Prevents the outer container from scrolling *!*/
 
 }
-.container {
+.container {                /* It wraps site content, centering it within the viewport and providing consistent margins or padding. */
   margin-left: 20px;
   /*flex-grow: 1;*/
   padding: 20px;
@@ -30,7 +30,7 @@ body,html{
   overflow-y: auto;
   max-height: 85%;
 }
-.inputArea {
+.inputArea {                /*  style a fixed-position input area at the bottom of the webpage */
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -43,7 +43,7 @@ body,html{
 
   max-height: 15%;
 }
-.textInputWrapper {
+.textInputWrapper {         /* Creates a wrapper for text input field */
   display: flex;
   align-items: center;
   background: #FFF;
@@ -54,14 +54,14 @@ body,html{
   overflow: hidden; /* Ensures the inner elements conform to the wrapper's border-radius */
   flex-grow: 1;
 }
-.inputIcon {
+.inputIcon {          /* Used to define styling for icons within input fields */
   padding: 10px;
 
   color: black;
   font-size: 16px; /* Adjust icon size as needed */
 
 }
-.textInput {
+.textInput {        /* Used to define styling for text input fields */
   flex-grow: 1;
   border: none;
   padding: 10px 15px;
@@ -70,7 +70,7 @@ body,html{
 
   border-radius: 20px; /* Rounded corners for the text input */
 }
-.disclaimer {
+.disclaimer {           /* defines the styling for the disclaimer message within the webpage */
   text-align: center;
   font-size: 0.75em;
   padding-top: 5px;
@@ -78,7 +78,7 @@ body,html{
 }
 
 
-.submitBtn {
+.submitBtn {            /* Defines styling for the submit button */
   background-color:  #007bff;
   border: none;
   color: white;
@@ -97,17 +97,17 @@ body,html{
   transition: background-color 0.3s; /* Smooth transition for mouse hover */
 
 }
-.textInput:focus, .submitBtn:focus {
-  outline: none;
+.textInput:focus, .submitBtn:focus {    /* defines styling for the focus state of text input fields and submit buttons */
+  outline: none;              /* Removes the default browser outline around elements when they receive focus*/
 }
 
 
-.logoArea {
+.logoArea {         /* represents the container for the logo */
   text-align: center;
   margin-bottom: 20px; /* Adjust as needed */
 }
 
-.logo {
+.logo {           /* represents the logo image itself */
   margin: 0 auto; /* Centers the button in the container */
   max-width: 100px; /* Adjust as needed */
   height: auto;
@@ -115,7 +115,7 @@ body,html{
   /* Other styles to match your design */
 }
 
-. fetchBtn{
+. fetchBtn{         /* Defines styling for the button element used to fetch data/perform some other action*/
   background-color: #007bff; /* Button color */
   color: white; /* Text color */
   border: none; /* No border */
@@ -133,16 +133,16 @@ body,html{
 
 }
 
-.submitBtn:focus {
+.submitBtn:focus {    /*Removes the outline of the submit button when it receives focus */
   outline: none;
 }
 
 
+/* The below two blocks define the behaviour of the buttons when the cursor is hovered over them */
 .fetchBtn:hover{
   background-color:#007bff; /* Darker shade on hover */
 
 }
-
 
 .submitBtn:hover{
   background-color:  #007bff; /* Darker green on hover */;
@@ -173,14 +173,14 @@ body,html{
 }
 
 .appContainer {
-  display: flex;
+  display: flex;    /*enables flex box layout properties to be applied to its children */
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   padding: 20px;
 }
 
-.sidebar {
+.sidebar {        /* defines the styling for the sidebar element */
   width: 15%; /* Adjust the width as needed */
   background-color: #f4f4f4; /* Adjust the background color as needed */
   padding: 20px;
@@ -192,7 +192,7 @@ body,html{
 
 
 
-.sidebarButton {
+.sidebarButton {    /* defines styling for buttons used within the sidebar */
   display: block;
   width: 100%;
   padding: 10px;
@@ -205,24 +205,24 @@ body,html{
   cursor: pointer;
 }
 
-.sidebarButton:hover {
+.sidebarButton:hover {      /*defines the behaviour of the sidebar buttons when the cursor is hovered */
   background-color: #0056b3;
 }
 
-.chatPreview {
+.chatPreview {   /* styling the display previews of chat messages */
   padding: 10px;
   border-bottom: 1px solid #ccc;
   cursor: pointer;
 }
 
-.chatPreview:hover {
+.chatPreview:hover {   /* Changes the background color of the .chatPreview elements to a light gray when hovered over */
   background-color: #e9e9e9;
 }
 
 .chatPreview.active {
-  background-color: #007bff;
-  color: white;
-}
+  background-color: #007bff;    /* Sets the background color of active .chatPreview elements to a shade of blue */
+  color: white;               /*  Sets the text color of active .chatPreview elements to white to ensures the text remains */
+}                               /* readable against the blue background.*/
 
 
 
@@ -235,12 +235,12 @@ new css style about the chat dialog
   margin-bottom: 10px;
 }
 
-.userMessageWrapper {
+.userMessageWrapper {       /*  ensures that the user's icon and their message text are aligned vertically at the bottom */
   display: flex;
   align-items: flex-end; /* Aligns the icon and text at their bottom edge */
 }
 
-.user .messageContent {
+.user .messageContent {     /*  styles the message content area for user messages in the chat interface*/
   background-color: #e5e5ea;
   border-radius: 18px;
   padding: 10px 15px;
@@ -248,7 +248,7 @@ new css style about the chat dialog
   overflow-wrap: break-word; /* Ensure the text wraps within the bubble */
 }
 
-.server .messageText {
+.server .messageText {        /* styles the message text area for server messages in the chat interface.*/
   background-color: #f4f4f8;
   border-radius: 18px;
   padding: 10px 15px;
@@ -256,7 +256,7 @@ new css style about the chat dialog
   overflow-wrap: break-word; /* Ensure the text wraps within the bubble */
 }
 
-.userIcon {
+.userIcon {     /* used to style user icons within the chat interface */
   width: 30px;
   height: 30px;
   flex-shrink: 0; /* Prevent the icon from shrinking */
@@ -266,11 +266,10 @@ new css style about the chat dialog
 
 }
 
-.messageContent {
+.messageContent { /* used to style the content area of messages within the chat interface*/
   font-size: 13px;
   line-height: 1.4;
   max-width: calc(100% - 50px); /* Subtract the width of the icon and margins */
-
 }
 
 /* Add more styling here as needed */
