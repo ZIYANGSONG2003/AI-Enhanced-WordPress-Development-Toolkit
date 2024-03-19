@@ -106,25 +106,33 @@ function MultiLineTextInput() {       // renders a form with multi line text inp
     const activeChat = updatedChats[activeChatIndex];     // retrieves the active chat at the activeChatIndex
 
     // 如果尚未加载插件数据，则先进行加载
-    if (!activeChat.plugins) {
-      setIsLoading(true);
+    if (!activeChat.plugins) {       // if the activeChat doesn't have plugin data
+      setIsLoading(true);       // true indicates that the data is being fetched
       try {
-        const response = await fetch('https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[per_page]=10');
-        const data = await response.json();
-        activeChat.plugins = data.plugins;
-      } catch (error) {
-        console.error('Error fetching plugins:', error);
+        const response = await fetch('https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[per_page]=10');  //sends a get request to the URL
+        const data = await response.json();     // await waits for the response from the server
+        activeChat.plugins = data.plugins;    // after the response is received, response.json() parses the response body as JSON.
+      } catch (error) {           //
+        console.error('Error fetching plugins:', error);    // if an error occurs, the error is logged to the console using console.error().
       } finally {
-        setIsLoading(false);
+        setIsLoading(false);      // false indicates that data fetching process has completed
       }
     }
 
     // 切换显示状态
-    activeChat.showPlugins = !activeChat.showPlugins;
-    setChats(updatedChats);
+    activeChat.showPlugins = !activeChat.showPlugins;     // Changes the value of the showPlugins property of the activeChat object. If true, it becomes false, and vice versa.
+    setChats(updatedChats);     // updates the chats
   };
-  const Message = ({message}) => {
+
+  // This Message component renders a message within the chat interface
+  const Message = ({message}) => {    // used to receive the message
     return (
+       /* The below code block sets the class name of the message container dynamically based on the sender of the message i.e. User or Server.
+          If the sender of the message is 'user', this block renders a wrapper div for the user message.
+          it then renders the content of the message, which is obtained from the text property of the message object.
+          If the sender of the message is 'server', this block renders the content of the server message
+
+          */
         <div className={`message ${message.sender === 'user' ? 'user' : 'server'}`}>
           {message.sender === 'user' && (
               <div className="userMessageWrapper">
@@ -140,6 +148,12 @@ function MultiLineTextInput() {       // renders a form with multi line text inp
     );
   };
 
+  /* <div className = "sidebar"> is used to make 2 buttons, one for new chat and the other for user login along with previews for each chat
+     <div className = "mainContent"> renders the main content area of the application which includes displaying messages for the active chat,
+                       a logo area, and a list of plugins if showPlugins is set to true.
+     <div className = "input area"> This block of the code represents the input area and additional UI elements such as loading indicators and server responses.
+
+     */
   return (
       <div className="appContainer">
         <div className="sidebar">
@@ -155,6 +169,7 @@ function MultiLineTextInput() {       // renders a form with multi line text inp
               </div>
           ))}
         </div>
+
         <div className="mainContent">
           <div className="container">
             {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
@@ -214,4 +229,4 @@ function MultiLineTextInput() {       // renders a form with multi line text inp
   );
 }
 
-export default MultiLineTextInput;
+export default MultiLineTextInput;    // it exports the MultiLineTextInput as the default export from the file. Any file that imports from this file receives MultiLineTextInput by default
