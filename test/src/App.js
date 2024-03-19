@@ -58,48 +58,52 @@ function MultiLineTextInput() {       // renders a form with multi line text inp
     }
   };
 
-  const handleInputChange = (event) => {
+  const handleInputChange = (event) => {      // updates the state based on user input
     setTextInput(event.target.value);
   };
 
 
-  const handleNewChat = () => {
-    const newChatId = Date.now();
-    const newChat = {
+  const handleNewChat = () => {       // this function is invoked when the user wants to create a new chat session
+    const newChatId = Date.now();   // generates a unique identifier for a chat session. Generates a timestamp representing the current time in milliseconds
+    const newChat = {           // A new chat object is created with the generated newChatId
       id: newChatId,
-      messages: [], // 对话的消息记录
-      showPlugins: false,
+      messages: [], // 对话的消息记录   // An empty array for messages
+      showPlugins: false,           // showPlugins flag set to false, indicating that plugins and additional features are not currently visible in the chat
     };
-    setChats([...chats, newChat]);
-    setActiveChatId(newChatId); // 设置新对话为活动对话
+    setChats([...chats, newChat]);      /* creates a new array which includes all existing chats (...chats) along with the newly created newChat.
+                                               This ensures that the existing chats are not mutated, and the new chat is appended to the end */
+    setActiveChatId(newChatId); // 设置新对话为活动对话     // updates the active chat ID
+
+    // The below 2 lines clear the previous server response and text input
     setServerResponse(''); // 清空之前的服务器响应
     setTextInput(''); // 清空文本输入
   };
 
-  const handleUserLogin = () => {
+  // Not been implemented yet
+  const handleUserLogin = () => {     // The handleUserLogin function is intended to handle the logic for user login within the application
     // 用户登录的逻辑
   };
 
-  const handleChatClick = (chatId) => {
-    setActiveChatId(chatId);
+  const handleChatClick = (chatId) => {       // responsible for handling the click event when a user clicks on a chat in the interface.
+    setActiveChatId(chatId);      // Sets the chatId of the clicked chat as the activeChatId, updating the active Chat
     // 你可能还想设置当前的textInput和serverResponse为选中对话的最后信息
-    const activeChat = chats.find(chat => chat.id === chatId);
-    if (activeChat && activeChat.messages.length > 0) {
-      setTextInput(activeChat.messages[activeChat.messages.length - 1].text);
+    const activeChat = chats.find(chat => chat.id === chatId);    // searching for the chat in the array with the specified chatId
+    if (activeChat && activeChat.messages.length > 0) {     // checking if the activeChat is found and if it isn't empty
+      setTextInput(activeChat.messages[activeChat.messages.length - 1].text);   // sets textInput to text of the last message in activeChat
     } else {
-      setTextInput('');
+      setTextInput('');         // else it sets textInput to an empty string
     }
-    setServerResponse(''); // 假设切换对话时清空服务器响应
+    setServerResponse(''); // 假设切换对话时清空服务器响应    // clears the serverResponse and sets it to null string
   };
-  const fetchPlugins = async () => {
-    if (!activeChatId) return; // 如果没有活动对话，则直接返回
+  const fetchPlugins = async () => {      // The fetchPlugins function is responsible for fetching plugins data from the API and toggling the display of plugins for the active chat.
+    if (!activeChatId) return; // 如果没有活动对话，则直接返回    // if there is no activeChat the function returns
 
-    const activeChatIndex = chats.findIndex(chat => chat.id === activeChatId);
-    if (activeChatIndex === -1) return; // 找不到活动对话则返回
+    const activeChatIndex = chats.findIndex(chat => chat.id === activeChatId);  /* Searches for the index of the active chat within the chats array */
+    if (activeChatIndex === -1) return; // 找不到活动对话则返回             // If the active chat is not found, the function returns early.
 
     // 切换插件列表的显示状态
-    const updatedChats = [...chats];
-    const activeChat = updatedChats[activeChatIndex];
+    const updatedChats = [...chats];          // It creates a shallow copy of the chats array
+    const activeChat = updatedChats[activeChatIndex];     // retrieves the active chat at the activeChatIndex
 
     // 如果尚未加载插件数据，则先进行加载
     if (!activeChat.plugins) {
