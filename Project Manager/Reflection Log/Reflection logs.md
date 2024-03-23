@@ -1,3 +1,14 @@
+## Status Legend
+
+| Status      | Description                                       |
+|-------------|---------------------------------------------------|
+| Todo        | Tasks that are planned but not yet started.       |
+| In Progress | Tasks that are currently being worked on.         |
+| Done        | Tasks that have been completed.                   |
+
+
+
+
 ## Reflection Log
 
 | ID | Reflection | Participants |
