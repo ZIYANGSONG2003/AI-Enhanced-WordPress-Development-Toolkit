@@ -1,59 +1,67 @@
-# Tutorial Meeting Notes
+# Meeting Notes - 4Ls Retrospective
 
-## Meeting Details
-- **Date:** [Meeting Date]
-- **Time:** [Meeting Time]
-- **Location:** [Meeting Location or Virtual Platform Used]
-- **Attendees:** [List of Attendees]
+## Overview
 
-## Agenda
-1. **Introduction and Roll Call:** 
-   - Welcome everyone to the meeting and take attendance.
-   
-2. **Review of Previous Tutorial Session:** 
-   - Discuss any questions or concerns raised during the previous tutorial session.
-   
-3. **Tutorial Topic:** 
-   - Present the tutorial topic for the current session.
-   - Provide explanations, demonstrations, and examples as needed.
-   
-4. **Hands-On Practice:** 
-   - Allow participants to engage in hands-on practice or exercises related to the tutorial topic.
-   - Provide guidance and support as necessary.
-   
-5. **Discussion and Q&A:** 
-   - Encourage participants to ask questions and discuss any challenges they encounter.
-   - Provide clarifications and additional explanations as needed.
-   
-6. **Wrap-Up:** 
-   - Summarize key points covered in the tutorial session.
-   - Provide any additional resources or references for further learning.
-   
-7. **Feedback:** 
-   - Solicit feedback from participants regarding the tutorial session.
-   - Encourage suggestions for improvement.
-   
-8. **Announcements:** 
-   - Share any important announcements or reminders.
+Reflecting on what we've learned and what motivates our team to succeed by following the instructions for the 4Ls Retrospective Play.
 
-## Discussion Highlights
+### Team
 
-### Tutorial Topic
-- [Brief overview of the tutorial topic covered]
+- **Team:** [Team Name or Project Name]
 
-### Hands-On Practice
-- [Description of hands-on practice activities conducted]
+### Team Members
 
-### Discussion and Q&A
-- [Summary of discussions and questions raised by participants]
+- [List of Team Members]
 
-## Action Items
-- [List any action items or follow-up tasks assigned to participants]
+### Date
 
-## Next Tutorial Session
-- **Date:** [Next Tutorial Date]
-- **Time:** [Next Tutorial Time]
-- **Location:** [Next Tutorial Location or Virtual Platform Used]
+- [Meeting Date]
+
+### Retrospective Period
+
+- [Start Date] to [End Date]
+
+## 4Ls Retrospective
+
+### Milestones
+
+- [List of significant milestones achieved during the retrospective period]
+
+### Loved
+
+- [What the team loved about the recent period]
+
+### Longed for
+
+- [What the team wished for or desired during the period]
+
+### Loathed
+
+- [What the team disliked or found challenging during the period]
+
+### Learned
+
+- [Key learnings or insights gained during the period]
+
+## Action Plan
+
+### Action Items
+
+| Action | Owner | Due Date |
+|--------|-------|----------|
+| [Action 1] | [Owner 1] | [Due Date 1] |
+| [Action 2] | [Owner 2] | [Due Date 2] |
+| [Action 3] | [Owner 3] | [Due Date 3] |
+| ...        | ...   | ...      |
+
+### Action Items
+
+- [List any additional action items or tasks identified during the meeting]
+
+## Next Steps
+
+- [Outline any next steps or follow-up actions to be taken after the retrospective]
 
 ## Notes
-- [Any additional notes or comments from the tutorial session]
+
+- [Any additional notes or comments from the meeting]
+
