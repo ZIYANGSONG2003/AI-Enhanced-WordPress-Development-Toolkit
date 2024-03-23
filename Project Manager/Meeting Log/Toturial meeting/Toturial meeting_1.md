@@ -1,67 +1,59 @@
-# Meeting Notes - 4Ls Retrospective
+# Team Meeting Notes
 
-## Overview
+## Meeting Details
+- **Date:** [Meeting Date]
+- **Time:** [Meeting Time]
+- **Location:** [Meeting Location or Virtual Platform Used]
+- **Attendees:** [List of Attendees]
 
-Reflecting on what we've learned and what motivates our team to succeed by following the instructions for the 4Ls Retrospective Play.
+## Agenda
+1. **Introduction and Roll Call:** 
+   - Welcome everyone to the meeting and take attendance.
+   
+2. **Review of Previous Meeting Minutes:** 
+   - Discuss any pending action items from the previous meeting.
+   
+3. **Project Updates:**
+   - Provide updates on the progress of ongoing projects.
+   - Discuss any roadblocks or challenges encountered.
+   
+4. **New Business:**
+   - Present any new ideas, proposals, or issues requiring discussion.
+   
+5. **Action Items:**
+   - Assign tasks and responsibilities to team members.
+   - Set deadlines for completion.
+   
+6. **Upcoming Events or Deadlines:**
+   - Review any upcoming milestones, events, or deadlines.
+   
+7. **Announcements:**
+   - Share any important announcements or reminders.
 
-### Team
+8. **Open Floor:**
+   - Allow team members to raise any additional topics or concerns.
 
-- **Team:** [Team Name or Project Name]
+## Discussion Highlights
 
-### Team Members
+### Project Updates
+- [Brief overview of project updates]
 
-- [List of Team Members]
+### New Business
+- [Description of new ideas, proposals, or issues discussed]
 
-### Date
+## Meeting Points and Action Items
 
-- [Meeting Date]
+| Meeting Point                  | Action Item                                             | Owner        | Due Date      |
+|--------------------------------|---------------------------------------------------------|--------------|---------------|
+| [Meeting Point 1]              | [Action Item 1]                                        | [Owner 1]    | [Due Date 1]  |
+| [Meeting Point 2]              | [Action Item 2]                                        | [Owner 2]    | [Due Date 2]  |
+| [Meeting Point 3]              | [Action Item 3]                                        | [Owner 3]    | [Due Date 3]  |
+| ...                            | ...                                                     | ...          | ...           |
 
-### Retrospective Period
-
-- [Start Date] to [End Date]
-
-## 4Ls Retrospective
-
-### Milestones
-
-- [List of significant milestones achieved during the retrospective period]
-
-### Loved
-
-- [What the team loved about the recent period]
-
-### Longed for
-
-- [What the team wished for or desired during the period]
-
-### Loathed
-
-- [What the team disliked or found challenging during the period]
-
-### Learned
-
-- [Key learnings or insights gained during the period]
-
-## Action Plan
-
-### Action Items
-
-| Action | Owner | Due Date |
-|--------|-------|----------|
-| [Action 1] | [Owner 1] | [Due Date 1] |
-| [Action 2] | [Owner 2] | [Due Date 2] |
-| [Action 3] | [Owner 3] | [Due Date 3] |
-| ...        | ...   | ...      |
-
-### Action Items
-
-- [List any additional action items or tasks identified during the meeting]
-
-## Next Steps
-
-- [Outline any next steps or follow-up actions to be taken after the retrospective]
+## Next Meeting
+- **Date:** [Next Meeting Date]
+- **Time:** [Next Meeting Time]
+- **Location:** [Next Meeting Location or Virtual Platform Used]
 
 ## Notes
-
 - [Any additional notes or comments from the meeting]
-
