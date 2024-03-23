@@ -1,67 +1,58 @@
-# Meeting Notes - 4Ls Retrospective
+# Meeting Notes
 
-## Overview
+> Owned by ZIYANG SONG, created with a template.
+> Last updated: [Date], by [Name]
 
-Reflecting on what we've learned and what motivates our team to succeed by following the instructions for the 4Ls Retrospective Play.
+_This template is brought to you by Meetical, an online meeting management tool._
 
-### Team
+---
 
-- **Team:** [Team Name or Project Name]
+## Meeting Details
 
-### Team Members
+**Date:** [Enter date]
 
-- [List of Team Members]
+**Time:** [Enter time]
 
-### Date
+**Participants:** 
+- [Name 1]
+- [Name 2]
+- [Name 3]
 
-- [Meeting Date]
+**Location:** [Enter location]
 
-### Retrospective Period
+**Meeting Type:** [Enter type]
 
-- [Start Date] to [End Date]
+**Materials:** [List any materials required for the meeting]
 
-## 4Ls Retrospective
+---
 
-### Milestones
+### Introduction
+_Start the meeting in a fun, relaxed way to warm up the conversation. Then give each other time to ask open questions before discussing your progress toward goals._
 
-- [List of significant milestones achieved during the retrospective period]
+## Goals and Progress
 
-### Loved
+**Participants** | **Priorities since we last met** | **Priorities until we meet again**
+--- | --- | ---
+[Participant Name] | [Priorities] | [Priorities]
 
-- [What the team loved about the recent period]
+---
 
-### Longed for
+## Important Topics
 
-- [What the team wished for or desired during the period]
+| Topic | Description | Results |
+|-------|-------------|---------|
+| 1     | [Detail]    | [Outcome]|
+| 2     | [Detail]    | [Outcome]|
+| 3     | [Detail]    | [Outcome]|
 
-### Loathed
+---
 
-- [What the team disliked or found challenging during the period]
+## Action Items
 
-### Learned
+- [ ] [Action item 1]
+- [ ] [Action item 2]
+- [ ] [Action item 3]
 
-- [Key learnings or insights gained during the period]
+---
 
-## Action Plan
-
-### Action Items
-
-| Action | Owner | Due Date |
-|--------|-------|----------|
-| [Action 1] | [Owner 1] | [Due Date 1] |
-| [Action 2] | [Owner 2] | [Due Date 2] |
-| [Action 3] | [Owner 3] | [Due Date 3] |
-| ...        | ...   | ...      |
-
-### Action Items
-
-- [List any additional action items or tasks identified during the meeting]
-
-## Next Steps
-
-- [Outline any next steps or follow-up actions to be taken after the retrospective]
-
-## Notes
-
-- [Any additional notes or comments from the meeting]
-
+1-on-1 meeting ✅ - [Add label]
