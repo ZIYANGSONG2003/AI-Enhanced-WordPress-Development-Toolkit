@@ -11,7 +11,7 @@ Identify and discuss team responsibilities by following the instructions for the
 
 ## Roles and Responsibilities
 
-| Roles             | Responsibilities (what others think)      | Responsibilities (what I think)    | Comments               |
+| Roles             | Responsibilities    | Descriptions   | Notes               |
 |-------------------|-------------------------------------------|------------------------------------|------------------------|
 | 🌐 ZIYANG SONG (Full Stack Developer & Project Manager) | - Full stack development <br> - Project management | - Lead development for both frontend and backend <br> - Oversee project progress and deliverables | Leads the team and manages project tasks. Also responsible for report documentation. |
 | 💻 Kunlun Zang (Frontend Developer) | - Frontend development | - Develop user interfaces and client-side features | Focuses on creating a seamless user experience. Also responsible for report documentation. |
