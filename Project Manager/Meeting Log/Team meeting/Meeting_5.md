@@ -1,59 +1,69 @@
-# Team Meeting Notes
+# Meeting Notes
+
+> Owned by ZIYANG SONG, created with a template.
+> Last updated: March 18, 2024, by Ziyang Song
+
+_This template is brought to you by Meetical, an online meeting management tool._
+
+---
 
 ## Meeting Details
-- **Date:** [Meeting Date]
-- **Time:** [Meeting Time]
-- **Location:** [Meeting Location or Virtual Platform Used]
-- **Attendees:** [List of Attendees]
 
-## Agenda
-1. **Introduction and Roll Call:** 
-   - Welcome everyone to the meeting and take attendance.
-   
-2. **Review of Previous Meeting Minutes:** 
-   - Discuss any pending action items from the previous meeting.
-   
-3. **Project Updates:**
-   - Provide updates on the progress of ongoing projects.
-   - Discuss any roadblocks or challenges encountered.
-   
-4. **New Business:**
-   - Present any new ideas, proposals, or issues requiring discussion.
-   
-5. **Action Items:**
-   - Assign tasks and responsibilities to team members.
-   - Set deadlines for completion.
-   
-6. **Upcoming Events or Deadlines:**
-   - Review any upcoming milestones, events, or deadlines.
-   
-7. **Announcements:**
-   - Share any important announcements or reminders.
+**Date:** March 18, 2024
 
-8. **Open Floor:**
-   - Allow team members to raise any additional topics or concerns.
+**Time:** [Enter time]
 
-## Discussion Highlights
+**Participants:** 
+- Ziyang Song
+- Kunlun Zang
+- Casey Zhao
+- Zubin Zubin
+- Austin Lee
+- Stephanie Sun
 
-### Project Updates
-- [Brief overview of project updates]
+**Location:** [Enter location]
 
-### New Business
-- [Description of new ideas, proposals, or issues discussed]
+**Meeting Type:** Documentation Review
 
-## Meeting Points and Action Items
+**Materials:** [List any materials required for the meeting]
 
-| Meeting Point                  | Action Item                                             | Owner        | Due Date      |
-|--------------------------------|---------------------------------------------------------|--------------|---------------|
-| [Meeting Point 1]              | [Action Item 1]                                        | [Owner 1]    | [Due Date 1]  |
-| [Meeting Point 2]              | [Action Item 2]                                        | [Owner 2]    | [Due Date 2]  |
-| [Meeting Point 3]              | [Action Item 3]                                        | [Owner 3]    | [Due Date 3]  |
-| ...                            | ...                                                     | ...          | ...           |
+---
 
-## Next Meeting
-- **Date:** [Next Meeting Date]
-- **Time:** [Next Meeting Time]
-- **Location:** [Next Meeting Location or Virtual Platform Used]
+### Introduction
+The meeting kicked off with a review of the technical documentation and user manuals created for the WordPress tool, focusing on completeness, accuracy, and clarity.
 
-## Notes
-- [Any additional notes or comments from the meeting]
+## Goals and Progress
+
+**Participants** | **Priorities since we last met** | **Priorities until we meet again**
+--- | --- | ---
+Ziyang Song | Review technical documentation and user manuals | Identify any gaps or inaccuracies and propose revisions
+Kunlun Zang | Gather feedback from team members on documentation | Consolidate feedback and implement necessary changes
+Casey Zhao | Verify accuracy of technical information in documentation | Ensure alignment with project specifications and requirements
+Zubin Zubin | Review user manuals from an end-user perspective | Provide insights on usability and clarity of instructions
+Austin Lee | Coordinate with technical writers on documentation revisions | Address any technical queries or clarifications required
+Stephanie Sun | Ensure documentation aligns with project timeline | Coordinate finalization and distribution of documentation to stakeholders
+
+---
+
+## Important Topics
+
+| Topic | Description | Results |
+|-------|-------------|---------|
+| Technical Documentation Review | Discussed completeness and accuracy of technical documentation. | Identified minor inaccuracies and suggested revisions for clarity. |
+| User Manual Assessment | Reviewed user manuals for comprehensibility and user-friendliness. | Noted areas for improvement in instructions and formatting to enhance usability. |
+| Documentation Finalization | Discussed timeline for finalizing and distributing documentation. | Agreed on a deadline for completing revisions and distributing finalized documentation to stakeholders. |
+
+---
+
+## Action Items
+
+- [ ] Ziyang Song: Propose revisions to technical documentation for clarity and accuracy.
+- [ ] Kunlun Zang: Implement feedback gathered from team members into documentation revisions.
+- [ ] Casey Zhao: Verify technical information in documentation and ensure alignment with project requirements.
+- [ ] Zubin Zubin: Provide insights on user manual usability and suggest improvements for clarity.
+- [ ] Austin Lee: Coordinate with technical writers on implementing documentation revisions and addressing queries.
+- [ ] Stephanie Sun: Ensure documentation finalization aligns with project timeline and coordinate distribution to stakeholders.
+
+---
+
+1-on-1 meeting ✅ - [Add label]
