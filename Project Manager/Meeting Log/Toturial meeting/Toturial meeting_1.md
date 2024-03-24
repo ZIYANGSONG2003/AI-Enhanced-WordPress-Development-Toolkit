@@ -1,59 +1,63 @@
-# Team Meeting Notes
+# Meeting Notes
+
+> Owned by ZIYANG SONG, created with a template.
+> Last updated: March 24, 2024, by Ziyang Song
+
+_This template is brought to you by Meetical, an online meeting management tool._
+
+---
 
 ## Meeting Details
-- **Date:** [Meeting Date]
-- **Time:** [Meeting Time]
-- **Location:** [Meeting Location or Virtual Platform Used]
-- **Attendees:** [List of Attendees]
 
-## Agenda
-1. **Introduction and Roll Call:** 
-   - Welcome everyone to the meeting and take attendance.
-   
-2. **Review of Previous Meeting Minutes:** 
-   - Discuss any pending action items from the previous meeting.
-   
-3. **Project Updates:**
-   - Provide updates on the progress of ongoing projects.
-   - Discuss any roadblocks or challenges encountered.
-   
-4. **New Business:**
-   - Present any new ideas, proposals, or issues requiring discussion.
-   
-5. **Action Items:**
-   - Assign tasks and responsibilities to team members.
-   - Set deadlines for completion.
-   
-6. **Upcoming Events or Deadlines:**
-   - Review any upcoming milestones, events, or deadlines.
-   
-7. **Announcements:**
-   - Share any important announcements or reminders.
+**Date:** March 24, 2024
 
-8. **Open Floor:**
-   - Allow team members to raise any additional topics or concerns.
+**Time:** 2:00 PM - 3:30 PM
 
-## Discussion Highlights
+**Participants:** 
+- Ziyang Song
+- Kunlun Zang
+- Casey Zhao
 
-### Project Updates
-- [Brief overview of project updates]
+**Location:** Virtual (Zoom)
 
-### New Business
-- [Description of new ideas, proposals, or issues discussed]
+**Meeting Type:** Tutorial Meeting
 
-## Meeting Points and Action Items
+**Materials:** 
+- Presentation slides
+- Tutorial documentation
+- Demo application
 
-| Meeting Point                  | Action Item                                             | Owner        | Due Date      |
-|--------------------------------|---------------------------------------------------------|--------------|---------------|
-| [Meeting Point 1]              | [Action Item 1]                                        | [Owner 1]    | [Due Date 1]  |
-| [Meeting Point 2]              | [Action Item 2]                                        | [Owner 2]    | [Due Date 2]  |
-| [Meeting Point 3]              | [Action Item 3]                                        | [Owner 3]    | [Due Date 3]  |
-| ...                            | ...                                                     | ...          | ...           |
+---
 
-## Next Meeting
-- **Date:** [Next Meeting Date]
-- **Time:** [Next Meeting Time]
-- **Location:** [Next Meeting Location or Virtual Platform Used]
+### Introduction
+The meeting began with a brief welcome and introduction to the agenda. Participants were encouraged to ask questions throughout the session.
 
-## Notes
-- [Any additional notes or comments from the meeting]
+## Goals and Progress
+
+**Participants** | **Priorities since we last met** | **Priorities until we meet again**
+--- | --- | ---
+Ziyang Song | Prepare and deliver tutorial content | Gather feedback and make necessary adjustments
+Kunlun Zang | Assist in presenting tutorial materials | Provide technical support to participants
+Casey Zhao | Facilitate discussion and address participant queries | Compile feedback and assist in refining tutorial content
+
+---
+
+## Important Topics
+
+| Topic | Description | Results |
+|-------|-------------|---------|
+| Introduction to React | Overview of React library and its key features | Participants gained a basic understanding of React fundamentals |
+| Building a Simple React App | Step-by-step guide to creating a basic React application | Participants successfully built and ran a simple React application |
+| Deploying React App | Discussion on different deployment options for React applications | Participants learned about various deployment strategies and best practices |
+
+---
+
+## Action Items
+
+- [ ] Ziyang Song: Incorporate participant feedback into tutorial materials.
+- [ ] Kunlun Zang: Update documentation with additional examples and clarifications.
+- [ ] Casey Zhao: Schedule follow-up sessions for advanced topics based on participant interest.
+
+---
+
+1-on-1 meeting ✅ - [Add label]

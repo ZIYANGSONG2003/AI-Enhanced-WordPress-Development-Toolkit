@@ -1,59 +1,63 @@
-# Team Meeting Notes
+# Meeting Notes
+
+> Owned by ZIYANG SONG, created with a template.
+> Last updated: March 31, 2024, by Ziyang Song
+
+_This template is brought to you by Meetical, an online meeting management tool._
+
+---
 
 ## Meeting Details
-- **Date:** [Meeting Date]
-- **Time:** [Meeting Time]
-- **Location:** [Meeting Location or Virtual Platform Used]
-- **Attendees:** [List of Attendees]
 
-## Agenda
-1. **Introduction and Roll Call:** 
-   - Welcome everyone to the meeting and take attendance.
-   
-2. **Review of Previous Meeting Minutes:** 
-   - Discuss any pending action items from the previous meeting.
-   
-3. **Project Updates:**
-   - Provide updates on the progress of ongoing projects.
-   - Discuss any roadblocks or challenges encountered.
-   
-4. **New Business:**
-   - Present any new ideas, proposals, or issues requiring discussion.
-   
-5. **Action Items:**
-   - Assign tasks and responsibilities to team members.
-   - Set deadlines for completion.
-   
-6. **Upcoming Events or Deadlines:**
-   - Review any upcoming milestones, events, or deadlines.
-   
-7. **Announcements:**
-   - Share any important announcements or reminders.
+**Date:** March 31, 2024
 
-8. **Open Floor:**
-   - Allow team members to raise any additional topics or concerns.
+**Time:** 3:00 PM - 4:30 PM
 
-## Discussion Highlights
+**Participants:** 
+- Ziyang Song
+- Kunlun Zang
+- Casey Zhao
 
-### Project Updates
-- [Brief overview of project updates]
+**Location:** Virtual (Zoom)
 
-### New Business
-- [Description of new ideas, proposals, or issues discussed]
+**Meeting Type:** Tutorial Meeting
 
-## Meeting Points and Action Items
+**Materials:** 
+- Presentation slides
+- Tutorial documentation
+- Demo application
 
-| Meeting Point                  | Action Item                                             | Owner        | Due Date      |
-|--------------------------------|---------------------------------------------------------|--------------|---------------|
-| [Meeting Point 1]              | [Action Item 1]                                        | [Owner 1]    | [Due Date 1]  |
-| [Meeting Point 2]              | [Action Item 2]                                        | [Owner 2]    | [Due Date 2]  |
-| [Meeting Point 3]              | [Action Item 3]                                        | [Owner 3]    | [Due Date 3]  |
-| ...                            | ...                                                     | ...          | ...           |
+---
 
-## Next Meeting
-- **Date:** [Next Meeting Date]
-- **Time:** [Next Meeting Time]
-- **Location:** [Next Meeting Location or Virtual Platform Used]
+### Introduction
+The meeting kicked off with a quick recap of the previous tutorial sessions and an outline of the agenda for the day.
 
-## Notes
-- [Any additional notes or comments from the meeting]
+## Goals and Progress
+
+**Participants** | **Priorities since we last met** | **Priorities until we meet again**
+--- | --- | ---
+Ziyang Song | Dive deeper into advanced React concepts such as context API and custom hooks | Gather feedback on session delivery and content comprehension
+Kunlun Zang | Assist in illustrating complex concepts with practical examples | Offer guidance on troubleshooting and debugging techniques
+Casey Zhao | Facilitate interactive discussions and encourage participation | Solicit feedback on session effectiveness and areas for improvement
+
+---
+
+## Important Topics
+
+| Topic | Description | Results |
+|-------|-------------|---------|
+| Context API in React | Explored the use of Context API for managing global state in React applications | Participants gained understanding of centralized state management in complex React projects |
+| Custom Hooks | Discussed the concept of custom hooks and demonstrated how to create and use them | Participants learned how to abstract and reuse logic across components using custom hooks |
+| Error Handling in React | Covered various error handling techniques in React, including error boundaries and error handling libraries | Participants understood how to gracefully handle errors in React applications to improve user experience |
+
+---
+
+## Action Items
+
+- [ ] Ziyang Song: Update tutorial materials with additional explanations and examples for clarity.
+- [ ] Kunlun Zang: Prepare supplementary resources on advanced topics for interested participants.
+- [ ] Casey Zhao: Schedule a follow-up session to address any unresolved questions or topics.
+
+---
+
+1-on-1 meeting ✅ - [Add label]

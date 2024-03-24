@@ -1,59 +1,63 @@
-# Team Meeting Notes
+# Meeting Notes
+
+> Owned by ZIYANG SONG, created with a template.
+> Last updated: March 28, 2024, by Ziyang Song
+
+_This template is brought to you by Meetical, an online meeting management tool._
+
+---
 
 ## Meeting Details
-- **Date:** [Meeting Date]
-- **Time:** [Meeting Time]
-- **Location:** [Meeting Location or Virtual Platform Used]
-- **Attendees:** [List of Attendees]
 
-## Agenda
-1. **Introduction and Roll Call:** 
-   - Welcome everyone to the meeting and take attendance.
-   
-2. **Review of Previous Meeting Minutes:** 
-   - Discuss any pending action items from the previous meeting.
-   
-3. **Project Updates:**
-   - Provide updates on the progress of ongoing projects.
-   - Discuss any roadblocks or challenges encountered.
-   
-4. **New Business:**
-   - Present any new ideas, proposals, or issues requiring discussion.
-   
-5. **Action Items:**
-   - Assign tasks and responsibilities to team members.
-   - Set deadlines for completion.
-   
-6. **Upcoming Events or Deadlines:**
-   - Review any upcoming milestones, events, or deadlines.
-   
-7. **Announcements:**
-   - Share any important announcements or reminders.
+**Date:** March 28, 2024
 
-8. **Open Floor:**
-   - Allow team members to raise any additional topics or concerns.
+**Time:** 10:00 AM - 11:30 AM
 
-## Discussion Highlights
+**Participants:** 
+- Ziyang Song
+- Kunlun Zang
+- Casey Zhao
 
-### Project Updates
-- [Brief overview of project updates]
+**Location:** Virtual (Zoom)
 
-### New Business
-- [Description of new ideas, proposals, or issues discussed]
+**Meeting Type:** Tutorial Meeting
 
-## Meeting Points and Action Items
+**Materials:** 
+- Presentation slides
+- Tutorial documentation
+- Demo application
 
-| Meeting Point                  | Action Item                                             | Owner        | Due Date      |
-|--------------------------------|---------------------------------------------------------|--------------|---------------|
-| [Meeting Point 1]              | [Action Item 1]                                        | [Owner 1]    | [Due Date 1]  |
-| [Meeting Point 2]              | [Action Item 2]                                        | [Owner 2]    | [Due Date 2]  |
-| [Meeting Point 3]              | [Action Item 3]                                        | [Owner 3]    | [Due Date 3]  |
-| ...                            | ...                                                     | ...          | ...           |
+---
 
-## Next Meeting
-- **Date:** [Next Meeting Date]
-- **Time:** [Next Meeting Time]
-- **Location:** [Next Meeting Location or Virtual Platform Used]
+### Introduction
+The meeting commenced with a review of the previous tutorial session and an overview of the agenda for the day.
 
-## Notes
-- [Any additional notes or comments from the meeting]
+## Goals and Progress
+
+**Participants** | **Priorities since we last met** | **Priorities until we meet again**
+--- | --- | ---
+Ziyang Song | Present advanced React concepts and techniques | Gather feedback on session content and delivery
+Kunlun Zang | Assist in demonstrating code examples and troubleshooting | Provide additional resources for further learning
+Casey Zhao | Facilitate interactive discussions and address participant questions | Collect feedback on session effectiveness and areas for improvement
+
+---
+
+## Important Topics
+
+| Topic | Description | Results |
+|-------|-------------|---------|
+| State Management in React | Explained various state management techniques in React, including useState and useContext hooks | Participants gained insights into managing component state effectively |
+| React Router | Covered basics of React Router and how to implement routing in React applications | Participants learned how to navigate between different pages in a React app using React Router |
+| Component Lifecycle Methods | Discussed different lifecycle methods in React and their use cases | Participants understood how to leverage lifecycle methods for managing component behavior |
+
+---
+
+## Action Items
+
+- [ ] Ziyang Song: Update tutorial materials with any clarifications or additional examples.
+- [ ] Kunlun Zang: Create supplementary materials or tutorials for advanced topics discussed.
+- [ ] Casey Zhao: Organize a Q&A session to address any lingering questions or concerns from participants.
+
+---
+
+1-on-1 meeting ✅ - [Add label]
