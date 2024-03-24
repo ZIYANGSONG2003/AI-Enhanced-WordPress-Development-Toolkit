@@ -1,67 +1,65 @@
-# Meeting Notes - 4Ls Retrospective
+# Meeting Notes
 
-## Overview
+> Owned by ZIYANG SONG, created with a template.
+> Last updated: March 15, 2024, by Ziyang Song
 
-Reflecting on what we've learned and what motivates our team to succeed by following the instructions for the 4Ls Retrospective Play.
+_This template is brought to you by Meetical, an online meeting management tool._
 
-### Team
+---
 
-- **Team:** [Team Name or Project Name]
+## Meeting Details
 
-### Team Members
+**Date:** March 15, 2024
 
-- [List of Team Members]
+**Time:** [Enter time]
 
-### Date
+**Participants:** 
+- Ziyang Song
+- Kunlun Zang
+- Casey Zhao
+- Zubin Zubin
+- Austin Lee
+- Stephanie Sun
 
-- [Meeting Date]
+**Location:** [Enter location]
 
-### Retrospective Period
+**Meeting Type:** Integration Testing Discussion
 
-- [Start Date] to [End Date]
+**Materials:** [List any materials required for the meeting]
 
-## 4Ls Retrospective
+---
 
-### Milestones
+### Introduction
+The meeting commenced with a discussion on the progress of integration testing for the AI components in the WordPress environment and addressing any issues encountered during testing.
 
-- [List of significant milestones achieved during the retrospective period]
+## Goals and Progress
 
-### Loved
+**Participants** | **Priorities since we last met** | **Priorities until we meet again**
+--- | --- | ---
+Ziyang Song | Oversee integration testing progress | Identify any bottlenecks in the testing process
+Kunlun Zang | Execute integration tests on NLP models | Report findings and suggest improvements for seamless integration
+Casey Zhao | Conduct preliminary testing on recommendation algorithms | Ensure functionality aligns with user requirements
+Zubin Zubin | Monitor system performance during integration tests | Optimize system resources for efficient AI component integration
+Austin Lee | Coordinate with development team on bug fixes | Address any issues identified during integration testing
+Stephanie Sun | Update project timeline based on testing progress | Communicate any delays or changes to stakeholders
 
-- [What the team loved about the recent period]
+---
 
-### Longed for
+## Important Topics
 
-- [What the team wished for or desired during the period]
+| Topic | Description | Results |
+|-------|-------------|---------|
+| Integration Testing Progress | Reviewed progress on integration testing of AI components. | Noted successful integration of NLP models but encountered challenges with recommendation algorithm integration. |
+| Bug Fixes and Optimization | Discussed strategies for addressing bugs and optimizing system performance. | Agreed to prioritize critical bug fixes and allocate resources for optimization tasks. |
+| Timeline Adjustment | Reviewed project timeline in light of integration testing delays. | Updated timeline to reflect revised testing and development milestones. |
 
-### Loathed
+---
 
-- [What the team disliked or found challenging during the period]
+## Action Items
 
-### Learned
-
-- [Key learnings or insights gained during the period]
-
-## Action Plan
-
-### Action Items
-
-| Action | Owner | Due Date |
-|--------|-------|----------|
-| [Action 1] | [Owner 1] | [Due Date 1] |
-| [Action 2] | [Owner 2] | [Due Date 2] |
-| [Action 3] | [Owner 3] | [Due Date 3] |
-| ...        | ...   | ...      |
-
-### Action Items
-
-- [List any additional action items or tasks identified during the meeting]
-
-## Next Steps
-
-- [Outline any next steps or follow-up actions to be taken after the retrospective]
-
-## Notes
-
-- [Any additional notes or comments from the meeting]
-
+- [ ] Ziyang Song: Review integration testing progress and identify any bottlenecks.
+- [ ] Kunlun Zang: Report findings from NLP model integration tests and propose improvements.
+- [ ] Casey Zhao: Ensure functionality of recommendation algorithms aligns with user requirements and suggest enhancements.
+- [ ] Zubin Zubin: Optimize system resources for efficient AI component integration and monitor performance during testing.
+- [ ] Austin Lee: Coordinate with development team on bug fixes identified during integration testing.
+- [ ] Stephanie Sun

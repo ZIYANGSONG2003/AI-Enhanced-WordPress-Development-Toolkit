@@ -1,67 +1,68 @@
-# Meeting Notes - 4Ls Retrospective
+# Meeting Notes
 
-## Overview
+> Owned by ZIYANG SONG, created with a template.
+> Last updated: March 2, 2024, by Ziyang Song
 
-Reflecting on what we've learned and what motivates our team to succeed by following the instructions for the 4Ls Retrospective Play.
+_This template is brought to you by Meetical, an online meeting management tool._
 
-### Team
+---
 
-- **Team:** [Team Name or Project Name]
+## Meeting Details
 
-### Team Members
+**Date:** March 2, 2024
 
-- [List of Team Members]
+**Time:** [Enter time]
 
-### Date
+**Participants:** 
+- Ziyang Song
+- Kunlun Zang
+- Casey Zhao
+- Zubin Zubin
+- Austin Lee
+- Stephanie Sun
 
-- [Meeting Date]
+**Location:** [Enter location]
 
-### Retrospective Period
+**Meeting Type:** Backend Technology Discussion
 
-- [Start Date] to [End Date]
+**Materials:** [List any materials required for the meeting]
 
-## 4Ls Retrospective
+---
 
-### Milestones
+### Introduction
+The meeting commenced with a recap of the previous discussion and a brief overview of the agenda for the current meeting.
 
-- [List of significant milestones achieved during the retrospective period]
+## Goals and Progress
 
-### Loved
+**Participants** | **Priorities since we last met** | **Priorities until we meet again**
+--- | --- | ---
+Ziyang Song | Finalize decision on backend technology stack | Initiate discussions on deployment strategies
+Kunlun Zang | Present findings on backend technologies researched | Collaborate with Casey Zhao on AWS integration
+Casey Zhao | Deliver presentation on AWS services for backend infrastructure | Coordinate with Kunlun Zang to finalize backend server selection
+Zubin Zubin | Share insights from deployment tool experiments | Explore options for database management systems
+Austin Lee | Draft proposal for AI integration with WordPress | Investigate AI model training platforms
+Stephanie Sun | Adjust project timeline based on updated milestones | Conduct risk assessment for potential backend technology choices
 
-- [What the team loved about the recent period]
+---
 
-### Longed for
+## Important Topics
 
-- [What the team wished for or desired during the period]
+| Topic | Description | Results |
+|-------|-------------|---------|
+| Backend Technology Stack | Discussed the suitability of Node.js for backend processing. | Unanimously agreed to proceed with Node.js due to its non-blocking I/O model and scalability. |
+| AWS Integration | Explored AWS services for backend infrastructure. | Identified key services such as EC2, S3, and RDS for consideration in the project architecture. |
+| Database Management | Investigated options for database systems compatible with Node.js. | Narrowed down choices to MongoDB and PostgreSQL for further evaluation. |
 
-### Loathed
+---
 
-- [What the team disliked or found challenging during the period]
+## Action Items
 
-### Learned
+- [ ] Ziyang Song: Finalize decision on backend technology stack and communicate it to the team.
+- [ ] Kunlun Zang and Casey Zhao: Collaborate on integrating AWS services into the project architecture.
+- [ ] Zubin Zubin: Research MongoDB and PostgreSQL to determine the best fit for the project requirements.
+- [ ] Austin Lee: Continue refining the proposal for AI integration with WordPress.
+- [ ] Stephanie Sun: Update the project timeline based on the agreed backend technology stack.
 
-- [Key learnings or insights gained during the period]
+---
 
-## Action Plan
-
-### Action Items
-
-| Action | Owner | Due Date |
-|--------|-------|----------|
-| [Action 1] | [Owner 1] | [Due Date 1] |
-| [Action 2] | [Owner 2] | [Due Date 2] |
-| [Action 3] | [Owner 3] | [Due Date 3] |
-| ...        | ...   | ...      |
-
-### Action Items
-
-- [List any additional action items or tasks identified during the meeting]
-
-## Next Steps
-
-- [Outline any next steps or follow-up actions to be taken after the retrospective]
-
-## Notes
-
-- [Any additional notes or comments from the meeting]
-
+1-on-1 meeting ✅ - [Add label]
