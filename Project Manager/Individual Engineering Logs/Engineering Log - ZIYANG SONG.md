@@ -1,51 +1,54 @@
-## Engineer Log Entry - ZIYANG SONG
+# Engineering Log - ZIYANG SONG
 
-### Date/Time: 2024-03-26
+## Contributions Update
 
-#### Current Work Epic
+### Tasks Completed:
 
-- **Design and Implement Dynamic Messaging Component in React Application**
+**G1.1 Initiate the Project Repo/Onboarding - 2451 #3**
+- Successfully set up the project repository and onboarded new team members, ensuring everyone was familiar with our workflow and tools.
 
-#### Objective
+**B1.5 Error handling and message validation #10**
+- Implemented robust error handling mechanisms for our messaging feature and validated input to prevent potential security issues.
 
-- To create a highly interactive and responsive message component that dynamically renders based on user actions and message content.
+**F1.5 Message sending function #16**
+- Developed the core functionality for sending messages within our application, focusing on efficiency and user experience.
 
-#### To-Do List
-- [x] Finalize the UI/UX design for dynamic messages, incorporating feedback from the design team.
-- [x] Develop the component logic using React, enabling conditional rendering and interaction.
-- [x] Implement context-based rendering to support text, images, and interactive elements within messages.
-- [x] Write comprehensive unit and integration tests for the dynamic message component.
-- [x] Conduct peer reviews and iterate on the code based on team feedback.
+**R1.6 Front-end framework comparison #25**
+- Conducted a comprehensive comparison of front-end frameworks, ultimately contributing to the decision to use React for our project due to its component-based architecture and vibrant ecosystem.
 
-#### Achievements
-- Completed a design workshop with the UX team to outline the functionality and responsiveness of the message component.
-- Researched the latest React features that could benefit our dynamic component, such as Suspense and Concurrent Mode.
+**B1.3 Develop text upload API #9**
+- Created an API for text file uploads, optimizing for different file types and sizes, and integrated it with our front-end.
 
-#### Challenges
-- Addressing the variable data load times and their impact on message rendering without compromising the user experience.
-- Ensuring compatibility with various browsers and devices, given the diversity of our user base.
+**F1.7 Plug-in list capture and display #23**
+- Engineered a solution to capture and display a list of plug-ins, enhancing the customizability of our application.
 
-#### Technical Step-Throughs
-- Set up a prototype using React's functional components and hooks to manage the component's state and lifecycle.
-- Implemented a message parsing service that sanitizes and structures incoming message data for secure rendering.
-- Integrated the prototype with our existing chat application to test real-time data handling and rendering.
+### Ongoing Tasks:
 
-#### Personal Notes/Workings from Meetings
-- Team consensus to adopt a mobile-first design approach, ensuring our dynamic messages are touch-friendly and scalable across devices.
-- Collaboration with the backend team agreed upon a schema for the message payload to streamline data handling.
+**G1.3 Project Documentation update (Audit 2) #67**
+- Currently updating and auditing project documentation to ensure accuracy and completeness.
 
-#### Log Entry Details
-- The log will be updated bi-weekly to track progress and address any emerging challenges.
-- Upcoming focus: optimizing the render cycle for complex messages to minimize re-renders and improve performance.
+**R2.3 Market positioning #40**
+- Analyzing market trends and positioning our product to better meet customer needs and stand out in the competitive landscape.
 
-#### Additional Notes
-- Engaging with the DevOps team to set up a feature flagging system for controlled rollout and testing.
-- Preparing a workshop to familiarize the QA team with the component's features and potential edge cases.
+**R1.4 User experience research #7**
+- Engaging with users to gather feedback on our UI/UX, aiming to refine and improve their interactions with our platform.
 
-#### Documentation
-- Developing a documentation suite, including design rationale, code comments, setup guide, and usage examples.
-- Planning to create an interactive demo in our design system's pattern library for hands-on experience with the component.
+### Upcoming Tasks:
 
-#### Venting/Reflection (Private)
-- Navigating the complexity of this component is both challenging and rewarding. It's a test of my ability to manage both technical depth and the nuances of user experience design.
-- Considering setting up a lunch-and-learn session to share the knowledge gained on dynamic rendering with React.
+**T1.1 Implement testing for database #68**
+- Preparing to design and execute a comprehensive testing suite for our database to ensure data integrity and performance.
+
+## Reflections:
+
+- The completion of the message sending function (#F1.5) was particularly challenging due to the real-time aspects of data handling and UI responsiveness. I learned a great deal about asynchronous programming and state management in React.
+- Through the front-end framework comparison (#R1.6), I gained insights into the pros and cons of various frameworks, which will be beneficial for future project decisions.
+
+## Learnings:
+
+- The importance of thorough testing was highlighted during the development of the text upload API (#B1.3), where edge cases had to be considered to ensure reliability.
+- Collaboration and communication were key in the error handling and validation task (#B1.5), requiring cross-team efforts with the back-end team to establish consistent error codes and responses.
+
+## Future Goals:
+
+- For the upcoming database testing task (#T1.1), I aim to focus on learning more about automated testing frameworks and incorporating them into our CI/CD pipeline.
+- I intend to take a more proactive role in mentoring new team members, sharing the knowledge and best practices I've accumulated throughout my time on the project.
