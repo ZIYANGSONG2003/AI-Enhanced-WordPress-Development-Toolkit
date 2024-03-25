@@ -14,3 +14,8 @@ This week's focus was on improving the UI/UX of our application to enhance the u
 ### Learnings : Error hadnling and and how to document prevention of injection attacks was of utomost importance.
 ### Learnings : JSON has been a primitive feature that enhances additional security measures.
 ### Learnings : The HTTP protocol has been reviewed for POST request standards as acceptable. 
+### Contributions : Enhancing the readability of the code by adding detailed comments through thorough research.
+### Contributions : Taking the opportunity to update the risk log(s) with my team mates. 
+### Contributions : Checking with the updates with the team processess in the entire operation. 
+### Contributions : A complete and accuarate analysis of the issue log used in the function(s).
+### Contributions : Preparing an elevated pitch introducing an application for the project. 
