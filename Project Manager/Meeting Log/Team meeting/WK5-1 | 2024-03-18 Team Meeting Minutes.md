@@ -2,7 +2,7 @@
 
 ## Meeting Details
 - **Date:** 18/03/2024
-- **Time:** 15:30 - 17:00
+- **Time:** 15:30 - 16:30 
 - **Location:** In-persion (ANU Hive) & Remote (Zoom)
 - **Attendees:** Ziyang Song [Lead/Scribe], Austin Lee, Casey Zhao, Zubin Zubin, Kunlun Zhang 
 
