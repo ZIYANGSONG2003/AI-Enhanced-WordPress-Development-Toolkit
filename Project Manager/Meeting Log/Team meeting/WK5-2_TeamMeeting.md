@@ -56,5 +56,5 @@
 -  Allocate tasks related to the five elements (output, reflection, stakeholder engagement, decision making, teamwork) and consult with Elena to ensure alignment with project objectives. Document inquiries related to the decision log and reflection log for further discussion.
 
 ## Decisions 
-- Each member should complete a draft of their slides. After consultation with Elena, they should begin working on these slides. At next Monday's meeting (25/03/2024), we will collectively review the slides and make any necessary adjustments for Audit 2.
-- @Stephanie will compile all inquiries and confirm with Elena regarding Audit 2 preparations.
+- [ ] ZEach member should complete a draft of their slides. After consultation with Elena, they should begin working on these slides. At next Monday's meeting (25/03/2024), we will collectively review the slides and make any necessary adjustments for Audit 2.
+- [ ] Z@Stephanie will compile all inquiries and confirm with Elena regarding Audit 2 preparations.
