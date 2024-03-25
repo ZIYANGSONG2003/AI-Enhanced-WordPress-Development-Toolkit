@@ -1,25 +1,26 @@
-# Wk4-2 | 2024-03-12 Team Meeting Minutes
+# Wk4-2 | 2024-03-15 Team Meeting Minutes
 
 ## Meeting Details
-- **Date:** 12/03/2024
+- **Date:** 15/03/2024
 - **Time:** 20:00 - 20:30
 - **Location:** Remote
-- **Attendees:** Stephanie Sun [Lead/Scribe], Austin Lee, Casey Zhao
+- **Attendees:** Stephanie Sun [Lead/Scribe], Austin Lee, Casey Zhao, Kunlun Zang, Nicky Song, Zubin
 
 ## Agenda
 1. **Reanalysis of the feasibility of the backend** 
    
+   做UI发现bug，前端解释什么时候出现bug｜前端发现关于F2.2和2.5的bug
    The technical factors that need to be considered include:
    
    - Can the backend architecture support the functional requirements of the project?
    - Can the backend technology meet the performance requirements of the project?
    - Can the backend technology meet the security requirements of the project?
    
-2. **Discussion on the layout issues of SoW** 
+3. **Discussion on the layout issues of SoW** 
 
    - Need to revise the SoW so that its content matches the current progress.
 
-3. **Reassignment of backend tasks** 
+4. **Reassignment of backend tasks** 
 
    - Backend members decide whether more support is needed for the frontend.
 
