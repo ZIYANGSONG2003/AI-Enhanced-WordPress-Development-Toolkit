@@ -6,10 +6,10 @@
 - **Develop logic for handling POST requests, including data parsing and responses**
 
 ### To-Do List
-- [ ] Review the HTTP protocol for POST request standards
-- [ ] Draft initial logic flow for parsing POST request data
-- [ ] Implement POST data parsing mechanism
-- [ ] Create unit tests for data parsing logic
+- [x] Review the HTTP protocol for POST request standards
+- [x] Draft initial logic flow for parsing POST request data
+- [x] Implement POST data parsing mechanism
+- [x] Create unit tests for data parsing logic
 
 ### Learnings/Workings
 - Realized the importance of robust error handling in data parsing to prevent injection attacks
