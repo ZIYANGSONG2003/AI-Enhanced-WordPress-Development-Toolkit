@@ -22,11 +22,8 @@
 | 12:15 - 12:20          | Update on the current state of the project		                       | Ziyang  |  |
 | 12:20 - 12:35          | Confirm the inclusion of the decision log	       |  Ziyang | Use the matrix provided to fill in more decisions |
 | 12:35 - 12:50          | Discuss the requirements of reflection log         |  Ziyang | more reflective of collective insights rather than individual perspectives, with suggestions for structuring the log to encourage more in-depth analysis and shared reflections on overcoming project hurdles.
-|
-| 12:50 - 12:55          | Discuss additional documentation required for teamwork	      |  Ziyang |  |
+| 12:50 - 12:55          | Discuss additional documentation required for teamwork	      |  Ziyang |  
 | 12:55 - 13:10          | Discuss the ticketing system and its management	    |  Ziyang |  |
-
-
 
 ## Action items 
 
@@ -41,5 +38,5 @@
 
 
 ## Decisions 
-- Update documentation based on the feedback matrix provided and follow the instructions given to showcase relevant work effectively.
-- Prepare inquiries regarding Audit 2 for the next tutorial, focusing on areas needing clarification or where specific guidance is needed to improve the project's outcome.
+- [x] Update documentation based on the feedback matrix provided and follow the instructions given to showcase relevant work effectively.
+- [x] Prepare inquiries regarding Audit 2 for the next tutorial, focusing on areas needing clarification or where specific guidance is needed to improve the project's outcome.
