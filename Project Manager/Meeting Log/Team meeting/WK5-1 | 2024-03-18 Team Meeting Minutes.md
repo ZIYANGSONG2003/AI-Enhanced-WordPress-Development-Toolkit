@@ -33,7 +33,7 @@
 - @Zubin is tasked with creating comprehensive documentation for the front-end UI interface, detailing the functions and their purposes for better team understanding.
 - @Kunlun and @Zubin will hold a brief meeting to discuss which new user requirements are feasible for implementation.
 - @Stephanie and @Austin will continue researching alternatives for connecting the front-end with the back-end, sharing any updates in the group chat.
-- Casey is responsible for updating the decision log and reflection log to meet the project criteria.
+- @Casey is responsible for updating the decision log and reflection log to meet the project criteria.
 - @Ziyang will review the updates to the decision log and reflection log after Casey completes them to ensure compliance with project standards.
 - @Ziyang will also conduct a peer review of the latest front-end coding to evaluate the quality and provide comments if necessary.
 - All team member will require to update the individual engineer log to record their daily tasks.
