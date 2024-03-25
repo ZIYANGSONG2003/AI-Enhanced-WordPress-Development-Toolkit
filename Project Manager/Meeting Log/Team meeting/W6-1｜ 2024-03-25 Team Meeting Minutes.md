@@ -35,6 +35,6 @@
 - @Casey to take screenshots of GitHub discussions to showcase chat history and team discussions for the teamwork section. Also, capture screenshots of Role Documentation to provide evidence of team roles and responsibilities.
 
 ## Decisions 
+- [ ] Each member should prepare a draft speech for Audit 2.
+- [ ] Each member must finalize their section of the slides before 11am on 26/03/2024.
 
-- Each member should prepare a draft speech for Audit 2.
-- Each member must finalize their section of the slides before 11am on 26/03/2024.
