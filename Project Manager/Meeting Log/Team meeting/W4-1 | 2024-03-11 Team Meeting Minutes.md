@@ -29,20 +29,6 @@
 
 
 ## Action items 
-- @Stephanie requires to complete the competitor analys, including:
-   - Difference between Google site and AI-enhanced wordpress 
-   - User scenario of choosing AI-enhanced 
-- With vue, react, python, @Nicky would need to approach these three options and finalise for the front-end team to use 
-- Allocate all the requirements from member and user-stoy, and front-end team would have a discussion about the feasilability of each feature 
-- Which
-
-
-- Back-end team would require to finish the rest implementation of basic infrastructure 
-    - POST request methodology to handle the data parsing 
-    - Integrate AWS server to ensure its properly connected to both front-end and back-end 
-    - Upload text utilise API 
-
- 
 - @Stephanie is tasked with completing the competitor analysis, which includes:
    - Highlighting differences between Google Site and AI-enhanced WordPress.
    - Outlining user scenarios that demonstrate the advantages of choosing AI-enhanced options.
