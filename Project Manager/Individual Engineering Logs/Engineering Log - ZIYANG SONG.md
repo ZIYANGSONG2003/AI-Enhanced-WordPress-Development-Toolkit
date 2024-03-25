@@ -11,11 +11,11 @@
 - To create a highly interactive and responsive message component that dynamically renders based on user actions and message content.
 
 #### To-Do List
-- [ ] Finalize the UI/UX design for dynamic messages, incorporating feedback from the design team.
-- [ ] Develop the component logic using React, enabling conditional rendering and interaction.
-- [ ] Implement context-based rendering to support text, images, and interactive elements within messages.
-- [ ] Write comprehensive unit and integration tests for the dynamic message component.
-- [ ] Conduct peer reviews and iterate on the code based on team feedback.
+- [x] Finalize the UI/UX design for dynamic messages, incorporating feedback from the design team.
+- [x] Develop the component logic using React, enabling conditional rendering and interaction.
+- [x] Implement context-based rendering to support text, images, and interactive elements within messages.
+- [x] Write comprehensive unit and integration tests for the dynamic message component.
+- [x] Conduct peer reviews and iterate on the code based on team feedback.
 
 #### Achievements
 - Completed a design workshop with the UX team to outline the functionality and responsiveness of the message component.
