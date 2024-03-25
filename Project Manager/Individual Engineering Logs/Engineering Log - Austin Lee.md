@@ -184,3 +184,55 @@ This log entry focuses on the research, implementation, and testing of CORS conf
 **Venting/Reflection (Private)**
 
 Pleased to have successfully implemented CORS configuration, resolving cross-domain communication issues and enhancing the security of our web applications. The experience gained will be valuable for future projects involving cross-domain interactions.
+
+---
+
+## Engineer Log Entry 5 -- B 1.8
+
+## Date/Time: 2024-03-23
+
+**Current Work Epic**
+
+**AWS Server Configuration for Flask Application**
+
+**To-Do List**
+
+- [x] Review AWS server settings for compatibility with Flask application
+- [x] Configure security groups and network access for the Flask backend
+- [x] Deploy the Flask frontend to Amazon S3 and configurecloudfront for static assets
+
+**Learnings/Workings**
+
+- Gained a deeper understanding of AWS server configuration and security best practices
+- Successfully configured security groups and network rules for the Flask backend
+- Deployed the Flask frontend to Amazon S3 and configured CloudFront for optimized content delivery
+
+**Technical Step-Throughs**
+
+1. Reviewed AWS server configuration documentation and best practices for Flask applications
+2. Configured security groups to allow inbound traffic on specific ports for the Flask backend
+3. Deployed the Flask frontend to Amazon S3 and configured CloudFront for caching and global content delivery
+
+**Personal Notes/Workings from Meetings**
+
+- Discussed with the team the security considerations for deploying Flask applications on AWS
+- Collaborated with DevOps engineers to optimize AWS server configuration for performance
+
+**Log Entry Details**
+
+This log entry focuses on configuring the AWS server to ensure proper connectivity and security for the Flask backend and frontend applications.
+
+**Interesting finding:** Utilizing CloudFront with Amazon S3 significantly improved the loading speed and global availability of the Flask frontend.
+
+**Additional Notes**
+
+- Prioritizing the implementation of additional security measures, such as HTTPS and authentication, for the Flask application.
+- Documenting AWS server configuration and deployment procedures for the development team.
+
+**Documentation**
+
+- Updated project documentation with detailed information on AWS server configuration for Flask applications, including security considerations and deployment steps.
+
+**Venting/Reflection (Private)**
+
+Satisfied with the successful configuration of the AWS server for the Flask application. The experience gained will be valuable for future projects involving AWS and Flask deployments.
