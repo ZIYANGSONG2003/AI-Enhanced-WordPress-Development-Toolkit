@@ -107,7 +107,7 @@ function MultiLineTextInput() {
                         <p>{serverResponse}</p>
                     </div>
                 )}
-                <p className="disclaimer">Tip: This AI can make mistakes. Consider checking important information.</p>
+                <p className="disclaimer"></p>
             </div>
         </div>
     );
