@@ -82,3 +82,8 @@ This log entry is reflective of the initial phase of AWS integration, focusing o
 **Venting/Reflection (Private)**  
 Encountered initial challenges with AWS IAM roles and permissions. Dedicated time to understanding IAM policies better to ensure secure and effective access management. The complexity of AWS services is high, but recognizing their power to transform our tool's scalability and performance is motivating.
 
+---
+
+# Engineer Log Entry 3 -- 
+
+## Date/Time: 2024-03-11
