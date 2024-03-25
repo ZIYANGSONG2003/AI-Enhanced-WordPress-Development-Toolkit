@@ -81,4 +81,3 @@ Successful integration of AI capabilities within the WordPress platform, a user-
 
 ---
 
-*For further details or clarifications on this Statement of Work, please contact [Contact Information].*
