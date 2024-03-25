@@ -1,4 +1,4 @@
-# Team Meeting Notes
+# Wk4-1 | 2024-03-11 Team Meeting Minutes
 
 ## Meeting Details
 - **Date:** 11/03/2024
@@ -54,5 +54,6 @@
    - Developing an API for uploading text and handling server responses
 
 ## Decisions 
-- The front-end team must implement the basic features of the User Interface before the next general meeting on 18/03/2024.
-- The back-end team needs to complete the implementation of the infrastructure before the tutorial session on 15/03/2024, focusing on API integration, server setup, and data handling protocols.
+- [x] The front-end team must implement the basic features of the User Interface before the next general meeting on 18/03/2024.
+
+- [x] The back-end team needs to complete the implementation of the infrastructure before the tutorial session on 15/03/2024, focusing on API integration, server setup, and data handling protocols.
