@@ -19,3 +19,4 @@ This week's focus was on improving the UI/UX of our application to enhance the u
 ### Contributions : Checking with the updates with the team processess in the entire operation. 
 ### Contributions : A complete and accuarate analysis of the issue log used in the function(s).
 ### Contributions : Preparing an elevated pitch introducing an application for the project. 
+### Notes and Information gained/gathered : The logging in this case has provided documentation that would seek to provide invaluable future information that could be beneficial to team as well as individual growth and success. Individual contributions promote general as well as continuous learning which enables personal growth. 
