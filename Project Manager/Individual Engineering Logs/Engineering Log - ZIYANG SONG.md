@@ -1,34 +1,51 @@
-# Engineering Log - ZIYANG SONG
+## Engineer Log Entry - ZIYANG SONG
 
-**Owned by ZIYANG SONG**  
-_Last updated: Oct 23, 2023_  
-_9 min read_ · _10 people viewed_
+### Date/Time: 2024-03-26
 
-## Project Information
+#### Current Work Epic
 
-- **Project Name:** Research Assistance
-- **Log Maintained By:** ZIYANG SONG
-- **Date Range:** 19th Aug'23 - 31st Oct'23
+- **Design and Implement Dynamic Messaging Component in React Application**
 
-## Objective
+#### Objective
 
-Track learning and progress towards the project through the semester.
+- To create a highly interactive and responsive message component that dynamically renders based on user actions and message content.
 
-## Contributions
+#### To-Do List
+- [ ] Finalize the UI/UX design for dynamic messages, incorporating feedback from the design team.
+- [ ] Develop the component logic using React, enabling conditional rendering and interaction.
+- [ ] Implement context-based rendering to support text, images, and interactive elements within messages.
+- [ ] Write comprehensive unit and integration tests for the dynamic message component.
+- [ ] Conduct peer reviews and iterate on the code based on team feedback.
 
-### Summary of Activities
+#### Achievements
+- Completed a design workshop with the UX team to outline the functionality and responsiveness of the message component.
+- Researched the latest React features that could benefit our dynamic component, such as Suspense and Concurrent Mode.
 
-1. Participate in exploratory experiments to find the analytical logic that works best for our project.
-2. Responsible for updating the risk log with team members.
-3. Update the code logic as per the latest findings and developments.
-4. Oversee and facilitate the update of team processes.
-5. Conduct a thorough review of the issue log for accuracy and completeness.
-6. Provide feedback on the contributions of team members to ensure alignment with project objectives.
-7. Gather and record feedback from shadowing teams and tutors, deliberating on possible solutions, and formulate strategic opinions.
-8. Alternate the role of chairperson in team and tutorial meetings to manage agendas and document meeting minutes efficiently.
+#### Challenges
+- Addressing the variable data load times and their impact on message rendering without compromising the user experience.
+- Ensuring compatibility with various browsers and devices, given the diversity of our user base.
 
-### Detailed Notes
+#### Technical Step-Throughs
+- Set up a prototype using React's functional components and hooks to manage the component's state and lifecycle.
+- Implemented a message parsing service that sanitizes and structures incoming message data for secure rendering.
+- Integrated the prototype with our existing chat application to test real-time data handling and rendering.
 
-_(Date: 2023/8/22-2023/8/30) Upon analyzing the datasets sourced online and the methodologies applied therein for Room Occupancy estimation, it was ascertained that their approach was unsuitable for our project's requirements. The reasoning is detailed as follows:_
+#### Personal Notes/Workings from Meetings
+- Team consensus to adopt a mobile-first design approach, ensuring our dynamic messages are touch-friendly and scalable across devices.
+- Collaboration with the backend team agreed upon a schema for the message payload to streamline data handling.
 
-1. The variance in the dataset origins, stemming from disparate sensor types such as light and sound sensors, necessitates...
+#### Log Entry Details
+- The log will be updated bi-weekly to track progress and address any emerging challenges.
+- Upcoming focus: optimizing the render cycle for complex messages to minimize re-renders and improve performance.
+
+#### Additional Notes
+- Engaging with the DevOps team to set up a feature flagging system for controlled rollout and testing.
+- Preparing a workshop to familiarize the QA team with the component's features and potential edge cases.
+
+#### Documentation
+- Developing a documentation suite, including design rationale, code comments, setup guide, and usage examples.
+- Planning to create an interactive demo in our design system's pattern library for hands-on experience with the component.
+
+#### Venting/Reflection (Private)
+- Navigating the complexity of this component is both challenging and rewarding. It's a test of my ability to manage both technical depth and the nuances of user experience design.
+- Considering setting up a lunch-and-learn session to share the knowledge gained on dynamic rendering with React.
