@@ -132,3 +132,55 @@ This log entry focuses on the initial research and development phase of integrat
 **Venting/Reflection (Private)**
 
 Excited about the potential of AI to transform the plugin and empower non-technical users to create professional websites. However, concerns about data privacy and ethical considerations need to be carefully addressed.
+
+---
+
+## Engineer Log Entry 4 -- B 1.2
+
+## Date/Time: 2024-03-16
+
+**Current Work Epic**
+
+**Implement Cross-Domain Resource Sharing (CORS) Configuration**
+
+**To-Do List**
+
+- [x] Research and understand CORS concepts and configuration options
+- [x] Implement CORS configuration on the server-side
+- [x] Test and validate CORS functionality across different domains
+
+**Learnings/Workings**
+
+- Gained a thorough understanding of CORS concepts, including HTTP headers, allowed origins, and preflight requests
+- Implemented CORS configuration on the server using Apache and Nginx web servers
+- Successfully tested CORS functionality across different domains using various browsers and HTTP clients
+
+**Technical Step-Throughs**
+
+1. Studied CORS specification and best practices for implementing CORS in web applications
+2. Configured CORS headers on the server to allow access from specific domains
+3. Tested CORS functionality using curl, Postman, and browser-based tools
+
+**Personal Notes/Workings from Meetings**
+
+- Discussed with the team the importance of CORS for enabling cross-domain communication
+- Collaborated with developers to troubleshoot CORS issues and optimize configuration
+
+**Log Entry Details**
+
+This log entry focuses on the research, implementation, and testing of CORS configuration to enable secure cross-domain communication between web applications.
+
+**Interesting finding:** Implementing CORS can significantly improve the interoperability and security of web applications by allowing controlled access to resources from different domains.
+
+**Additional Notes**
+
+- Prioritizing the implementation of CORS on all relevant APIs and web services.
+- Documenting CORS configuration and best practices for the development team.
+
+**Documentation**
+
+- Updated project documentation with detailed information on CORS configuration, including code examples and troubleshooting tips.
+
+**Venting/Reflection (Private)**
+
+Pleased to have successfully implemented CORS configuration, resolving cross-domain communication issues and enhancing the security of our web applications. The experience gained will be valuable for future projects involving cross-domain interactions.
