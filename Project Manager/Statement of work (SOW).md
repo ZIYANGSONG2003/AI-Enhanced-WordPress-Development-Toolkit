@@ -119,12 +119,21 @@ Maintaining clear and comprehensive documentation is vital for both the developm
 
 ## Overall Project Framework
 
-Refer to the attached diagram for a visual representation of the overall project architecture:
+For a comprehensive understanding of how our project is structured, please refer to the visual diagram provided. The architecture is designed for optimal performance, scalability, and integration of advanced AI processing. Here’s a breakdown of the key components:
 
-- WordPress platform connects via REST API to a browser interface.
-- NGINX serves as the reverse proxy, directing requests to the AWS server.
-- The AWS server hosts the React frontend, which includes a Fetch function for dynamic data retrieval.
-- Flask, coupled with Gunicorn, manages backend operations and connects to OpenAI services for AI processing.
+1. **WordPress Platform Integration:**
+   - The core WordPress platform communicates with a browser interface through the REST API. This connection facilitates the seamless exchange of data and commands between the user's browser and WordPress.
+
+2. **NGINX as Reverse Proxy:**
+   - NGINX is employed as a reverse proxy. It directs incoming requests to the appropriate server, in this case, our AWS server. This setup enhances security and load balancing, ensuring efficient handling of web traffic.
+
+3. **AWS Server Hosting and React Frontend:**
+   - Our server infrastructure is hosted on AWS, known for its reliability and scalability. The AWS server hosts:
+     - The React frontend, which provides a dynamic and responsive user interface. It includes a Fetch function for dynamic data retrieval, enabling real-time updates and interactions within the web application.
+
+4. **Backend Management and AI Processing:**
+   - Flask, in combination with Gunicorn, is responsible for managing backend operations. This setup ensures that server-side tasks are handled efficiently and securely.
+   - For AI processing, our backend connects to OpenAI services. This integration allows us to leverage cutting-edge AI capabilities, including natural language processing and machine learning, to enhance our application’s functionality and user experience.
 
 ## Deliverables
 
