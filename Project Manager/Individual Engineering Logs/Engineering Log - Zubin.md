@@ -9,4 +9,5 @@ This week's focus was on improving the UI/UX of our application to enhance the u
 ### Project Name: AI-Enhanced-WordPress-Development-Toolkit
 ### Log Maintained By: Zubin
 ### Date Range: 19th Feb'24 - 17st June'24
-### Objective :
+
+## Objective : Track our progress towards the project throughout the semester, which has been design and computative and analysis based documentation.
