@@ -31,13 +31,13 @@
 ## Action Items (Assigned Tasks with Timeframes)
 
 - **March 16-18:**
-  - [Name] to perform an in-depth analysis of the UI bug, focusing on React's container behavior. The goal is to isolate the issue and propose preliminary solutions.
+  - Kunlun Zang & Zubin to perform an in-depth analysis of the UI bug, focusing on React's container behavior. The goal is to isolate the issue and propose preliminary solutions.
 
 - **March 19:**
-  - [Name] to develop the `UserMessageWrapper` function, incorporating necessary CSS adjustments to ensure static user icon positioning regardless of input length.
+  - Stephanie Sun to develop the `UserMessageWrapper` function, incorporating necessary CSS adjustments to ensure static user icon positioning regardless of input length.
 
 - **March 20-21:**
-  - [Name] to revise the `fetchPlugins` function, adding a mechanism to clear previous session data upon initiating a new chat session. This task includes testing to ensure no data persistence issues remain.
+  - Nicky Song to revise the `fetchPlugins` function, adding a mechanism to clear previous session data upon initiating a new chat session. This task includes testing to ensure no data persistence issues remain.
 
 ## Decisions
 
