@@ -1,9 +1,9 @@
 # Important Decision Document
 
-**Owned by [Your Name]**  
-_Created with a template_  
-_Last updated: [Last Update Date]_  
-_Read Time: [Estimate Read Time]_ · _Views: [Number of Views]_
+**Owned by [Stephanie Sun]**  
+
+_Last updated: [21/03/2024]_  
+
 
 ---
 
