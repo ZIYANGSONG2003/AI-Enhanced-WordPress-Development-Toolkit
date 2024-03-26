@@ -1,7 +1,7 @@
 # WordPress vs. Google Sites: Competitor Analysis
 
 **Completed:** March 25, 2024  
-**Analyzed by:** [Your Name]  
+**Analyzed by:** [Austin Lee]  
 **Tier:** Tier 1 - major competitors
 
 ---
