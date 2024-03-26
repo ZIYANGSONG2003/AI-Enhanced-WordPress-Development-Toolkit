@@ -155,6 +155,15 @@ Our project is structured around delivering key components and resources that wi
 
 By dividing our project into these detailed deliverables and timelines, we aim to ensure clarity, efficiency, and effectiveness in achieving our goal of launching a revolutionary AI-powered WordPress Toolkit.
 
+| Name           | Team Email              | Github Email                    | Signature   |
+|----------------|-------------------------|---------------------------------|-------------|
+| Ziyang Song    | u7466422@anu.edu.au     | u7466422@anu.edu.au             |Ziyang Song  |
+| Kunlun Zang    | u7692801@anu.edu.au     | lerbonjames18@gmail.com         |Kunlun Zang  |
+| Casey Zhao     | u7560574@anu.edu.au     | 1003264423@qq.com               |Casey Zhao   |
+| Zubin          | u7547918@anu.edu.au     | zubinlearnsjava@gmail.com       |Zubin        |
+| Austin Lee     | u7551070@anu.edu.au     | aodonglee@gmail.com             |Austin Lee   |
+| Stephanie Sun  | u7277130@anu.edu.au     | defsoul0805@gmail.com           |Stephanie Sun|
+
 
 ---
 
