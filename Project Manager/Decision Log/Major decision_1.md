@@ -1,9 +1,6 @@
 # Important Decision Document
 
 **Owned by ZIYANG SONG**  
-_Created with a template_  
-_Last updated: 2024-03-25_  
-_Read Time: 1 minute_ · _Views: 5_
 
 ---
 
@@ -16,7 +13,7 @@ _Read Time: 1 minute_ · _Views: 5_
 | Approver       | Project Manager                       |
 | Contributors   | Development Team, UX Designer        |
 | Informed       | Stakeholders                         |
-| Due Date       | 2024-04-01                            |
+| Due Date       | 2024-03-23                            |
 | Resources      | N/A                                   |
 
 ---
