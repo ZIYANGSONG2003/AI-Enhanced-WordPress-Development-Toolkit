@@ -1,5 +1,9 @@
 # Engineering Log - ZIYANG SONG
 
+## Overview
+
+This log captures the detailed progress on various tasks assigned to me in the project. It reflects the work completed, in progress, and planned, along with learnings and future goals. This document serves to track contributions and provide a transparent account of the developments and challenges encountered.
+
 ## Contributions Update
 
 ### Tasks Completed:
