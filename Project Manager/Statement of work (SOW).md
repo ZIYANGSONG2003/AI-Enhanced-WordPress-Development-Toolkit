@@ -155,6 +155,9 @@ Our project is structured around delivering key components and resources that wi
 
 By dividing our project into these detailed deliverables and timelines, we aim to ensure clarity, efficiency, and effectiveness in achieving our goal of launching a revolutionary AI-powered WordPress Toolkit.
 
+
+---
+
 | Name           | Team Email              | Github Email                    | Signature   |
 |----------------|-------------------------|---------------------------------|-------------|
 | Ziyang Song    | u7466422@anu.edu.au     | u7466422@anu.edu.au             |Ziyang Song  |
