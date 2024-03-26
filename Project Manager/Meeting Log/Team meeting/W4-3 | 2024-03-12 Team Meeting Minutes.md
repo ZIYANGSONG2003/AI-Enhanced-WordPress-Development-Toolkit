@@ -1,8 +1,8 @@
-# Wk4-2 | 2024-03-15 Team Meeting Minutes
+# Wk4-3 | 2024-03-15 Team Meeting Minutes
 
 ## Meeting Details
 - **Date:** 15/03/2024
-- **Time:** 20:00 - 20:30
+- **Time:** 20:00 - 21:30
 - **Location:** Remote
 - **Attendees:** Stephanie Sun [Lead/Scribe], Austin Lee, Casey Zhao, Kunlun Zang, Nicky Song, Zubin
 
