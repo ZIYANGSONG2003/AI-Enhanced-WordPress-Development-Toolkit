@@ -4,7 +4,7 @@
 - **Date:** 15/03/2024
 - **Time:** 20:00 - 21:30
 - **Location:** Remote
-- **Attendees:** Stephanie Sun [Lead/Scribe], Austin Lee, Casey Zhao, Kunlun Zang, Nicky Song, Zubin
+- **Attendees:** Nicky Song [Lead/Scribe], Austin Lee, Casey Zhao, Kunlun Zang, Stephanie Sun, Zubin
 
 ## Agenda
 1. **Reanalysis of the feasibility of the backend** 
