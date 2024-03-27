@@ -136,5 +136,122 @@ Time: 15:00 - 21:00
   - Testing the effectiveness of response messages may be challenging, especially in complex or dynamic environments where multiple factors can influence error handling.
     
 ### Next Steps:
-Show the work completed in next weekly meeting 
+Show the completed task in next weekly meeting, enabling member to continue working on the back-end part 
 
+
+## Engineering log 5 (14/03/2024)
+Date:14/03/2024 
+
+Time: 15:00 - 21:00 
+
+### Progress and Outcomes: 
+
+#### G1.2 Competitor analysis
+- Research Google site
+  - Gather information on the features, functionalities, and user experience offered by Google Sites.
+  - Explore the various templates, customization options, and integration capabilities available within Google Sites.
+ 
+- Comparative Analysis:
+  - Identify similarities and differences between Google Sites and the project's proposed solution.
+  - Evaluate the strengths and weaknesses of Google Sites in comparison to the project's objectives and target audience.
+
+- Market Positioning:
+   - Investigate Google Sites' market share, target audience, and competitive positioning within the industry.
+   - Understand the reasons behind Google Sites' popularity or lack thereof among users and businesses.
+
+- Identifying Competitive Advantages:
+    - Identify any unique selling points or competitive advantages that Google Sites offers compared to alternative solutions.
+    - Determine areas where Google Sites excels and may pose a challenge to the project's success.
+
+#### R1.7 Backend service best practices
+
+- Architecture Review:
+   - Evaluate the current backend architecture to identify any potential design flaws or areas for improvement.
+   - Ensure adherence to established architectural patterns and principles, such as microservices architecture or serverless computing.
+- Performance Optimization:
+   - Implement techniques for optimizing backend service performance, such as caching mechanisms, database indexing, and query optimization.
+   - Monitor and analyze performance metrics to identify bottlenecks and areas for further optimization.
+- Scalability Strategies:
+   - Design backend services with scalability in mind to accommodate growing user demand and workload.
+   - Implement horizontal scaling techniques, such as load balancing and auto-scaling, to dynamically adjust resources based on traffic patterns.
+
+- Monitoring and Logging:
+  - Implement comprehensive monitoring and logging solutions to track the health, performance, and availability of backend services.
+  - Set up alerts and notifications to proactively identify and address issues before they impact users.
+
+### Issues Encountered:
+
+- Resource Constraints:
+  - Limited resources, such as budget, time, and skilled personnel, may pose challenges in fully implementing and maintaining backend service best practices, especially in resource-constrained environments.
+- Security Risks:
+  - Inadequate implementation of security best practices may expose backend systems to various security risks, such as data breaches, unauthorized access, or injection attacks.
+
+
+### Next Steps:
+Show the stakeholder regards the competitior analysis, enabling stakheholders to have a deep underestanding of the project. 
+
+## Engineering log 6 (17/03/2024)
+Date:17/03/2024 
+
+Time: 18:00 - 21:00 
+
+### Progress and Outcomes: 
+
+
+#### R1.9 Research AI model training
+
+- Identifying Suitable AI Models:
+    - Research and evaluate various AI models, algorithms, and techniques suitable for the project's requirements, such as natural language processing (NLP) models or machine learning frameworks.
+      
+- Understanding Model Training Requirements:
+   - Gain an understanding of the data requirements, preprocessing steps, and training methodologies involved in training AI models for connecting front-end and back-end systems
+
+-Data Collection and Annotation:
+  - Identify relevant datasets and sources of data that can be used to train the AI model.
+  - Understand the Develop processes for data collection, annotation, and preprocessing to ensure the quality and suitability of the training data.
+
+
+
+### Issues Encountered:
+- Complexity of Model Selection:
+  - Choosing the appropriate AI model architecture and framework amidst a plethora of options can be daunting and may require extensive experimentation and validation.
+
+- Data Preprocessing Challenges:
+  - Data preprocessing tasks such as cleaning, normalization, and feature extraction can be time-consuming and may introduce errors if not performed accurately.
+
+- Overfitting and Underfitting:
+  - Balancing the model's capacity to learn complex patterns without overfitting to the training data or underfitting to generalize well to unseen data is a common challenge in machine learning.
+    
+
+### Next Steps:
+Report to the team and need to find an alternative method to connect the back-end and front-end 
+
+
+## Engineering log 7 (18/03/2024)
+Date:18/03/2024 
+
+Time: 18:00 - 22:00 
+
+#### R2.5 Investigate GPT model API integration
+- Understanding GPT Model Capabilities:
+  - Conduct research to understand the capabilities and functionalities of the GPT model, particularly in the context of natural language processing (NLP) tasks and text generation.
+    
+- Exploring API Documentation:
+  - Review the documentation provided by the GPT model API provider to understand the API endpoints, request parameters, authentication methods, and usage guidelines.
+  
+- Handling Input and Output Data:
+  - Define mechanisms for handling input data from the front-end, passing it to the GPT model API for processing, and receiving and processing the model's output within the back-end system.
+
+- Performance Optimization:
+  - Optimize API usage to minimize latency, maximize throughput, and optimize resource utilization, considering factors such as batching requests, caching responses, and optimizing network communication.
+
+### Issues Encountered:
+
+- Ethical and Legal Considerations:
+  - Address ethical and legal considerations related to AI model training, including data privacy, bias mitigation, and compliance with regulations such as GDPR or CCPA.
+- Security Considerations:
+  - Address security considerations related to API authentication, data privacy, and protection against potential vulnerabilities or attacks, ensuring compliance with security best practices and standards.
+
+
+### Next Steps:
+Share the team with the result of we can use ChatGPT API to perfrom the connection between front-end and back-end 
