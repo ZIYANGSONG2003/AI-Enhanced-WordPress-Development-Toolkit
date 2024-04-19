@@ -6,7 +6,7 @@
 - **Date:** 15/04/2024
 - **Time:** 15:00 - 16:30
 - **Location:** In-person (Hive Space)
-- **Attendees:** Kunlun Zhang, Zubin Meng, Nicky Chen, Stephanie Wong, Austin Lee, Casey Zhou, Devin Smith (Special Invitee), Liang Xu (Course Convenor)
+- **Attendees:** Kunlun, Zubin, Nicky, Stephanie, Austin Lee, Casey Zhao, Liang (Course Convenor)
 
 ## Agenda
 1. **Review of Previous Project Work**
