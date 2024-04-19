@@ -29,7 +29,7 @@
 - **Kunlun and Zubin**: Prioritize the resolution of existing frontend bugs and enhancements to the user creation functionality, aiming to improve overall system stability and user experience.
 - **Nicky and Stephanie**: Conduct a thorough analysis of the backend architecture, identify potential improvements, and breakdown complex functionalities into manageable tasks for the team to tackle in the upcoming tutorial.
 - **Austin and Casey**: Begin collaboration with Devin Smith on integrating NLP technologies into our project, focusing on how these can enhance data processing and user interactions within our platform. Explore data privacy enhancements as suggested by the shadow team.
-- **All Members**: Prepare for the critical week 7 meeting presentation, ensuring that all content is insightful and demonstratively integrates our recent findings and developments into the project framework.
+- **All Members**: Prepare for the critical week 8 meeting presentation, ensuring that all content is insightful and demonstratively integrates our recent findings and developments into the project framework.
 
 ## Decisions 
 - [ ] All members are required to finalize their presentation sections and submit drafts for review by 20/04/2024.
