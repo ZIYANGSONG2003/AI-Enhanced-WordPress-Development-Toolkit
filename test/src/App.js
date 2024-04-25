@@ -9,8 +9,13 @@ function MultiLineTextInput() {
     const [activeChatId, setActiveChatId] = useState(null);
 
     const handleSubmit = async () => {
-        if (!textInput.trim() || !activeChatId) return;
-
+        if (!textInput.trim() || !activeChatId) {
+            console.log('Empty text input or no active chat selected.'); // Debug: Check for empty input or no chat selected
+            return;
+        }
+    
+        console.log(`Attempting to send message: ${textInput} to chat ID: ${activeChatId}`); // Debug: Before sending
+    
         // Update the chat with the user's message
         const newMessage = { sender: 'user', text: textInput };
         const updatedChats = chats.map(chat =>
@@ -19,19 +24,23 @@ function MultiLineTextInput() {
                 : chat
         );
         setChats(updatedChats);
-
+    
         try {
-            const response = await fetch('http://13.239.121.247:8080/upload_text', { // Replace with your actual server URL
+            const response = await fetch('http://54.66.206.5:8080/upload_text', { // Replace with your actual server URL
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ text: textInput }),
             });
-
+    
+            console.log('Request sent. Waiting for response...'); // Debug: After sending the request
+    
             if (!response.ok) {
-                throw new Error('Network response was not ok');
+                throw new Error(`Network response was not ok: ${response.status}`); // Updated the error to include status
             }
-
+    
             const data = await response.json();
+            console.log('Response received:', data); // Debug: After receiving response
+    
             const serverMessage = { sender: 'server', text: data.gpt_response };
             const updatedChatsWithResponse = chats.map(chat =>
                 chat.id === activeChatId
@@ -45,9 +54,10 @@ function MultiLineTextInput() {
             console.error('Error submitting text:', error);
             // You can add error handling here
         }
-
+    
         setTextInput(''); // Clear the text input after sending
     };
+    
 
     const handleInputChange = (event) => {
         setTextInput(event.target.value);
