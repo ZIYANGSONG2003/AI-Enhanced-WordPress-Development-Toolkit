@@ -56,3 +56,36 @@ This log captures the detailed progress on various tasks assigned to me in the p
 
 - For the upcoming database testing task (#T1.1), I aim to focus on learning more about automated testing frameworks and incorporating them into our CI/CD pipeline.
 - I intend to take a more proactive role in mentoring new team members, sharing the knowledge and best practices I've accumulated throughout my time on the project.
+
+## Development log
+
+27/04/2024
+- I want to directly replace the uploaded file to replace this app.py instead of manually editing it on the server
+
+PS C:\Users\ZIYANG SONG\Desktop\COMP3500_CHATGPT_TEST> scp "C:\Users\ZIYANG SONG\Desktop\COMP3500_CHATGPT_TEST\AI-Enhanced-WordPress-Development-Toolkit\test\src\app.py" ubuntu@54.66.206.5:/home/ubuntu/app.py
+ubuntu@54.66.206.5: Permission denied (publickey).
+lost connection
+
+The error message "Permission denied (public key)" means that the server is configured to accept SSH connections only through public key authentication, and the public key provided (or not provided) by the SSH client does not match any public keys authorized on the server .
+
+- ssh -i "C:\Users\ZIYANG SONG\.ssh\zmatch.pem" ubuntu@54.66.206.5 (Correctly upload the file and replace it on AWS)
+
+
+- scp -i "C:\Users\ZIYANG SONG\.ssh\zmatch.pem" -r "C:\Users\ZIYANG SONG\Desktop\test\build" ubuntu@54.66.206.5:/usr/share/nginx/html/build
+
+scp: This initiates the SCP command, which is used for copying files and directories securely over a network.
+-i "C:\Users\ZIYANG SONG.ssh\zmatch.pem": This option specifies the private key file (zmatch.pem) to use for SSH authentication. It's located at C:\Users\ZIYANG SONG\.ssh\zmatch.pem on your local machine. This key is used instead of a password to authenticate with the remote server.
+
+-r: This option tells SCP to copy directories recursively. It is necessary when you want to copy a directory and all its contents, including subdirectories and the files within them.
+
+"C:\Users\ZIYANG SONG\Desktop\test\build": This is the source path on your local machine. It points to the directory build located under C:\Users\ZIYANG SONG\Desktop\test. This directory and all its contents will be copied to the remote server.
+
+ubuntu@54.66.206.5: This part specifies the user and host to which the files will be copied. ubuntu is the username, and 54.66.206.5 is the IP address of the remote server.
+
+:/usr/share/nginx/html/build: This is the destination path on the remote server where the files will be copied. It specifies that the build directory from your local machine should be placed into /usr/share/nginx/html/build on the remote server. This path is typically used to serve files from a web server running Nginx.
+
+
+- scp -i "C:\Users\ZIYANG SONG\.ssh\zmatch.pem" -r "C:\Users\ZIYANG SONG\Desktop\AI-Enhanced-WordPress-Development-Toolkit\test\build" ubuntu@54.66.206.5:/usr/share/nginx/html (Correctly upload the code to upload the build file to the server, but pay attention to the file path of the build and key)
+
+![image](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/0fbc56f8-6ae9-40da-96ba-8105f7b989f8)
+
