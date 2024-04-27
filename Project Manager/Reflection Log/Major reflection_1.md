@@ -1,9 +1,7 @@
 # Reflection Log
 
 **Owned by ZIYANG SONG**  
-_Created with a template_  
 _Last updated: March 24, 2024_  
-_Read Time: 10 minutes_ · _Views: 25_
 
 ---
 
