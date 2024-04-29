@@ -42,6 +42,10 @@ body,html{
   padding: 10px 0; /* Add padding as needed */
 
   max-height: 15%;
+  display: flex; /* Use flex to align children inline */
+  align-items: center; /* Center-align the children vertically */
+  justify-content: center; /* Center-align the children horizontally */
+  padding: 10px; /* Add padding inside the input area */
 }
 .textInputWrapper {         /* Creates a wrapper for text input field */
   display: flex;
@@ -53,6 +57,8 @@ body,html{
   border-right: none; /* Remove border between the icon and the text input */
   overflow: hidden; /* Ensures the inner elements conform to the wrapper's border-radius */
   flex-grow: 1;
+  max-width: 100%; /* Full width of its parent */
+  width: auto; /* Adjust to content */
 }
 .inputIcon {          /* Used to define styling for icons within input fields */
   padding: 10px;
@@ -64,11 +70,17 @@ body,html{
 .textInput {        /* Used to define styling for text input fields */
   flex-grow: 1;
   border: none;
-  padding: 10px 15px;
+  padding: 15px 15px;
   margin-right: 10px;
   font-size: 16px; /* Match the font size to the icon size */
-
+  
   border-radius: 20px; /* Rounded corners for the text input */
+  flex: 1; /* Take available space */
+  max-width: 600px; /* Max width that input can take */
+  border: 1px solid black; /* Black border for the text input */
+  height: 40px; /* Set a fixed height for the text input */
+  margin: 10 10px; /* Ensure some space between the text input and button */
+  padding: 10 10px; /* Padding inside the text area for the text */
 }
 .disclaimer {           /* defines the styling for the disclaimer message within the webpage */
   text-align: center;
@@ -87,7 +99,7 @@ body,html{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 6px 12px; /* Slight margin for the button */
+  margin: 3px 6px; /* Slight margin for the button */
   cursor: pointer;
   border-radius: 50%; /* Circular shape for the button */
   width: 30px; /* Fixed width for the circle */
@@ -95,12 +107,18 @@ body,html{
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s; /* Smooth transition for mouse hover */
-
+  margin-left: 10px; /* Push the button to the end of the flex container */
+  margin-right: 10px; /* Margin from the right end of the input area */
 }
 .textInput:focus, .submitBtn:focus {    /* defines styling for the focus state of text input fields and submit buttons */
   outline: none;              /* Removes the default browser outline around elements when they receive focus*/
+  
 }
-
+@media (max-width: 768px) {
+  .textInput {
+    max-width: calc(100% - 50px); /* Subtract width of button and padding */
+  }
+}
 
 .logoArea {         /* represents the container for the logo */
   text-align: center;

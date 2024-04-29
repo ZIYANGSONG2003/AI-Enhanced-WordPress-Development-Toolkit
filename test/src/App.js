@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import './App.css'; // Make sure this is the correct path to your CSS file
 import logoImage from './logo1.png'; // Update this path to your actual logo image
+import LoginModal from './LoginModal'; // import the LoginModal component
+
 
 function MultiLineTextInput() {
     const [textInput, setTextInput] = useState('');
     const [serverResponse, setServerResponse] = useState('');
     const [chats, setChats] = useState([]);
     const [activeChatId, setActiveChatId] = useState(null);
+    const [showLoginModal, setShowLoginModal] = useState(false);
 
     const handleSubmit = async () => {
         if (!textInput.trim() || !activeChatId) {
@@ -23,6 +26,8 @@ function MultiLineTextInput() {
                 ? { ...chat, messages: [...chat.messages, newMessage] }
                 : chat
         );
+
+    
         setChats(updatedChats);
     
         try {
@@ -58,6 +63,19 @@ function MultiLineTextInput() {
         setTextInput(''); // Clear the text input after sending
     };
     
+    const handleOpenLoginModal = () => {
+        setShowLoginModal(true);
+    };
+
+    const handleCloseLoginModal = () => {
+        setShowLoginModal(false);
+    };
+        // Add a function to handle the login submission
+    const handleUserLogin = (username, password) => {
+        // Here you would handle the authentication logic
+        console.log('Logging in with:', username, password);
+        handleCloseLoginModal(); // Close the modal on successful login
+    };
 
     const handleInputChange = (event) => {
         setTextInput(event.target.value);
@@ -81,9 +99,11 @@ function MultiLineTextInput() {
 
     return (
         <div className="appContainer">
+            {/* Sidebar with chat and login buttons */}
             <div className="sidebar">
                 <button className="sidebarButton" onClick={handleNewChat}>New Chat</button>
-                <button className="sidebarButton">User Login</button>
+                <button className="sidebarButton" onClick={handleOpenLoginModal}>User Login</button>
+                {/* Chat list */}
                 {chats.map((chat, index) => (
                     <div key={chat.id}
                          className={`chatPreview ${chat.id === activeChatId ? 'active' : ''}`}
@@ -92,10 +112,13 @@ function MultiLineTextInput() {
                     </div>
                 ))}
             </div>
+            
+            {/* Main content area */}
             <div className="mainContent">
                 <div className="logoArea">
                     <img src={logoImage} alt="Logo" className="logo"/>
                 </div>
+                {/* Chat messages */}
                 <div className="container">
                     {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
                         <div key={index} className={`message ${message.sender === 'user' ? 'user' : 'server'}`}>
@@ -103,6 +126,7 @@ function MultiLineTextInput() {
                         </div>
                     ))}
                 </div>
+                {/* Message input area */}
                 <div className="inputArea">
                     <textarea
                         className="textInput"
@@ -112,13 +136,21 @@ function MultiLineTextInput() {
                     />
                     <button className="submitBtn" onClick={handleSubmit}>&#9654;</button> {/* Play icon used as send icon */}
                 </div>
+                {/* Server response */}
                 {serverResponse && (
                     <div className="serverResponse">
                         <p>{serverResponse}</p>
                     </div>
                 )}
+                {/* Disclaimer or additional info */}
                 <p className="disclaimer"></p>
             </div>
+            {/* Login modal */}
+            <LoginModal
+                show={showLoginModal}
+                handleClose={handleCloseLoginModal}
+                handleLogin={handleUserLogin}
+            />
         </div>
     );
 }
