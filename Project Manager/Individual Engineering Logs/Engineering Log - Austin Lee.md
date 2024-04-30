@@ -239,7 +239,7 @@ Satisfied with the successful configuration of the AWS server for the Flask appl
 
 ---
 
-**Engineer Log Entry 6 -- R 1.5**  
+**Engineer Log Entry 6 -- R 2.4**  
 **Date/Time:** 2024-04-22  
 
 **Current Work Epic**  
@@ -287,3 +287,5 @@ Faced challenges in interpreting some of the more complex legal jargon and under
 
 ---
 
+**Engineer Log Entry 7 -- R 2.4**  
+**Date/Time:** 2024-04-23
