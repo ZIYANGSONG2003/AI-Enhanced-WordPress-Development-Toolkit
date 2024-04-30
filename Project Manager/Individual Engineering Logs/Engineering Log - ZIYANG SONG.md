@@ -90,7 +90,7 @@ ubuntu@54.66.206.5: This part specifies the user and host to which the files wil
 - scp -i "C:\Users\ZIYANG SONG\.ssh\zmatch.pem" -r "C:\Users\ZIYANG SONG\Desktop\AI-Enhanced-WordPress-Development-Toolkit\test\build" ubuntu@54.66.206.5:/usr/share/nginx/html (Correctly upload the code to upload the build file to the server, but pay attention to the file path of the build and key)
 
 ![image](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/0fbc56f8-6ae9-40da-96ba-8105f7b989f8)
-
+30/04
 I tried using a different gptmodel and creating a new api key, but still faced the problem of rat limit, causing the information to fail to be uploaded.
 
 ![image](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/9b50cb70-48b7-4d04-8fb0-c15885328cfb)
