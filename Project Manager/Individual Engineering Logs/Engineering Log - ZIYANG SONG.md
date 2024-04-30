@@ -91,3 +91,11 @@ ubuntu@54.66.206.5: This part specifies the user and host to which the files wil
 
 ![image](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/0fbc56f8-6ae9-40da-96ba-8105f7b989f8)
 
+I tried using a different gptmodel and creating a new api key, but still faced the problem of rat limit, causing the information to fail to be uploaded.
+
+![image](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/9b50cb70-48b7-4d04-8fb0-c15885328cfb)
+
+![image](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/842a439e-1188-4730-ba6c-c25a2a8980a6)
+
+
+
