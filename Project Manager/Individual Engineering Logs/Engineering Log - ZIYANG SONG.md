@@ -98,4 +98,18 @@ I tried using a different gptmodel and creating a new api key, but still faced t
 ![image](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/842a439e-1188-4730-ba6c-c25a2a8980a6)
 
 
+error log
 
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.40.198:8080
+INFO:werkzeug:Press CTRL+C to quit
+INFO:werkzeug: * Restarting with stat
+INFO:root:Loaded API key successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 847-388-080
+INFO:werkzeug:150.203.65.251 - - [30/Apr/2024 05:31:17] "OPTIONS /upload_text HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/gpt-3.5-turbo-0125/completions HTTP/1.1" 429 337
+ERROR:root:Rate limit exceeded. Please wait and try again.
+INFO:werkzeug:150.203.65.251 - - [30/Apr/2024 05:31:17] "POST /upload_text HTTP/1.1" 429 -
