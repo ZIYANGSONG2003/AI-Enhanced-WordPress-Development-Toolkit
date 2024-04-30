@@ -72,6 +72,8 @@ The error message "Permission denied (public key)" means that the server is conf
 
 
 - scp -i "C:\Users\ZIYANG SONG\.ssh\zmatch.pem" -r "C:\Users\ZIYANG SONG\Desktop\test\build" ubuntu@54.66.206.5:/usr/share/nginx/html/build
+- scp -i "C:\Users\ZIYANG SONG\.ssh\zmatch.pem" "C:\Users\ZIYANG SONG\Desktop\COMP3500_CHATGPT_TEST\AI-Enhanced-WordPress-Development-Toolkit\test\src\app.py" ubuntu@54.66.206.5:/home/ubuntu/app.py
+
 
 scp: This initiates the SCP command, which is used for copying files and directories securely over a network.
 -i "C:\Users\ZIYANG SONG.ssh\zmatch.pem": This option specifies the private key file (zmatch.pem) to use for SSH authentication. It's located at C:\Users\ZIYANG SONG\.ssh\zmatch.pem on your local machine. This key is used instead of a password to authenticate with the remote server.
