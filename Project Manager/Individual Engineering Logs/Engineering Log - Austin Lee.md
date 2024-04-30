@@ -247,10 +247,10 @@ Explore the legal and ethical aspects of using AI API to connect front-end and b
 
 **To-Do List**  
 
-- Conduct a comprehensive review of data privacy laws applicable to our operations, especially GDPR and CCPA.
-- Assess the implications of intellectual property laws on our use of third-party APIs and tools.
-- Analyze industry-specific compliance requirements that may affect our project.
-- Evaluate mechanisms for secure and compliant cross-border data transfer.
+- [x] Conduct a comprehensive review of data privacy laws applicable to our operations, especially GDPR and CCPA.
+- [x] Assess the implications of intellectual property laws on our use of third-party APIs and tools.
+- [x] Analyze industry-specific compliance requirements that may affect our project.
+- [x] Evaluate mechanisms for secure and compliant cross-border data transfer.
 
 **Learnings/Workings**
 
