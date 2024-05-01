@@ -2,37 +2,38 @@
 
 ## Meeting Details
 
-- ### Team Meeting Notes
+- **Date:** 15/04/2024
+- **Time:** 15:00 - 16:30
+- **Location:** In-person (Hive Space)
+- **Attendees:** Kunlun, Zubin, Nicky, Stephanie, Austin Lee, Casey Zhao, Liang (Course Convenor)
 
-  #### Meeting Details
+## Agenda
 
-  - **Date:** 29/04/2024
-  - **Time:** 15:00 - 16:30
-  - **Location:** In-person (Hive Space)
-  - **Attendees:** Kunlun, Zubin, Nicky, Stephanie, Austin Lee, Casey Zhao, Liang (Course Convenor)
+1. **Review of Previous Project Work**
+   - Detailed examination of project tasks completed and progress assessment.
+   - Address ongoing challenges and strategize on solutions.
 
-  #### Agenda
+2. **Set Tasks for This Week**
+   - Allocation of specific roles and responsibilities for upcoming tasks.
+   - Outline the scope and objectives for technical explorations and integration tasks.
 
-  1. **Development of Video Framework**
-     - Objective: To create an engaging video presentation utilizing a combination of PPT slides, Figma UI designs, and voice-overs.
-     - Tasks:
-       - PPT + Figma + Voice-Overs: This multi-modal approach will form the backbone of our video, aiming to illustrate project features and user interface efficiently.
+## Discussion Topics
 
-  #### Discussion Topics
+| Time          | Action Item                                          | Presenter | Notes                                                        |
+| ------------- | ---------------------------------------------------- | --------- | ------------------------------------------------------------ |
+| 15:00 - 15:20 | Review of Previous Project Work                      | Nicky     | Detailed discussion on deliverables achieved, current phase of the project, and review of critical issues impeding progress. Specific accomplishments and deviations from the plan were highlighted. |
+| 15:20 - 16:00 | Set Tasks for This Week                              | Stephanie | Role assignments: Kunlun and Zubin to tackle front-end issues; Nicky and Stephanie to dissect back-end requirements and prepare for functionality breakdowns; Austin and Casey to initiate in-depth exploration on Audit2, specifically focusing on data privacy issues and NLP applications. |
+| 16:00 - 16:30 | Planning for Upcoming Deliverables and Team Meetings | Austin    | Discussion on preparation for the week 7 presentation, setting internal deadlines for task completion, and scheduling additional meetings if needed to ensure all tasks are progressing as planned. |
 
-  | Time          | Action Item                             | Presenter | Notes                                                        |
-  | ------------- | --------------------------------------- | --------- | ------------------------------------------------------------ |
-  | 15:00 - 15:30 | Figma UI Design                         | Stephanie | Ziyang and Stephanie to collaborate on the UI design using Figma, focusing on aesthetics, usability, and alignment with project objectives. Stephanie to revise PPT structure for visual and narrative flow. |
-  | 15:30 - 16:00 | PPT Creation and Voice-Over Preparation | Kunlun    | Kunlun, Zubin, Nicky, Austin, and Casey assigned to specific PPT sections. Preparation of voice-over scripts highlighting key project points and achievements. |
-  | 16:00 - 16:30 | Discussion and Review                   | Austin    | Review meeting on 30/04 to discuss draft scripts, make revisions, and finalize voice-overs. |
+## Action Items 
 
-  #### Action Items 
+- **Kunlun and Zubin**: Prioritize the resolution of existing frontend bugs and enhancements to the user creation functionality, aiming to improve overall system stability and user experience.
+- **Nicky and Stephanie**: Conduct a thorough analysis of the backend architecture, identify potential improvements, and breakdown complex functionalities into manageable tasks for the team to tackle in the upcoming tutorial.
+- **Austin and Casey**: Begin collaboration with Devin Smith on integrating NLP technologies into our project, focusing on how these can enhance data processing and user interactions within our platform. Explore data privacy enhancements as suggested by the shadow team.
+- **All Members**: Prepare for the critical week 8 meeting presentation, ensuring that all content is insightful and demonstratively integrates our recent findings and developments into the project framework.
 
-  - **Ziyang and Stephanie**: Complete a fully functional and visually coherent UI design by 25/04/2024.
-  - **Other Team Members**: Finish PPT slides and initial voice-over drafts for review on 30/04/2024.
+## Decisions 
 
-  #### Decisions 
+- [ ] All members are required to finalize their presentation sections and submit drafts for review by 20/04/2024.
+- [ ] Schedule an interim review session on 21/04/2024 to assess progress on all action items and make necessary adjustments before the week 8 meeting.
 
-  - [x] Hold an interim review session on 21/04/2024 to evaluate progress and adjust plans to meet the week 8 presentation deadline.
-
-  
