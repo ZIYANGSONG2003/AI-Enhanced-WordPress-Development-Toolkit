@@ -6,7 +6,7 @@
 
   #### Meeting Details
 
-  - **Date:** 29/04/2024
+  - **Date:** 22/04/2024
   - **Time:** 15:00 - 16:30
   - **Location:** In-person (Hive Space)
   - **Attendees:** Kunlun, Zubin, Nicky, Stephanie, Austin Lee, Casey Zhao, Liang (Course Convenor)
