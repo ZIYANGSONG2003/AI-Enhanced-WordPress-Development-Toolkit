@@ -1,38 +1,42 @@
-# Team Meeting Notes
+### Team Meeting Notes
 
-## Meeting Details
+#### Meeting Details
 
-- ### Team Meeting Notes
+- **Date:** 22/04/2024
+- **Time:** 15:00 - 16:30
+- **Location:** In-person (Hive Space)
+- **Attendees:** Kunlun, Zubin, Nicky, Stephanie, Austin Lee, Casey Zhao, Liang (Course Convenor)
 
-  #### Meeting Details
+#### Agenda
 
-  - **Date:** 22/04/2024
-  - **Time:** 15:00 - 16:30
-  - **Location:** In-person (Hive Space)
-  - **Attendees:** Kunlun, Zubin, Nicky, Stephanie, Austin Lee, Casey Zhao, Liang (Course Convenor)
+1. **Development of Video Framework**
+   - **Objective:** To create an engaging video presentation for Week 10, utilizing a combination of PPT slides, Figma UI designs, and voice-overs.
+   - **Tasks:**
+     - **PPT + Figma + Voice-Overs:** Implement a multi-modal approach to efficiently demonstrate project features and user interface, ensuring a cohesive presentation for the upcoming audit.
+     - **Detailed Preparations for Week 10 Audit 3:** Discuss and finalize the content strategy for the video showcase, ensuring it aligns with our project deliverables and objectives.
 
-  #### Agenda
+2. **Preparation for Audit 3**
+   - **Objective:** Ensure all project components are thoroughly reviewed and meet the high standards expected for the final audit in Week 10.
+   - **Tasks:**
+     - **Technical Review:** Conduct a full technical review of all project aspects, including code quality, design implementation, and functionality.
+     - **Documentation and Reporting:** Update and finalize all documentation to reflect the latest project status and achievements.
 
-  1. **Development of Video Framework**
-     - Objective: To create an engaging video presentation utilizing a combination of PPT slides, Figma UI designs, and voice-overs.
-     - Tasks:
-       - PPT + Figma + Voice-Overs: This multi-modal approach will form the backbone of our video, aiming to illustrate project features and user interface efficiently.
+#### Discussion Topics
 
-  #### Discussion Topics
+| Time          | Action Item                                  | Presenter | Notes                                                        |
+| ------------- | -------------------------------------------- | --------- | ------------------------------------------------------------ |
+| 15:00 - 15:20 | Figma UI Design                              | Stephanie | Ziyang and Stephanie to refine UI designs, enhancing aesthetics and functionality. Preparation of visuals for the video presentation. |
+| 15:20 - 15:50 | PPT Creation and Voice-Over Preparation      | Kunlun    | Team members refine their PPT sections, integrating key project insights and outcomes. Scripting detailed voice-overs for clarity and impact. |
+| 15:50 - 16:30 | Comprehensive Review for Audit 3 Preparation | Austin    | Review current project status against Audit 3 criteria. Plan for addressing any remaining gaps, ensuring readiness for final presentation. |
 
-  | Time          | Action Item                             | Presenter | Notes                                                        |
-  | ------------- | --------------------------------------- | --------- | ------------------------------------------------------------ |
-  | 15:00 - 15:30 | Figma UI Design                         | Stephanie | Ziyang and Stephanie to collaborate on the UI design using Figma, focusing on aesthetics, usability, and alignment with project objectives. Stephanie to revise PPT structure for visual and narrative flow. |
-  | 15:30 - 16:00 | PPT Creation and Voice-Over Preparation | Kunlun    | Kunlun, Zubin, Nicky, Austin, and Casey assigned to specific PPT sections. Preparation of voice-over scripts highlighting key project points and achievements. |
-  | 16:00 - 16:30 | Discussion and Review                   | Austin    | Review meeting on 30/04 to discuss draft scripts, make revisions, and finalize voice-overs. |
+#### Action Items 
 
-  #### Action Items 
+- **Ziyang and Stephanie**: Finalize UI design for the video showcase by 25/04/2024, ensuring it is visually engaging and fully functional.
+- **Kunlun, Zubin, Nicky, Austin, and Casey**: Complete the PPT slides and voice-over drafts for the video, ensuring detailed coverage of all project aspects by 30/04/2024.
+- **All Team Members**: Engage in a thorough review of all project components, preparing for a comprehensive demonstration during Audit 3.
 
-  - **Ziyang and Stephanie**: Complete a fully functional and visually coherent UI design by 25/04/2024.
-  - **Other Team Members**: Finish PPT slides and initial voice-over drafts for review on 30/04/2024.
+#### Decisions 
 
-  #### Decisions 
+- [x] Schedule and conduct a detailed review session on 21/04/2024 to evaluate progress on all tasks and make necessary adjustments to ensure a seamless Audit 3.
+- [x] Confirm all team members have their sections prepared for the interim review to streamline final adjustments for the week 10 presentation.
 
-  - [ ] Hold an interim review session on 21/04/2024 to evaluate progress and adjust plans to meet the week 8 presentation deadline.
-
-  
