@@ -4,6 +4,7 @@
 ## Overview
 
 The backend design for the AI-Enhanced WordPress Development Toolkit is structured to ensure robust integration with WordPress, utilizing cutting-edge web technologies and AI capabilities from OpenAI.
+![image](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/555af370-94cd-4cad-be6c-65e7018e78af)
 
 ## Components
 
