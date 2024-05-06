@@ -1,0 +1,75 @@
+/* LoginModal.css */
+.loginModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure the modal is above other content */
+}
+
+.modalContent {
+    width: 300px; /* Fixed width for the modal */
+    background: white;
+    padding: 20px;
+    border-radius: 10px; /* Rounder corners */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+}
+
+.closeButton {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 25px; /* Larger close button */
+}
+
+/* Styles for form elements */
+.modalContent form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modalContent label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.modalContent input {
+    padding: 10px;
+    margin-bottom: 15px; /* Space between form fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Login button at the bottom */
+.modalContent button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Spacing from the last input */
+    transition: background-color 0.2s;
+}
+
+.modalContent button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styles for error messages, etc. */
+.errorMessage {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
