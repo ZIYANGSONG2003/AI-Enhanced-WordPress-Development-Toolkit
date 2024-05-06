@@ -3,14 +3,13 @@ import './Home.css'; // Ensure this is the correct path to your CSS file
 import logoImage from './logo1.png'; // Update this path to your actual logo image
 import userAvatar from './user_avatar.png'; // User avatar image
 import serverAvatar from './server_avatar.png'; // Server (GPT) avatar image
-import LoginModal from './LoginModal'; // Import the LoginModal component
+
 
 function MultiLineTextInput() {
     const [textInput, setTextInput] = useState('');
     const [serverResponse, setServerResponse] = useState('');
     const [chats, setChats] = useState([]);
     const [activeChatId, setActiveChatId] = useState(null);
-    const [showLoginModal, setShowLoginModal] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
     const [errorMessage, setErrorMessage] = useState('');
 
@@ -61,18 +60,9 @@ function MultiLineTextInput() {
         setTextInput('');
     };
 
-    const handleOpenLoginModal = () => {
-        setShowLoginModal(true);
-    };
 
-    const handleCloseLoginModal = () => {
-        setShowLoginModal(false);
-    };
 
-    const handleUserLogin = (username, password) => {
-        console.log('Logging in with:', username, password);
-        handleCloseLoginModal();
-    };
+
 
     const handleInputChange = (event) => {
         setTextInput(event.target.value);
@@ -94,7 +84,6 @@ function MultiLineTextInput() {
         <div className="appContainer">
             <div className="sidebar">
                 <button className="sidebarButton" onClick={handleNewChat}>New Chat</button>
-                <button className="sidebarButton" onClick={handleOpenLoginModal}>User Login</button>
                 {chats.map((chat, index) => (
                     <div key={chat.id} className={`chatPreview ${chat.id === activeChatId ? 'active' : ''}`} onClick={() => handleChatClick(chat.id)}>
                         Chat {index + 1}
@@ -122,7 +111,6 @@ function MultiLineTextInput() {
                 {serverResponse && <div className="serverResponse"><p>{serverResponse}</p></div>}
                 {errorMessage && <div className="errorResponse"><p>{errorMessage}</p></div>}
             </div>
-            <LoginModal show={showLoginModal} handleClose={handleCloseLoginModal} handleLogin={handleUserLogin}/>
         </div>
     );
 }
