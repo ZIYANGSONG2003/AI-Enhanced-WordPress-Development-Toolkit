@@ -269,15 +269,19 @@ new css style about the chat dialog
     padding: 10px 15px;
     margin-left: 10px; /* Add space between icon and message */
     overflow-wrap: break-word; /* Ensure the text wraps within the bubble */
+    display: inline-block;
 }
 
-.server .messageText {        /* styles the message text area for server messages in the chat interface.*/
-    background-color: #f4f4f8;
+.server .messageText {
+    background-color: #e5e5ea;
     border-radius: 18px;
     padding: 10px 15px;
-    margin-left: auto; /* Align server messages to the right */
-    overflow-wrap: break-word; /* Ensure the text wraps within the bubble */
+    margin-left: auto; /* 将服务器消息向右对齐 */
+    margin-top: 50px;  /* 增加顶部边距，让服务器消息在用户消息下方 */
+    overflow-wrap: break-word; /* 确保文本在气泡内自动换行 */
+    display: inline-block; /* 使背景和内容大小匹配 */
 }
+
 
 .userIcon {     /* used to style user icons within the chat interface */
     width: 30px;
@@ -293,20 +297,57 @@ new css style about the chat dialog
     font-size: 13px;
     line-height: 1.4;
     max-width: calc(100% - 50px); /* Subtract the width of the icon and margins */
+    display: inline-block;
 }
 
-/* Add more styling here as needed */
+.message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;  /* 调整为更大的值以增加间隔 */
+    width: 100%;
+}
+
+
 .messageAvatar {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin: 0 10px;  /* 确保头像周围有空间 */
 }
 
 .user .messageAvatar {
-    float: left;
+    order: -1;  /* 用户头像在右侧 */
 }
 
 .server .messageAvatar {
-    float: right;
+    order: 2; /* 服务器头像在左侧 */
+}
+
+.nameTag {
+    position: absolute;  /* 绝对定位 nameTag */
+    top: -20px;  /* 将标签上移，可能需要根据实际情况调整 */
+    font-size: 0.75rem;
+    color: #666;
+    width: 100%;
+    text-align: center;
+    left:2%;
+    transform: translateX(-50%); /* 中心对齐标签 */
+}
+
+.messageContent {
+    background-color: #f4f4f8;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+    word-wrap: break-word; /* 确保长文本自动换行 */
+    max-width: 80%; /* 限制最大宽度 */
+}
+
+.user {
+    flex-direction: row;  /* 用户消息向右对齐 */
+}
+
+.server {
+    flex-direction: row;  /* 服务器消息向左对齐 */
 }

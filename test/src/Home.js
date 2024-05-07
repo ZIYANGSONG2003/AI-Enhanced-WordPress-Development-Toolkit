@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
-import './Home.css'; // Ensure this is the correct path to your CSS file
-import logoImage from './logo1.png'; // Update this path to your actual logo image
-import userAvatar from './user_avatar.png'; // User avatar image
-import serverAvatar from './server_avatar.png'; // Server (GPT) avatar image
-
+import './Home.css'; // 确保这是您的 CSS 文件的正确路径
+import logoImage from './logo1.png'; // 更新此路径为您的实际 logo 图片
+import userAvatar from './user_avatar.png'; // 用户头像图片
+import serverAvatar from './server_avatar.png'; // 服务器（GPT）头像图片
 
 function MultiLineTextInput() {
     const [textInput, setTextInput] = useState('');
-    const [serverResponse, setServerResponse] = useState('');
     const [chats, setChats] = useState([]);
     const [activeChatId, setActiveChatId] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
@@ -49,7 +47,6 @@ function MultiLineTextInput() {
             );
 
             setChats(updatedChatsWithResponse);
-            setServerResponse(data.gpt_response);
         } catch (error) {
             console.error('Error submitting text:', error);
             setErrorMessage('Failed to send message. Please try again later.');
@@ -59,10 +56,6 @@ function MultiLineTextInput() {
 
         setTextInput('');
     };
-
-
-
-
 
     const handleInputChange = (event) => {
         setTextInput(event.target.value);
@@ -96,19 +89,22 @@ function MultiLineTextInput() {
                     <img src={logoImage} alt="Logo" className="logo"/>
                 </div>
                 <div className="container">
-                    {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
+                {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
                         <div key={index} className={`message ${message.sender === 'user' ? 'user' : 'server'}`}>
                             <img src={message.avatar} alt={`${message.sender} Avatar`} className="messageAvatar"/>
-                            <div className="messageContent">{message.text}</div>
+                            <div className={`${message.sender === 'user' ? 'messageContent' : 'messageText'}`}>
+                                {message.text}
+                            </div>
+                            <div className="nameTag">{message.sender === 'user' ? 'YOU' : 'GPT'}</div>
                         </div>
                     ))}
+
                 </div>
 
                 <div className="inputArea">
                     <textarea className="textInput" placeholder="Type your message here..." value={textInput} onChange={handleInputChange} disabled={isLoading}/>
                     <button className="submitBtn" onClick={handleSubmit} disabled={isLoading}>&#9654;</button>
                 </div>
-                {serverResponse && <div className="serverResponse"><p>{serverResponse}</p></div>}
                 {errorMessage && <div className="errorResponse"><p>{errorMessage}</p></div>}
             </div>
         </div>
