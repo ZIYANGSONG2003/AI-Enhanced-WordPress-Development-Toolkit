@@ -17,14 +17,10 @@ function MultiLineTextInput() {
             return;
         }
 
-        console.log(`Attempting to send message: ${textInput} to chat ID: ${activeChatId}`);
-
         const newMessage = { sender: 'user', text: textInput, avatar: userAvatar };
-        const updatedChats = chats.map(chat =>
-            chat.id === activeChatId ? { ...chat, messages: [...chat.messages, newMessage] } : chat
-        );
+        // Optimistically update UI immediately
+        updateChatMessages(newMessage);
 
-        setChats(updatedChats);
         setIsLoading(true);
 
         try {
@@ -39,22 +35,22 @@ function MultiLineTextInput() {
             }
 
             const data = await response.json();
-            console.log('Response received:', data);
-
             const serverMessage = { sender: 'server', text: data.gpt_response, avatar: serverAvatar };
-            const updatedChatsWithResponse = chats.map(chat =>
-                chat.id === activeChatId ? { ...chat, messages: [...chat.messages, serverMessage] } : chat
-            );
-
-            setChats(updatedChatsWithResponse);
+            // Update chat with server response
+            updateChatMessages(serverMessage);
         } catch (error) {
             console.error('Error submitting text:', error);
             setErrorMessage('Failed to send message. Please try again later.');
         } finally {
             setIsLoading(false);
+            setTextInput('');
         }
+    };
 
-        setTextInput('');
+    const updateChatMessages = (message) => {
+        setChats(chats => chats.map(chat =>
+            chat.id === activeChatId ? { ...chat, messages: [...chat.messages, message] } : chat
+        ));
     };
 
     const handleInputChange = (event) => {
@@ -89,7 +85,7 @@ function MultiLineTextInput() {
                     <img src={logoImage} alt="Logo" className="logo"/>
                 </div>
                 <div className="container">
-                {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
+                    {activeChatId && chats.find(chat => chat.id === activeChatId)?.messages.map((message, index) => (
                         <div key={index} className={`message ${message.sender === 'user' ? 'user' : 'server'}`}>
                             <img src={message.avatar} alt={`${message.sender} Avatar`} className="messageAvatar"/>
                             <div className={`${message.sender === 'user' ? 'messageContent' : 'messageText'}`}>
@@ -98,7 +94,6 @@ function MultiLineTextInput() {
                             <div className="nameTag">{message.sender === 'user' ? 'YOU' : 'GPT'}</div>
                         </div>
                     ))}
-
                 </div>
 
                 <div className="inputArea">
