@@ -1,6 +1,9 @@
 # Frontend Architecture Design
 
 ## Overview
+![Uploading WechatIMG922.jpg…]()
+
+
 
 The frontend of the AI-Enhanced WordPress Development Toolkit is designed to provide a user-friendly interface that seamlessly integrates with the backend services hosted on AWS, processes data via a REST API, and leverages the capabilities of OpenAI.
 ![image](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/46529b80-768b-493f-9ee0-1604cd5ba1e7)
