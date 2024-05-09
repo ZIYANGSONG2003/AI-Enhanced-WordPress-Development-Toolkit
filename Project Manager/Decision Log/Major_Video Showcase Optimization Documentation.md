@@ -11,9 +11,9 @@ _Last updated: [05/05/2024]_
 | Status       | PLANNING                                    |
 | ------------ | ------------------------------------------- |
 | Impact       | HIGH                                        |
-| Driver       | Marketing Team                              |
-| Approver     | Creative Director                           |
-| Contributors | Video Production Team, Design Team          |
+| Driver       | Team                              |
+| Approver     | Nicky (client)                         |
+| Contributors | Stephanie, Austin, Kunlun, Nicky          |
 | Informed     | Tutor Elena, Stakeholders                   |
 | Due Date     | [03/05/2024]                                |
 | Resources    | Presentation Materials, Video Editing Tools |
