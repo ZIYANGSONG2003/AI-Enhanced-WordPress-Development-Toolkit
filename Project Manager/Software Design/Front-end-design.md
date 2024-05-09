@@ -1,8 +1,9 @@
-# Frontend Architecture Design
+<img width="1362" alt="Screenshot 2024-05-10 at 1 07 59 am" src="https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/137986002/603a27e3-8f94-4d7f-9760-1d909522cca9"># Frontend Architecture Design
 
 ## Overview
 
-![Uploading Screenshot 2024-05-10 at 1.07.59 am.png…]()
+<img width="1362" alt="Screenshot 2024-05-10 at 1 07 59 am" src="https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/137986002/f84f27d9-9d4e-4ab7-9349-e79dcc6dbad4">
+
 
 
 
