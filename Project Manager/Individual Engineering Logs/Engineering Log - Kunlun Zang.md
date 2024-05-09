@@ -106,6 +106,9 @@ F2.7
 Research on Login profile
 F2.8
 Implement Login profile
+
+
+
 <img width="543" alt="Screenshot 2024-05-10 at 12 31 48 am" src="https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/137986002/9687c834-fc5b-475b-a165-0e7334eea142">
 
 <img width="1685" alt="Screenshot 2024-05-10 at 12 29 58 am" src="https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/137986002/654fdc78-3813-4e9c-a1f7-c45fdfeb0232">
