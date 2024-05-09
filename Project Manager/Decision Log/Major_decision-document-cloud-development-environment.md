@@ -9,7 +9,7 @@ _Last updated: [21/03/2024]_
 
 ## Decision Overview
 
-| Status         | IN PROGRESS                           |
+| Status         | DONE                           |
 |----------------|---------------------------------------|
 | Impact         | HIGH                                  |
 | Driver         | Product Manager                       |
