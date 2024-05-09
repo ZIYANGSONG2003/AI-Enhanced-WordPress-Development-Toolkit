@@ -1,7 +1,8 @@
 # Frontend Architecture Design
 
 ## Overview
-![Uploading WechatIMG922.jpg…]()
+
+![Uploading Screenshot 2024-05-10 at 1.07.59 am.png…]()
 
 
 
