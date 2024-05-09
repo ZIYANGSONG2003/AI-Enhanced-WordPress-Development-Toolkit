@@ -46,16 +46,19 @@ The frontend, built with `React`, is designed to offer a responsive and interact
 
 ## In deployment, the working relationship between the Flask and Gunicorn is as follows:
 
-Request Handling: In a production environment, Gunicorn acts as the HTTP server, receiving HTTP requests from clients (potentially through Nginx or other types of reverse proxies).
-Passing to Flask: Gunicorn forwards the received requests to the Flask application according to the WSGI protocol. Here, Gunicorn handles multiple worker processes and threads to optimize performance and concurrency, while Flask is responsible for executing specific application logic based on the requests.
-Returning Responses: After Flask processes the requests, it generates responses and returns them to Gunicorn, which then sends these responses back to the clients.
-Flask handles requests from users, where the user's request is to build a website. Here, the Python backend is divided into two modules: one module calls the OpenAI API to fetch the necessary requests, and the other module uses the data obtained from GPT to control the operation of GPT. These two modules are Python microservice modules, which run in parallel. In Python web, there are methods for modules to call each other, where the first module calls the functionality of the second module to let WordPress build a website as required by the user. The requests are then passed through Gunicorn to Nginx, and then to React, displaying the corresponding pages to the user.
+- Request Handling: In a production environment, Gunicorn acts as the HTTP server, receiving HTTP requests from clients (potentially through Nginx or other types of reverse proxies).
+- Passing to Flask: Gunicorn forwards the received requests to the Flask application according to the WSGI protocol. Here, Gunicorn handles multiple worker processes and threads to optimize performance and concurrency, while Flask is responsible for executing specific application logic based on the requests.
+- Returning Responses: After Flask processes the requests, it generates responses and returns them to Gunicorn, which then sends these responses back to the clients.
+- Flask handles requests from users, where the user's request is to build a website. Here, the Python backend is divided into two modules: one module calls the OpenAI API to fetch the necessary requests, and the other module uses the data obtained from GPT to control the operation of GPT. These two modules are Python microservice modules, which run in parallel. In Python web, there are methods for modules to call each other, where the first module calls the functionality of the second module to let WordPress build a website as required by the user. The requests are then passed through Gunicorn to Nginx, and then to React, displaying the corresponding pages to the user.
 
-##  Frontend Deployment: The React application can be deployed on AWS services such as Amazon S3 (for hosting static websites) and/or Amazon CloudFront (as a CDN). Such deployment can enhance the loading speed and global accessibility of frontend resources.
+##  Frontend Deployment: 
+The React application can be deployed on AWS services such as Amazon S3 (for hosting static websites) and/or Amazon CloudFront (as a CDN). Such deployment can enhance the loading speed and global accessibility of frontend resources.
 
-##  Configuring Nginx: If using Nginx as a reverse proxy, it may be deployed on an Amazon EC2 instance or using container services like Amazon ECS. Nginx is configured to listen to requests from the frontend and route them according to rules to backend services.
+##  Configuring Nginx: 
+If using Nginx as a reverse proxy, it may be deployed on an Amazon EC2 instance or using container services like Amazon ECS. Nginx is configured to listen to requests from the frontend and route them according to rules to backend services.
 
-##  Backend Deployment: The Flask application might also be deployed on EC2 instances or using more modern services like AWS Elastic Beanstalk or AWS Fargate (for containerized applications), which can automatically handle the deployment, scaling, and management of the application.
+##  Backend Deployment:
+The Flask application might also be deployed on EC2 instances or using more modern services like AWS Elastic Beanstalk or AWS Fargate (for containerized applications), which can automatically handle the deployment, scaling, and management of the application.
 
 ##  Request Process:
 
