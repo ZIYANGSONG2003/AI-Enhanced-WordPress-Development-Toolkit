@@ -73,16 +73,21 @@ This log captures the detailed progress on various tasks assigned to me in the p
 - I intend to take a more proactive role in mentoring new team members, sharing the knowledge and best practices I've accumulated throughout my time on the project.
 
 
-## Development log
+## Development Log
 
-27/04/2024
-- I want to directly replace the uploaded file to replace this app.py instead of manually editing it on the server
+### 27/04/2024
 
-PS C:\Users\ZIYANG SONG\Desktop\COMP3500_CHATGPT_TEST> scp "C:\Users\ZIYANG SONG\Desktop\COMP3500_CHATGPT_TEST\AI-Enhanced-WordPress-Development-Toolkit\test\src\app.py" ubuntu@54.66.206.5:/home/ubuntu/app.py
-ubuntu@54.66.206.5: Permission denied (publickey).
-lost connection
+- **Direct Replacement of Uploaded File**: 
+  I wanted to directly replace the uploaded file instead of manually editing it on the server. However, I encountered a permission issue.
 
-The error message "Permission denied (public key)" means that the server is configured to accept SSH connections only through public key authentication, and the public key provided (or not provided) by the SSH client does not match any public keys authorized on the server .
+  ```shell
+  PS C:\Users\ZIYANG SONG\Desktop\COMP3500_CHATGPT_TEST> scp "C:\Users\ZIYANG SONG\Desktop\COMP3500_CHATGPT_TEST\AI-Enhanced-WordPress-Development-Toolkit\test\src\app.py" ubuntu@54.66.206.5:/home/ubuntu/app.py
+  ubuntu@54.66.206.5: Permission denied (publickey).
+  lost connection
+  
+The error message "Permission denied (public key)" means that the server is configured to accept SSH connections only through public key authentication, and the public key provided (or not provided) by the SSH client does not match any public keys authorized on the server.
+
+Solution: Use the correct SSH key for authentication.
 
 - ssh -i "C:\Users\ZIYANG SONG\.ssh\zmatch.pem" ubuntu@54.66.206.5 (Correctly upload the file and replace it on AWS)
 
