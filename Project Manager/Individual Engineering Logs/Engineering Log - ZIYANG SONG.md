@@ -26,16 +26,31 @@ This log captures the detailed progress on various tasks assigned to me in the p
 **F1.7 Plug-in list capture and display #23**
 - Engineered a solution to capture and display a list of plug-ins, enhancing the customizability of our application.
 
+**F1.8 Dynamic message component #28**
+- Developed a dynamic message component to improve user interaction and engagement within the application.
+
+**F2.6 UI style consistency check #43**
+- Conducted a thorough check of the UI style for consistency, ensuring a uniform look and feel across the application.
+
 ### Ongoing Tasks:
 
-**G1.3 Project Documentation update (Audit 2) #67**
-- Currently updating and auditing project documentation to ensure accuracy and completeness.
+**B2.3 Connection between front-end to back-end #96**
+- Establishing a robust connection between the front-end and back-end systems to ensure seamless data flow and interaction.
+
+**B2.2 Elastic IP address binding #75**
+- Binding elastic IP addresses to improve our system's scalability and reliability.
+
+**B2.3 Enable to receive messages from the frontend #100**
+- Working on enabling the backend to receive and process messages sent from the frontend.
 
 **R2.3 Market positioning #40**
 - Analyzing market trends and positioning our product to better meet customer needs and stand out in the competitive landscape.
 
 **R1.4 User experience research #7**
 - Engaging with users to gather feedback on our UI/UX, aiming to refine and improve their interactions with our platform.
+
+**F2.9 Modified UI style #97**
+- Modifying the UI style to enhance user experience and align with modern design principles.
 
 ### Upcoming Tasks:
 
@@ -56,6 +71,7 @@ This log captures the detailed progress on various tasks assigned to me in the p
 
 - For the upcoming database testing task (#T1.1), I aim to focus on learning more about automated testing frameworks and incorporating them into our CI/CD pipeline.
 - I intend to take a more proactive role in mentoring new team members, sharing the knowledge and best practices I've accumulated throughout my time on the project.
+
 
 ## Development log
 
