@@ -1,7 +1,7 @@
 # Reflection Log
 
-**Owned by ZIYANG SONG**  
-_Last updated: March 24, 2024_  
+**Owned by Casey Zhao**  
+_Last updated: May, 2024_  
 
 ---
 
@@ -9,35 +9,30 @@ _Last updated: March 24, 2024_
 
 | Date         | March 20-24, 2024 |
 |--------------|-------------------|
-| Objective    | Reflect on project progress and team dynamics |
-| Focus Area   | Project management and collaboration |
+| Objective    | Address the absence of a user story map in the project management process|
+| Focus Area   | PProject Management |
 | Participants | Ziyang Song, Kunlun Zang, Casey Zhao, Zubin Zubin, Austin Lee, Stephanie Sun |
-| Key Insights | - Enhanced communication leads to smoother collaboration
-                - Improved task allocation boosts productivity
-                - Acknowledged the importance of regular progress tracking |
+| Key Insights | - - Recognized the necessity of a user story map to understand user benefitsg |
 
 ---
 
 ## Events and Milestones
 
-- Successfully completed the integration of AI-powered features into the WordPress toolkit.
-- Conducted a comprehensive team meeting to discuss project milestones and upcoming tasks.
-- Presented project updates to stakeholders, receiving positive feedback on progress.
+- Identified the lack of a user story map in the project's planning tools.
+
+- Decision to form a shadow team specifically for the development of the user story map.
 
 ## Challenges Encountered
 
-- Difficulty in coordinating tasks across different time zones led to minor delays in some deliverables.
-- Technical issues with third-party plugins caused setbacks in feature implementation.
+- Initial project planning overlooked the integration of user story mapping, affecting overall project clarity and focus.
 
 ## Achievements
 
-- Successfully implemented automated testing procedures, enhancing code quality and stability.
-- Secured a partnership with a leading AI ethics organization to ensure ethical AI development practices.
+- Initiated the process of incorporating a structured user story map to improve understanding of user benefits.
 
 ## Learnings
 
-- Effective communication and proactive task allocation are crucial for remote team collaboration.
-- Flexibility and adaptability are essential when addressing unexpected technical challenges.
+- The importance of comprehensive project tools to enhance team understanding and project delivery.
 
 ---
 
@@ -45,9 +40,9 @@ _Last updated: March 24, 2024_
 
 ### Team Meeting - March 22, 2024
 
-- **Description**: Held a team meeting to discuss project milestones and assign tasks for the upcoming sprint.
-- **Outcome**: Clarified project objectives and allocated responsibilities to team members.
-- **Learnings**: Clear communication and defined tasks lead to improved team productivity.
+- **Description**: Recognized the need for a dedicated team to develop a user story map to better align project objectives with user needs.
+- **Outcome**: Agreed to set up a shadow team in the next team meeting to tackle this need.
+- **Learnings**: Understanding the importance of user story maps in project management for aligning features with user benefits.
 
 ### Plugin Integration Challenges
 
@@ -59,25 +54,20 @@ _Last updated: March 24, 2024_
 
 ## Personal Development
 
-- **Ziyang Song**: Improved leadership skills by effectively delegating tasks and facilitating team discussions.
-- **Kunlun Zang**: Enhanced problem-solving abilities through hands-on experience with technical challenges.
-- **Casey Zhao**: Developed time management skills to prioritize tasks and meet project deadlines.
-- **Zubin Zubin**: Strengthened communication skills by actively participating in team meetings and discussions.
-- **Austin Lee**: Improved coding proficiency by collaborating with teammates on complex feature implementations.
-- **Stephanie Sun**: Expanded knowledge of AI ethics and standards through research and partnership initiatives.
+- **Ziyang Song**:  Improved strategic thinking by identifying gaps in project planning tools.
+- **Kunlun Zang**: Gained insights into the importance of project management frameworks.
+- **Casey Zhao**: Learned about the role and construction of user story maps in software development.
+- **Zubin Zubin**: Developed a clearer understanding of user-centered project planning.
+- **Austin Lee**: Enhanced project management skills by contributing to the formation of the shadow team.
+- **Stephanie Sun**: Expanded knowledge on integrating user feedback into project planning.
 
 ## Feedback Received
 
-- Positive feedback from stakeholders on project progress and feature implementations.
-- Constructive feedback from team members regarding the need for clearer task documentation and communication.
+- Recognition from team members on the proactive step to integrate user story mapping into the project.
 
 ## Plans for Future Development
 
-- Implement stricter testing protocols to catch potential issues early in the development process.
-- Enhance documentation practices to improve knowledge sharing and streamline onboarding for new team members.
+- Officially launch the shadow team to develop the user story map.
+-Ensure all team members are trained on the importance and methodology of user story mapping.
 
----
-
-- Ensure all team members are trained on the importance and methodology of user story mapping.
-
----
+Additional Notes: The reflection highlighted the critical role of user story maps in project management and user-centered design. This addition is expected to significantly enhance the project's alignment with user needs and overall success.
