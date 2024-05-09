@@ -1,6 +1,6 @@
 # Engineering Log Entry: Front-End UI/UX Development Enhancements
 
-## Date Range: March 13-17, 2024
+## Date Range: March 13-April 16, 2024
  
 ## Overview
 This week's focus was on improving the UI/UX of our application, which involved designing new layouts, implementing UI enhancements, and fixing several critical bugs. These tasks were aimed at enhancing user interaction and ensuring a seamless experience across our platform.
@@ -86,5 +86,36 @@ Continuous learning through each task's challenges has significantly contributed
 Review all implemented changes with the team for feedback.
 Plan and initiate the next phase of UI/UX enhancements based on user feedback and technical assessments.
 Dedicate time for exploring advanced CSS and JavaScript techniques for future implementation.
+
+
+# Engineering Log Entry: Front-End UI/UX Development Enhancements
+
+## Date Range:April 18 to MAY 10, 2024
+ 
+## Overview
+## Project Information
+
+- **Project Name:** AI-Enhanced-WordPress-Development-Toolkit
+- **Log Maintained By:** Kunlun Zang
+- **Date Range:** 19th Feb'24 - 17st June'24
+## Objective
+
+Track learning and progress towards the project through the semester.
+## Contributions
+F2.7
+Research on Login profile
+F2.8
+Implement Login profile
+<img width="636" alt="Screenshot 2024-05-10 at 12 18 56 am" src="https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/137986002/cb9a7853-891f-4551-9ca3-1a8309c45fba">
+<img width="944" alt="Screenshot 2024-05-10 at 12 21 32 am" src="https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/137986002/fdd30131-cb3b-443e-8997-505351b32621">
+
+Completed the design of the front-end page, and overall completed the construction of the front-end interface, layout design, and final overall improvement.
+Reflections & Notes
+The meticulous logging of each task has greatly aided in my personal organization and has become an invaluable reference for the team and for future documentation. The frustrations I encountered were addressed through reflective writing, which proved to be both therapeutic and constructive for personal growth and improving team dynamics. The continuous learning from the challenges encountered in each task has significantly contributed to my professional development and the success of the project.
+
+Next Steps
+I plan to review all the changes implemented with the team to gather feedback. Based on the feedback received and technical evaluations, I will plan and initiate the next phase of UI/UX enhancements. Additionally, I will dedicate time to explore advanced CSS and JavaScript techniques for future implementation.
+
+
 
 
