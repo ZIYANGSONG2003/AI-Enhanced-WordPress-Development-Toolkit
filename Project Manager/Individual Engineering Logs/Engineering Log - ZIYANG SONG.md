@@ -113,3 +113,6 @@ DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:4
 DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/gpt-3.5-turbo-0125/completions HTTP/1.1" 429 337
 ERROR:root:Rate limit exceeded. Please wait and try again.
 INFO:werkzeug:150.203.65.251 - - [30/Apr/2024 05:31:17] "POST /upload_text HTTP/1.1" 429 -
+
+![Uploading image.png…]()
+
