@@ -43,7 +43,14 @@ The frontend, built with `React`, is designed to offer a responsive and interact
   - Dynamic UI components for enhanced user interaction.
 
 
+## Data Flow
 
+1. The user interacts with the React frontend, submitting natural language queries.
+2. React sends these queries to the Flask backend via HTTP requests.
+3. Flask processes the requests, utilizing OpenAI's API for AI-driven operations.
+4. Gunicorn ensures these processes are managed efficiently across various server instances.
+5. Responses are sent back to the frontend to provide real-time feedback and actions to the user.
+6. WordPress is updated accordingly through the backend, reflecting changes on the user's site.
 ## In deployment, the working relationship between the Flask and Gunicorn is as follows:
 
 - Request Handling: In a production environment, Gunicorn acts as the HTTP server, receiving HTTP requests from clients (potentially through Nginx or other types of reverse proxies).
@@ -67,15 +74,6 @@ The React application (deployed on S3 and/or CloudFront) makes API requests usin
 These requests are sent to the Nginx server (possibly deployed on EC2 or managed through other AWS services).
 Nginx, based on configuration, forwards the requests to the server where the Flask application is located.
 Flask processes the requests and sends the response data back to Nginx, which then passes this data back to the frontend.
-
-## Data Flow
-
-1. The user interacts with the React frontend, submitting natural language queries.
-2. React sends these queries to the Flask backend via HTTP requests.
-3. Flask processes the requests, utilizing OpenAI's API for AI-driven operations.
-4. Gunicorn ensures these processes are managed efficiently across various server instances.
-5. Responses are sent back to the frontend to provide real-time feedback and actions to the user.
-6. WordPress is updated accordingly through the backend, reflecting changes on the user's site.
 
 ## Conclusion
 
