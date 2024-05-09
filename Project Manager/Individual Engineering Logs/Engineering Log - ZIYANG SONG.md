@@ -40,7 +40,7 @@ This log captures the detailed progress on various tasks assigned to me in the p
 **B2.2 Elastic IP address binding #75**
 - Binding elastic IP addresses to improve our system's scalability and reliability.
 
-**B2.3 Enable to receive messages from the frontend #100**
+**B2.4 Enable to receive messages from the frontend #100**
 - Working on enabling the backend to receive and process messages sent from the frontend.
 
 **R2.3 Market positioning #40**
