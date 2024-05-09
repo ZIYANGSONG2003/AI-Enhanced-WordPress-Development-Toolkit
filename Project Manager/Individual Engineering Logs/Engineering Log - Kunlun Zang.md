@@ -117,10 +117,10 @@ Implement Login profile
 
 
 Completed the design of the front-end page, and overall completed the construction of the front-end interface, layout design, and final overall improvement.
-Reflections & Notes
+## Reflections & Notes
 The meticulous logging of each task has greatly aided in my personal organization and has become an invaluable reference for the team and for future documentation. The frustrations I encountered were addressed through reflective writing, which proved to be both therapeutic and constructive for personal growth and improving team dynamics. The continuous learning from the challenges encountered in each task has significantly contributed to my professional development and the success of the project.
 
-Next Steps
+## Next Steps
 I plan to review all the changes implemented with the team to gather feedback. Based on the feedback received and technical evaluations, I will plan and initiate the next phase of UI/UX enhancements. Additionally, I will dedicate time to explore advanced CSS and JavaScript techniques for future implementation.
 
 
