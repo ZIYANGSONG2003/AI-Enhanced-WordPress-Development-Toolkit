@@ -7,6 +7,9 @@
 
 
 The frontend of the AI-Enhanced WordPress Development Toolkit is designed to provide a user-friendly interface that seamlessly integrates with the backend services hosted on AWS, processes data via a REST API, and leverages the capabilities of OpenAI.
+Frontend Development: Indeed, your frontend is written using HTML, CSS, and JavaScript. React is a JavaScript library for building user interfaces, so it is a part of this technology stack.
+Sending Requests: In a React application, you will use the fetch function or other similar libraries (such as axios) to make calls to backend APIs. These requests are directly initiated by JavaScript code running in the user's browser.
+Handling Requests: When these requests are sent from the browser, they first reach an Nginx server configured to receive client requests. Here, Nginx decides how to handle these requests based on its configuration. Typically, this includes checking the request's URL and other header information, then routing the request to the appropriate backend server, which is Gunicorn. Gunicorn then forwards the request to the Flask framework, and then...
 
 
 ## Components
@@ -43,6 +46,7 @@ Users interact with the toolkit through a web browser, which communicates with t
 2. The browser initiates REST API calls, which are routed through NGINX to ensure efficient handling and security.
 3. The API call is processed by the Flask application on the AWS server, which may interact with the gunicorn server and OpenAI services as required.
 4. Responses from the backend services are received by the browser and React updates the UI accordingly to reflect any changes or data retrieved.
+
 
 ## Conclusion
 
