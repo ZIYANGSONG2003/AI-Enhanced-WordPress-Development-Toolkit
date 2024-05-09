@@ -11,10 +11,10 @@ _Last updated: [07/05/2024]_
 | Status       | REVISION                                     |
 | ------------ | -------------------------------------------- |
 | Impact       | MODERATE                                     |
-| Driver       | Project Team                                 |
+| Driver       | Team                                 |
 | Approver     | Tutor Elena                                  |
-| Contributors | Video Production Team, AI Research Team      |
-| Informed     | Stakeholders, Prof. Liang Zheng              |
+| Contributors | Stephanie, Nicky, Kunlun, Austin |
+| Informed     | Stakeholders              |
 | Due Date     | [03/05/2024]                                 |
 | Resources    | AI Research, Development Tools, ChatGPT4 API |
 
