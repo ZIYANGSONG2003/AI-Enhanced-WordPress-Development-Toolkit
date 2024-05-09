@@ -12,7 +12,7 @@ Frontend Development: Indeed, your frontend is written using HTML, CSS, and Java
 -  Sending Requests: In a React application, you will use the fetch function or other similar libraries (such as axios) to make calls to backend APIs. These requests are directly initiated by JavaScript code running in the user's browser.
   
 -  Handling Requests: When these requests are sent from the browser, they first reach an Nginx server configured to receive client requests. Here, Nginx decides how to handle these requests based on its configuration. Typically, this includes checking the request's URL and other header information, then routing the request to the appropriate backend server, which is Gunicorn. Gunicorn then forwards the request to the Flask framework, and then...
-
+![image](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/46529b80-768b-493f-9ee0-1604cd5ba1e7)
 
 ## Components
 
