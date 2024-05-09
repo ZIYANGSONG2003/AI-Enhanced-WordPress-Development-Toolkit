@@ -5,12 +5,11 @@ body, html {
     background-color: #ffffff; /* Set background color to white */
 }
 
-
 .appContainer {
     display: flex;
+    flex-direction: column;
     height: 100vh;
 }
-
 
 .mainContent {
     flex-grow: 1;
@@ -18,8 +17,8 @@ body, html {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    position: relative;
 }
-
 
 .container {
     flex-grow: 1;
@@ -28,50 +27,46 @@ body, html {
     padding: 20px;
 }
 
-.inputArea {                /*  style a fixed-position input area at the bottom of the webpage */
-    position: absolute;
+.inputArea {
+    position: fixed;
     bottom: 0;
-    left: 60%;
+    left: 59%; /* 调整这个值来将输入框向右移动一些 */
     transform: translateX(-50%);
-    width: 100%; /* Ensure it spans the width of the page */
-    max-width: 768px; /* Set a max-width for larger screens */
+    width: 100%;
+    max-width: 768px;
     padding: 10px 0;
     z-index: 2; /* Ensure it's above other elements */
-    padding: 10px 0; /* Add padding as needed */
-
-    max-height: 15%;
     display: flex; /* Use flex to align children inline */
     align-items: center; /* Center-align the children vertically */
     justify-content: center; /* Center-align the children horizontally */
-    padding: 10px; /* Add padding inside the input area */
+    background-color: white; /* Ensure the input area has a background color */
 }
-.textInputWrapper {         /* Creates a wrapper for text input field */
+
+.textInputWrapper {
     display: flex;
     align-items: center;
     background: #FFF;
     border: 1px solid #CCC; /* Light grey border */
     border-radius: 20px; /* Rounded corners for the wrapper */
-
     border-right: none; /* Remove border between the icon and the text input */
     overflow: hidden; /* Ensures the inner elements conform to the wrapper's border-radius */
     flex-grow: 1;
     max-width: 100%; /* Full width of its parent */
     width: auto; /* Adjust to content */
 }
-.inputIcon {          /* Used to define styling for icons within input fields */
-    padding: 10px;
 
+.inputIcon {
+    padding: 10px;
     color: black;
     font-size: 16px; /* Adjust icon size as needed */
-
 }
-.textInput {        /* Used to define styling for text input fields */
+
+.textInput {
     flex-grow: 1;
     border: none;
     padding: 15px 15px;
     margin-right: 10px;
     font-size: 16px; /* Match the font size to the icon size */
-
     border-radius: 20px; /* Rounded corners for the text input */
     flex: 1; /* Take available space */
     max-width: 600px; /* Max width that input can take */
@@ -80,16 +75,16 @@ body, html {
     margin: 10 10px; /* Ensure some space between the text input and button */
     padding: 10 10px; /* Padding inside the text area for the text */
 }
-.disclaimer {           /* defines the styling for the disclaimer message within the webpage */
+
+.disclaimer {
     text-align: center;
     font-size: 0.75em;
     padding-top: 5px;
     width: 100%; /* Match the width of the inputArea */
 }
 
-
-.submitBtn {            /* Defines styling for the submit button */
-    background-color:  #717375;
+.submitBtn {
+    background-color: #717375;
     border: none;
     color: white;
     padding: 3px 6px;
@@ -108,10 +103,11 @@ body, html {
     margin-left: 10px; /* Push the button to the end of the flex container */
     margin-right: 10px; /* Margin from the right end of the input area */
 }
-.textInput:focus, .submitBtn:focus {    /* defines styling for the focus state of text input fields and submit buttons */
-    outline: none;              /* Removes the default browser outline around elements when they receive focus*/
 
+.textInput:focus, .submitBtn:focus {
+    outline: none; /* Removes the default browser outline around elements when they receive focus */
 }
+
 @media (max-width: 768px) {
     .textInput {
         max-width: calc(100% - 50px); /* Subtract width of button and padding */
@@ -123,13 +119,10 @@ body, html {
     color: #717375; /* Text color */
 }
 
-
-.logo {           /* represents the logo image itself */
+.logo {
     margin: 0 auto; /* Centers the button in the container */
     max-width: 100px; /* Adjust as needed */
     height: auto;
-
-    /* Other styles to match your design */
 }
 
 .loginIcon {
@@ -140,8 +133,7 @@ body, html {
     background: #AFABAB;
 }
 
-
-.fetchBtn{         /* Defines styling for the button element used to fetch data/perform some other action*/
+.fetchBtn {
     background-color: #717375; /* Button color */
     color: white; /* Text color */
     border: none; /* No border */
@@ -156,32 +148,26 @@ body, html {
     justify-content: center;
     margin: 0 auto 20px; /* Center button horizontally, add margin below */
     outline: none;
-
 }
 
-.submitBtn:focus {    /*Removes the outline of the submit button when it receives focus */
-    outline: none;
+.submitBtn:focus {
+    outline: none; /* Removes the outline of the submit button when it receives focus */
 }
 
-
-/* The below two blocks define the behaviour of the buttons when the cursor is hovered over them */
-.fetchBtn:hover{
-    background-color:#717375; /* Darker shade on hover */
-
+.fetchBtn:hover {
+    background-color: #717375; /* Darker shade on hover */
 }
 
-.submitBtn:hover{
-    background-color:  #717375; /* Darker green on hover */;
+.submitBtn:hover {
+    background-color: #717375; /* Darker green on hover */
 }
-
 
 .serverResponse, .pluginsList {
-
     margin-top: 20px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 300px; /* Adjust the width as needed */
+    width: 250px; /* Adjust the width as needed */
 }
 
 .pluginsList ul {
@@ -199,7 +185,7 @@ body, html {
 }
 
 .appContainer {
-    display: flex;    /*enables flex box layout properties to be applied to its children */
+    display: flex;    /* enables flex box layout properties to be applied to its children */
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
@@ -213,100 +199,186 @@ body, html {
     display: flex;
     flex-direction: column;
     border-right: 0px solid #ccc; /* Add border to the right */
+    position: relative; /* Ensure relative positioning for internal elements */
+    height: 100vh; /* Ensure sidebar spans full height of viewport */
+    box-sizing: border-box; /* Include padding in element's total width and height */
 }
 
+.sidebarTop {
+    flex-grow: 1;
+    overflow-y: auto; /* Ensure chat list is scrollable */
+}
 
-
+.sidebarBottom {
+    position: absolute;
+    bottom: 40px; /* Adjust based on your padding and margin requirements */
+    left: 10%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
 
 .sidebarButton {
     background-color: #717375;
     color: white;
     padding: 13px;
-    margin-bottom: 18px;
+    margin-top: 1px;
+    margin-bottom: 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.sidebarButton:hover {      /*defines the behaviour of the sidebar buttons when the cursor is hovered */
+.sidebarButton:hover {
     background-color: #717375;
 }
 
-.chatPreview {   /* styling the display previews of chat messages */
+.chatPreview {
     padding: 10px;
     border-bottom: 1px solid #ccc;
     cursor: pointer;
 }
 
-.chatPreview:hover {   /* Changes the background color of the .chatPreview elements to a light gray when hovered over */
+.chatPreview:hover {
     background-color: #e9e9e9;
 }
 
 .chatPreview.active {
     background-color: #717375;    /* Sets the background color of active .chatPreview elements to a shade of blue */
     color: white;               /*  Sets the text color of active .chatPreview elements to white to ensures the text remains */
-}                               /* readable against the blue background.*/
+}
 
-
-
-/*
-new css style about the chat dialog
- */
 .message {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.userMessageWrapper {       /*  ensures that the user's icon and their message text are aligned vertically at the bottom */
+.userMessageWrapper {
     display: flex;
     align-items: flex-end; /* Aligns the icon and text at their bottom edge */
 }
 
-.user .messageContent {     /*  styles the message content area for user messages in the chat interface*/
+.user .messageContent {
     background-color: #e5e5ea;
     border-radius: 18px;
     padding: 10px 15px;
     margin-left: 10px; /* Add space between icon and message */
     overflow-wrap: break-word; /* Ensure the text wraps within the bubble */
+    display: inline-block;
 }
 
-.server .messageText {        /* styles the message text area for server messages in the chat interface.*/
-    background-color: #f4f4f8;
+.server .messageText {
+    background-color: #e5e5ea;
     border-radius: 18px;
     padding: 10px 15px;
-    margin-left: auto; /* Align server messages to the right */
-    overflow-wrap: break-word; /* Ensure the text wraps within the bubble */
+    max-width: 1200px;
+    margin-left: auto; /* 将服务器消息向右对齐 */
+    margin-top: 50px;  /* 增加顶部边距，让服务器消息在用户消息下方 */
+    overflow-wrap: break-word; /* 确保文本在气泡内自动换行 */
+    display: inline-block; /* 使背景和内容大小匹配 */
 }
 
-.userIcon {     /* used to style user icons within the chat interface */
+.userIcon {
     width: 30px;
     height: 30px;
     flex-shrink: 0; /* Prevent the icon from shrinking */
-
     margin-right: 10px; /* Space between icon and message content */
-
-
 }
 
-.messageContent { /* used to style the content area of messages within the chat interface*/
+.messageContent {
     font-size: 13px;
     line-height: 1.4;
     max-width: calc(100% - 50px); /* Subtract the width of the icon and margins */
+    display: inline-block;
 }
 
-/* Add more styling here as needed */
+.message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;  /* 调整为更大的值以增加间隔 */
+    width: 100%;
+}
+
 .messageAvatar {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin: 0 10px;  /* 确保头像周围有空间 */
 }
 
 .user .messageAvatar {
-    float: left;
+    order: -1;  /* 用户头像在右侧 */
 }
 
 .server .messageAvatar {
-    float: right;
+    order: 2; /* 服务器头像在左侧 */
+}
+
+.nameTag {
+    position: absolute;  /* 绝对定位 nameTag */
+    top: -20px;  /* 将标签上移，可能需要根据实际情况调整 */
+    font-size: 0.75rem;
+    color: #666;
+    width: 100%;
+    text-align: center;
+    left: 2%;
+    transform: translateX(-50%); /* 中心对齐标签 */
+}
+
+.messageContent {
+    background-color: #f4f4f8;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+    word-wrap: break-word; /* 确保长文本自动换行 */
+    max-width: 80%; /* 限制最大宽度 */
+}
+
+.user {
+    flex-direction: row;  /* 用户消息向右对齐 */
+}
+
+.server {
+    flex-direction: row;  /* 服务器消息向左对齐 */
+}
+
+.userAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.avatarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* 背景颜色 */
+    padding: 10px;
+    border-radius: 50%; /* 圆角背景 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+
+.wordpressButton {
+    position: fixed;
+    top: 43px;
+    right: 20px;
+    z-index: 1000;
+    padding: 10px 20px;
+    background-color:  #717375;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.wordpressButton:hover {
+    background-color: #0056b3;
 }

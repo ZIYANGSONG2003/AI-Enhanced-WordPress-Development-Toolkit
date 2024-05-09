@@ -6,52 +6,50 @@ function Login() {
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [loginError, setLoginError] = useState('');
 
-    const handleSubmit = async () => {
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        
         try {
-            const response = await fetch('httpgit pull origin main://your-backend-server.com/api/login', {
+            const response = await fetch('http://localhost:8080/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ email: email, password: password }),
+                body: JSON.stringify({ email, password }),
             });
 
-            if (!response.ok) {
-                throw new Error('Login failed');
-            }
-
-            const result = await response.json();
-            if (result.success) {
-                navigate('/home'); // Redirect to the Home page after successful login
+            if (response.ok) {
+                navigate('/home'); // Redirect to the Home page after clicking login
             } else {
-                setLoginError('Invalid credentials or server error.');
+                alert('Invalid email or password');
             }
         } catch (error) {
-            setLoginError(error.message);
+            console.error('Error:', error);
+            alert('An error occurred. Please try again.');
         }
     };
 
     return (
         <div className="loginContainer">
             <div className="loginForm">
-                <img src={require("./logo1.png")} alt="logo" className="loginLogo"/>
+                <img src={require("./logo1.png")} alt="logo" className="loginLogo" />
                 <h2>Welcome back</h2>
-                <input
-                    type="email"
-                    placeholder="Email address*"
-                    value={email}
-                    onChange={e => setEmail(e.target.value)}
-                />
-                <input
-                    type="password"
-                    placeholder="Password*"
-                    value={password}
-                    onChange={e => setPassword(e.target.value)}
-                />
-                <button onClick={handleSubmit}>Submit</button>
-                {loginError && <p className="error">{loginError}</p>}
+                <form onSubmit={handleSubmit}>
+                    <input 
+                        type="email" 
+                        placeholder="Email address*" 
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+                    <input 
+                        type="password" 
+                        placeholder="Password*" 
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                    />
+                    <button type="submit">Submit</button>
+                </form>
             </div>
         </div>
     );
