@@ -106,8 +106,10 @@ F2.7
 Research on Login profile
 F2.8
 Implement Login profile
-<img width="636" alt="Screenshot 2024-05-10 at 12 18 56 am" src="https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/137986002/cb9a7853-891f-4551-9ca3-1a8309c45fba">
-<img width="944" alt="Screenshot 2024-05-10 at 12 21 32 am" src="https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/137986002/fdd30131-cb3b-443e-8997-505351b32621">
+<img width="636" alt="Screenshot 2024-05-10 at 12 18 56 am" src="https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/137986002/cb9a7
+<img width="1685" alt="Screenshot 2024-05-10 at 12 29 58 am" src="https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/137986002/c6ef51a2-556c-4489-bafb-9a55d2e1b8c6">
+853-891f-4551-9ca3-1a8309c45fba">
+
 
 Completed the design of the front-end page, and overall completed the construction of the front-end interface, layout design, and final overall improvement.
 Reflections & Notes
