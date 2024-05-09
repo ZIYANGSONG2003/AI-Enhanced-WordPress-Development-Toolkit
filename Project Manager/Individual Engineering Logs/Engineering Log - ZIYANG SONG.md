@@ -130,5 +130,12 @@ DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/gpt-3.
 ERROR:root:Rate limit exceeded. Please wait and try again.
 INFO:werkzeug:150.203.65.251 - - [30/Apr/2024 05:31:17] "POST /upload_text HTTP/1.1" 429 -
 
-![Uploading image.png…]()
+![a2e87e49757365e1cd857e2b289a31f](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/d635c05c-a9bc-49d2-aa7a-9241676ec2c3)
+![89355a49e6db571275102b61545adb4](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/9c11bbc1-4c1b-49b1-84b7-5d71d05370e6)
+![f00f8e5dd8f6bbeb9d7643ac460fdad](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/c61e5683-ad4f-400b-8fde-39238538f48e)
+![494021ae459255b832d3b22d55149d6](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/c42fecb2-7270-4967-bdf1-bab915d93bd2)
+
+
+
+
 
