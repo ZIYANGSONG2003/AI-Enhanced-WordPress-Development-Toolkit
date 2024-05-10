@@ -39,5 +39,3 @@
 ## Decisions
 - [x] All members must finalize their draft slides for each section by 25/03/2024.
 - [x] All members are required to attend the next weekly meeting on 25/03/2024 to present and review their slides.
-
-*Additional notes or comments can be added here.*
