@@ -255,3 +255,16 @@ Time: 18:00 - 22:00
 
 ### Next Steps:
 Share the team with the result of we can use ChatGPT API to perfrom the connection between front-end and back-end 
+
+
+
+## Engineering log 8 (21/03/2024)
+Date:21/03/2024 
+
+Time: 18:00 - 20:00  
+
+#### B1.9 Logging mechanism
+-  Implement logging function to record received messages and errors.
+
+
+
