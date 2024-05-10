@@ -371,8 +371,8 @@ Time: 12:00 - 21:00
 - Record the video for the project showcase
 
 ## Engineering log 17 (07/05/2024)
-Date: 29/04/2024  
-Time: 12:00 - 18:00  
+Date: 07/05/2024  
+Time: 12:00 - 20:00  
 
 #### R2.6 Research on Devin
 - Investigate any common between Devin and AI-Enhanced
