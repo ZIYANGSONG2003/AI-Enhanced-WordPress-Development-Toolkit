@@ -264,7 +264,127 @@ Date:21/03/2024
 Time: 18:00 - 20:00  
 
 #### B1.9 Logging mechanism
--  Implement logging function to record received messages and errors.
+
+- Error Notification System: Integrate an alert system that notifies administrators or developers when critical errors or specific error patterns are detected in the logs.
+- Performance Considerations: Ensure that the logging function does not significantly impact the performance of the application. This might include asynchronous logging or buffering mechanisms
+
+### Issues Encountered:
+- Performance Overhead: Excessive logging, especially at finer granularities like debug, can slow down the application if not handled efficiently.
+- Dependency Failures: If the logging function relies on external systems (like a remote log server), failures in these systems can lead to loss of log data or additional errors.
 
 
+## Engineering log 8 (24/03/2024)
+Date:24/03/2024
+Time: 18:00 - 22:00  
 
+#### G1.3 Project Documentation update (Audit 2)
+- Update Meeting minutes for Week 4 and 5 as the current meeting minutes does not satisfy with the tutor's requirement
+- Update Decision Log (log the decision that been discussed) during the meeting
+- Update Refelection Log (log the reflection that been occured) during Audit 1-2
+  
+  
+
+## Engineering log 9 (26/03/2024)
+Date:26/03/2024  
+Time: 16:00 - 22:00  
+
+#### G1.3 Project Documentation update (Audit 2)
+- Complete Decision Log (log the decision that been discussed) 
+- Complete Refelection Log (log the reflection that been occured) during Audit 1-2
+- Distribute the issues for the ticketin system 
+  
+## Engineering log 10 (27/03/2024)
+Date:27/03/2024  
+Time: 16:00 - 22:00  
+
+#### G1.3 Project Documentation update (Audit 2)
+- Assign and label the issues to the relevant member
+- Create milestone that align with the project's timeline
+- Create and write the sepcific details of major decision logs
+
+## Engineering log 11 (27/03/2024)
+Date:27/03/2024  
+Time: 16:00 - 22:00  
+
+#### G1.3 Project Documentation update (Audit 2)
+- Assign and label the issues to the relevant member
+- Create milestone that align with the project's timeline
+- Create and write the sepcific details of major decision logs
+
+## Engineering log 12 (25/04/2024)
+Date:25/04/2024  
+Time: 16:00 - 18:00  
+
+#### R1.3 Automated testing framework (blocked) 
+- Test Coverage: Specify the range of tests to be included in the framework, such as unit tests, integration tests, system tests, and user acceptance tests. This ensures comprehensive validation of different components and features.
+- Test Case Management: Enable easy creation, management, and maintenance of test cases, including support for parameterized tests and data-driven testing.
+- Parallel Execution: Enable tests to run in parallel to reduce overall execution time, especially important for large test suites or in resource-constrained environments.
+
+### Issues Encountered:
+- Maintenance Overhead: As the application grows, maintaining and updating test cases can become increasingly complex and time-consuming.
+- Integration Challenges: Integrating the testing framework with existing development workflows and tools can be complex, especially in diverse and legacy environments.
+  Skill Requirements: Effective use of advanced testing frameworks often requires significant expertise in testing methodologies and the specific technologies involved.
+
+## Engineering log 13 (25/04/2024)
+Date: 26/04/2024  
+Time: 16:00 - 17:00  
+
+#### G1.3 Project Video
+- Discuss the scope of the project video
+- Confirm the discussed point with the tutor by sending an email to Elena
+
+  
+## Engineering log 14 (29/04/2024)
+Date: 29/04/2024  
+Time: 16:00 - 17:00  
+
+#### G1.3 Project Video
+- Assess the feedback from the  
+- Confirm the discussed point with the tutor by sending an email to Elena
+
+  
+## Engineering log 15 (03/05/2024)
+Date: 03/05/2024  
+Time: 16:00 - 20:00  
+
+#### G1.3 Project Video
+- Re-write the storyboard for the video and finalise the information that gonna put in the video 
+- Determine the recording person for this project video
+
+#### R2.4 Research Ethical and Legal aspect of using AI and Machine Learning 
+- Privacy and Data Protection: Examine the implications of AI and machine learning on data privacy. Focus on compliance with data protection regulations like GDPR or CCPA and explore techniques like differential privacy and federated learning that protect individual data privacy.
+- Bias and Fairness: Investigate how AI and machine learning algorithms can inadvertently perpetuate or amplify biases. This includes researching methods to detect, measure, and mitigate biases in datasets and models
+- Security and Safety: Study the vulnerabilities of AI systems to attacks such as adversarial examples or data poisoning. Develop strategies for securing AI systems and ensuring their safe operation in dynamic and unpredictable environments.
+
+### Issues Encountered:
+- Complexity and Ambiguity: The ethical and legal landscape of AI is complex and often lacks clear guidelines, making it challenging to draw definitive conclusions.
+- Rapid Technological Change: The pace of AI development can outstrip the ability of regulations and ethical guidelines to keep up, leading to gaps in coverage and protection.
+
+
+## Engineering log 16 (04/05/2024)
+Date: 04/05/2024  
+Time: 12:00 - 21:00  
+
+#### G1.3 Project Video
+- During tutorial session, discussed with the tutor on the finalised idea of the project showcase
+- Combine all the slides together and record the demo for the figma high-fidelity prototype
+- Record the video for the project showcase
+
+## Engineering log 17 (07/05/2024)
+Date: 29/04/2024  
+Time: 12:00 - 18:00  
+
+#### R2.6 Research on Devin
+- Investigate any common between Devin and AI-Enhanced
+- Investigate the models that Devin use
+- Pros on use Devin (such as these arichtecture) 
+- Ethical considerations on Devin
+
+
+#### R2.5 Research security aspect of using ChatGPT API
+- Data Encryption: Examine the mechanisms for data encryption in transit and at rest. Ensure that sensitive data sent to or from the ChatGPT API is protected against interception or unauthorized access.
+- Rate Limiting and Abuse Prevention: Explore how the ChatGPT API manages rate limiting and abuse prevention to protect against denial of service attacks or misuse that could degrade service for legitimate users.
+
+### Issues Encountered:
+- Complex Integration: Securing the ChatGPT API within diverse IT environments can be complex, especially when integrating with existing security infrastructures.
+- Balancing Usability and Security: Ensuring that security measures do not overly complicate the user experience or reduce the functionality of the ChatGPT API can be challenging
