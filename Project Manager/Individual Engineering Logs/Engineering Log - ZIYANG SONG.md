@@ -140,7 +140,17 @@ INFO:werkzeug:150.203.65.251 - - [30/Apr/2024 05:31:17] "POST /upload_text HTTP/
 ![f00f8e5dd8f6bbeb9d7643ac460fdad](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/c61e5683-ad4f-400b-8fde-39238538f48e)
 ![494021ae459255b832d3b22d55149d6](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/c42fecb2-7270-4967-bdf1-bab915d93bd2)
 
+## Development Note
 
+PHP files are commonly used in WordPress to create themes and plugins. PHP is a server-side scripting language, and WordPress itself is built on PHP. Specifically, PHP files have the following main uses in WordPress:
+
+Create and manage themes: Themes control the appearance and user interface of your website. A theme usually consists of multiple PHP files that define the structure of the page and how the content is presented. For example, index.php is the theme's main template file, header.php defines the header, footer.php defines the footer, and so on.
+
+Create and manage plugins: Plugins are used to extend and enhance the functionality of WordPress. Plug-ins are also composed of multiple PHP files, each of which implements specific functions. For example, a plugin can be used to create custom shortcodes, add new widgets, integrate with third-party services, and more.
+
+Processing server-side logic: PHP files are responsible for processing server-side operations such as form submission, database query, and user authentication. They can interact with the MySQL database and perform CRUD (create, read, update, delete) operations.
+
+Define custom API endpoints: Through a PHP file, you can define and register custom REST API endpoints, allowing front-end applications to communicate with the WordPress backend.
 
 
 
