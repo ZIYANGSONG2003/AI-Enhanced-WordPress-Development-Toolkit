@@ -1,5 +1,4 @@
 
-![image](https://github.com/ZIYANGSONG2003/AI-Enhanced-WordPress-Development-Toolkit/assets/110000045/fc579cbe-2a80-4c3e-a5ae-58a74b513784)
 
 # Statement of Work (SoW)
 
