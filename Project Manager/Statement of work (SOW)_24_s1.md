@@ -156,27 +156,15 @@ By dividing our project into these detailed deliverables and timelines, we aim t
 
 
 ---
-## Client
-
-| **Name** | **ID** |
-|---|---|
-| Ziyang Song | u7466422 |
-
-## Spokespersons
-
-| **Name** | **ID** |
-|---|---|
-| Stephanie Sun | u7277130 |
-| Austin Lee | u7551070 |
-
-## Team Members
-
-| **Name** | **ID** |
-|---|---|
-| Zubin | u7547918 |
-| He Yifan | u7777333 |
-| Guan Weiyi | u7574167 |
-| Zhiheng Shen | u7692799 |
+Name          | Team Email            | Github Email                   | Signature
+------------- | --------------------- | ------------------------------ | ----------
+Ziyang Song   | u7466422@anu.edu.au   | u7466422@anu.edu.au            | Ziyang Song
+Stephanie Sun | u7277130@anu.edu.au   | defsoul0805@gmail.com          | Stephanie Sun
+Austin Lee    | u7551070@anu.edu.au   | aodonglee@gmail.com            | Austin Lee
+Zubin         | u7547918@anu.edu.au   | zubinlearnsjava@gmail.com      | Zubin
+He Yifan      | u7777333@anu.edu.au   |u7777333@anu.edu.au      | He Yifan
+Guan Weiyi    | u7574167@anu.edu.au   | 18252605617@163.com                              | Guan Weiyi
+Zhiheng Shen  | u7692799@anu.edu.au   | u7692799@anu.edu.au                              | Zhiheng Shen
 
 ---
 
