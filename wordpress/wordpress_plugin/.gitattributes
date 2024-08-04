@@ -1,0 +1,2 @@
+# .gitattributes
+wordpress/COMP3500/clip_finetuned_train.pth filter=lfs diff=lfs merge=lfs -text
