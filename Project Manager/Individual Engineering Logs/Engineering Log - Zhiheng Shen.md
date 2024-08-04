@@ -10,15 +10,21 @@ It reflects the work completed, in progress, and planned, along with learnings a
 
 
 
-## Engineering log 1 (03/08/2024)
-Date: 03/08/2024
+## Engineering log 1 (04/08/2024)
+Date: 04/08/2024
 
 Time: 
 
 ### Progress and Outcomes: 
 
 #### R1.1  
+Finished the stakeholder analysis and engagement for the statement of work, 
+revised the project milestone format, 
+and drafted the client's vision and objectives.
+Add a part of data security under non-technical issue.
 
-### Issues Encountered:
+#### R1.2
+Assisted Ziyang Song in writing and revising other sections of the statement of work.
 
 ### Future Tasks:
+Mainly responsible together with Ziyang Song for backend code writing, AI model training, and possibly integrating the AI-generated shortcodes into WordPress
