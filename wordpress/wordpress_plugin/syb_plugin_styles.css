@@ -1,0 +1,13 @@
+.image-container {
+    position: relative; /* 使得内部的绝对定位元素相对于它进行定位 */
+    display: inline-block; /* 根据需要调整 */
+}
+
+.hover-image {
+    position: absolute; /* 确保图像浮动在容器之上 */
+    top: 0;
+    left: 0;
+    width: 200px; /* 根据需要调整大小 */
+    height: 200px;
+    z-index: 1000; /* 确保图像显示在最前面 */
+}
