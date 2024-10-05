@@ -1,0 +1,2 @@
+Server: Run node index in directory: c:/aishare/aishare0618
+Client: Run NPM START to start the REACT program in directory: c:/aishare/aisharexxxx
