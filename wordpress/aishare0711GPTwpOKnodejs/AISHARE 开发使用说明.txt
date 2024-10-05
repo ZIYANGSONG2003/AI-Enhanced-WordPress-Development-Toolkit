@@ -1,2 +1,0 @@
-服务器：运行 node index  在目录：c :/aishare/aishare0618
-客户端：运行NPM START 启动 REACT 程序，在目录：c :/aishare/aisharexxxx
